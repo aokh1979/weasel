@@ -20,7 +20,8 @@ fs::path WeaselUserDataPath() {
     }
   }
   // default location
-  ExpandEnvironmentStringsW(L"%AppData%\\PenangHokkien", _path, _countof(_path));
+  ExpandEnvironmentStringsW(L"%AppData%\\PenangHokkien", _path,
+                            _countof(_path));
   return fs::path(_path);
 }
 

@@ -97,7 +97,8 @@ int wmain(int argc, wchar_t* argv[]) {
   CreateDirectory(WeaselUserDataPath().c_str(), NULL);
 
   int ret = 0;
-  HANDLE hMutex = CreateMutex(NULL, TRUE, L"PenangHokkienDeployerExclusiveMutex");
+  HANDLE hMutex =
+      CreateMutex(NULL, TRUE, L"PenangHokkienDeployerExclusiveMutex");
   if (!hMutex) {
     ret = 1;
   } else if (GetLastError() == ERROR_ALREADY_EXISTS) {

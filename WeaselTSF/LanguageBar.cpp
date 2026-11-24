@@ -302,11 +302,13 @@ void WeaselTSF::_HandleLangBarMenuSelect(UINT wID) {
       }
       break;
     case ID_WEASELTRAY_USERCONFIG:
-      if (FAILED(RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien",
+      if (FAILED(RegGetStringValue(HKEY_CURRENT_USER,
+                                   L"Software\\Rime\\PenangHokkien",
                                    L"RimeUserDir", dir)) ||
           dir.empty()) {
         WCHAR _path[MAX_PATH] = {0};
-        ExpandEnvironmentStringsW(L"%AppData%\\PenangHokkien", _path, _countof(_path));
+        ExpandEnvironmentStringsW(L"%AppData%\\PenangHokkien", _path,
+                                  _countof(_path));
         dir = std::wstring(_path);
       }
       if (!dir.empty() && fs::exists(dir))

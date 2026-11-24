@@ -242,7 +242,8 @@ bool WeaselTSF::_EnsureServerConnected() {
     _Reconnect();
     retry++;
     if (retry >= 6) {
-      HANDLE hMutex = CreateMutex(NULL, TRUE, L"PenangHokkienDeployerExclusiveMutex");
+      HANDLE hMutex =
+          CreateMutex(NULL, TRUE, L"PenangHokkienDeployerExclusiveMutex");
       const auto count_server_process = []() -> int {
         int count = 0;
         HANDLE snap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);

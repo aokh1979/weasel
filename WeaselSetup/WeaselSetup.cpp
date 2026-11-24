@@ -112,7 +112,8 @@ static int CustomInstall(bool installing) {
   if (user_dir.empty()) {
     // default user dir %APPDATA%\Rime
     WCHAR _path[MAX_PATH] = {0};
-    ExpandEnvironmentStringsW(L"%APPDATA%\\PenangHokkien", _path, _countof(_path));
+    ExpandEnvironmentStringsW(L"%APPDATA%\\PenangHokkien", _path,
+                              _countof(_path));
     user_dir = std::wstring(_path);
   }
   ret = SetRegKeyValue(HKEY_CURRENT_USER, KEY, L"RimeUserDir", user_dir.c_str(),
@@ -222,11 +223,13 @@ static int Run(LPTSTR lpCmdLine) {
   }
 
   if (!wcscmp(L"/eu", lpCmdLine)) {
-    return SetRegKeyValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien\\Updates",
+    return SetRegKeyValue(HKEY_CURRENT_USER,
+                          L"Software\\Rime\\PenangHokkien\\Updates",
                           L"CheckForUpdates", L"1", REG_SZ);
   }
   if (!wcscmp(L"/du", lpCmdLine)) {
-    return SetRegKeyValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien\\Updates",
+    return SetRegKeyValue(HKEY_CURRENT_USER,
+                          L"Software\\Rime\\PenangHokkien\\Updates",
                           L"CheckForUpdates", L"0", REG_SZ);
   }
 

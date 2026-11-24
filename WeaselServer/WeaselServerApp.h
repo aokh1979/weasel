@@ -40,8 +40,9 @@ class WeaselServerApp {
     // when checked manually, show testing versions too
     std::string feed_url = GetCustomResource("ManualUpdateFeedURL", "APPCAST");
     std::wstring channel{};
-    auto ret = RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien",
-                                 L"UpdateChannel", channel);
+    auto ret =
+        RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien",
+                          L"UpdateChannel", channel);
     if (!ret && channel == L"testing") {
       feed_url = GetCustomResource("TestingManualUpdateFeedURL", "APPCAST");
     }
