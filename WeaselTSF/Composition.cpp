@@ -353,18 +353,27 @@ STDMETHODIMP CInsertTextEditSession::DoEditSession(TfEditCookie ec) {
   TF_SELECTION tfSelection;
   HRESULT hRet = S_OK;
 
-  if (_pComposition == nullptr)
-    return E_FAIL;
-  if (FAILED(_pComposition->GetRange(&pRange)))
-    return E_FAIL;
-
   // Penang: a leading backspace replaces the character before the cursor
-  // (double space -> 。).
+  // (double space -> 。). There may be no composition then, so work from
+  // the cursor (the current selection) instead.
   std::wstring text = _text;
-  if (!text.empty() && text[0] == L'\b') {
+  const bool replace_previous = !text.empty() && text[0] == L'\b';
+  if (replace_previous) {
     text.erase(0, 1);
+    TF_SELECTION current;
+    ULONG fetched = 0;
+    if (FAILED(_pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &current,
+                                       &fetched)) ||
+        fetched != 1 || !current.range)
+      return E_FAIL;
+    pRange.Attach(current.range);
     LONG shifted = 0;
     pRange->ShiftStart(ec, -1, &shifted, NULL);
+  } else {
+    if (_pComposition == nullptr)
+      return E_FAIL;
+    if (FAILED(_pComposition->GetRange(&pRange)))
+      return E_FAIL;
   }
   if (FAILED(pRange->SetText(ec, 0, text.c_str(),
                              static_cast<LONG>(text.length()))))
