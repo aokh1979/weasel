@@ -1,8 +1,8 @@
 name: Penang Hokkien Keyboard
 
 # Every push to the penang branch builds and publishes a release named
-# "Penang Hokkien Keyboard <VERSION> build <BUILD>" (from penang/VERSION and
-# penang/BUILD). Commit titles follow "<VERSION> build <BUILD> — <change>".
+# "Penang Hokkien Keyboard <VERSION> Build <BUILD>" (from penang/VERSION and
+# penang/BUILD). Commit titles follow "<VERSION> Build <BUILD> — <change>".
 on:
   push:
     branches:
@@ -167,7 +167,7 @@ jobs:
         with:
           tag_name: ${{ env.PENANG_VERSION }}_build_${{ env.PENANG_BUILD }}
           target_commitish: ${{ github.sha }}
-          name: Penang Hokkien Keyboard ${{ env.PENANG_VERSION }} build ${{ env.PENANG_BUILD }}
+          name: Penang Hokkien Keyboard ${{ env.PENANG_VERSION }} Build ${{ env.PENANG_BUILD }}
           make_latest: true
           fail_on_unmatched_files: true
           files: ./output/archives/penang_hokkien_keyboard_*.exe

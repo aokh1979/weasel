@@ -24,7 +24,7 @@ Unicode true
 !define REG_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien"
 
 ; The name of the installer
-Name "Penang Hokkien Keyboard ${PENANG_VERSION} build ${PENANG_BUILD}"
+Name "Penang Hokkien Keyboard ${PENANG_VERSION} Build ${PENANG_BUILD}"
 
 ; The file to write
 OutFile "archives\penang_hokkien_keyboard_${PENANG_VERSION}_build_${PENANG_BUILD}.exe"
@@ -317,7 +317,7 @@ program_files:
   ; Write the uninstall keys for Windows
   WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayName" "$(DISPLAYNAME)"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayIcon" '"$INSTDIR\WeaselServer.exe"'
-  WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayVersion" "${PENANG_VERSION} build ${PENANG_BUILD}"
+  WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayVersion" "${PENANG_VERSION} Build ${PENANG_BUILD}"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "UninstallString" '"$INSTDIR\uninstall.exe"'
   WriteRegStr HKLM "${REG_UNINST_KEY}" "Publisher" "Penang Hokkien Podcast"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "URLInfoAbout" "https://rime.im/"
