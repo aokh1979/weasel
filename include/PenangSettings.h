@@ -32,13 +32,10 @@ struct Theme {
   const wchar_t* name;
 };
 constexpr Theme kThemes[] = {
-    {L"warm_heart", L"Warm Heart"},
-    {L"hokkien_mee", L"Hokkien Mee"},
-    {L"char_koay_teow", L"Char Koay Teow"},
-    {L"cendol", L"Cendol"},
-    {L"miku", L"Miku"},
-    {L"nasi_lemak", L"Nasi Lemak"},
-    {L"seri_muka", L"Seri Muka"},
+    {L"ang_ku_kueh", L"Ang Ku Kueh"},       {L"hokkien_mee", L"Hokkien Mee"},
+    {L"char_koay_teow", L"Char Koay Teow"}, {L"miku", L"Miku"},
+    {L"nasi_lemak", L"Nasi Lemak"},         {L"seri_muka", L"Seri Muka"},
+    {L"bak_kut_teh", L"Bak Kut Teh"},       {L"cendol", L"Cendol"},
 };
 constexpr UINT kThemeCount = sizeof(kThemes) / sizeof(kThemes[0]);
 constexpr UINT ID_THEME_LAST = ID_THEME_FIRST + kThemeCount - 1;
