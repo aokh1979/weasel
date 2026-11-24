@@ -5,6 +5,7 @@
 #include <string>
 #include <mutex>
 #include <atomic>
+#include <vector>
 #include <PenangSettings.h>
 
 #include <rime_api.h>
@@ -120,6 +121,39 @@ class RimeWithWeaselHandler : public weasel::RequestHandler {
   penang::Settings m_penang;
   int m_penang_base_font = 0;
   std::map<RimeSessionId, int> m_penang_page;
+  // Penang typing features: tone marks, double space, word continuations.
+  struct PenangOverlay {
+    RimeSessionId session = 0;
+    int kind = 0;  // 0 none, 1 tone marks, 2 word continuations
+    std::vector<std::wstring> items;
+    int page = 0;
+    int index = 0;
+    int page_size = 8;
+    UINT keycode = 0;
+    std::wstring prefix;
+  };
+  bool _PenangHandleKey(const weasel::KeyEvent& ke, RimeSessionId session_id);
+  void _PenangAfterKey(const weasel::KeyEvent& ke,
+                       RimeSessionId session_id,
+                       bool handled,
+                       bool was_empty);
+  bool _PenangChineseMode(RimeSessionId session_id);
+  std::string _PenangInput(RimeSessionId session_id);
+  void _PenangOfferContinuations(RimeSessionId session_id,
+                                 const std::wstring& prefix);
+  bool _PenangSelect(int index);
+  void _PenangMove(int step);
+  void _PenangLoadContinuations();
+  void _PenangRecord(const std::wstring& prefix, const std::wstring& suffix);
+  PenangOverlay m_penang_ov;
+  std::wstring m_penang_commit;
+  UINT m_penang_down = 0;
+  ULONGLONG m_penang_space_time = 0;
+  bool m_penang_text_before = false;
+  bool m_penang_committed = false;
+  bool m_penang_cont_loaded = false;
+  std::map<std::wstring, std::vector<std::wstring>> m_penang_cont;
+  std::map<std::wstring, int> m_penang_learn;
   std::map<std::string, bool> m_show_notifications;
   std::map<std::string, bool> m_show_notifications_base;
   std::function<void()> _UpdateUICallback;

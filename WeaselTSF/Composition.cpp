@@ -358,8 +358,16 @@ STDMETHODIMP CInsertTextEditSession::DoEditSession(TfEditCookie ec) {
   if (FAILED(_pComposition->GetRange(&pRange)))
     return E_FAIL;
 
-  if (FAILED(pRange->SetText(ec, 0, _text.c_str(),
-                             static_cast<LONG>(_text.length()))))
+  // Penang: a leading backspace replaces the character before the cursor
+  // (double space -> 。).
+  std::wstring text = _text;
+  if (!text.empty() && text[0] == L'\b') {
+    text.erase(0, 1);
+    LONG shifted = 0;
+    pRange->ShiftStart(ec, -1, &shifted, NULL);
+  }
+  if (FAILED(pRange->SetText(ec, 0, text.c_str(),
+                             static_cast<LONG>(text.length()))))
     return E_FAIL;
 
   /* update the selection to an insertion point just past the inserted text. */

@@ -6,6 +6,9 @@
 #include <WeaselUtility.h>
 
 #include <filesystem>
+#include <fstream>
+#include <algorithm>
+#include <cwctype>
 #include <map>
 #include <array>
 #include <vector>
@@ -274,6 +277,14 @@ BOOL RimeWithWeaselHandler::ProcessKeyEvent(KeyEvent keyEvent,
     return FALSE;
   RimeSessionId session_id = to_session_id(ipc_id);
   _PenangSync(session_id);
+  if (_PenangHandleKey(keyEvent, session_id)) {
+    _Respond(ipc_id, eat);
+    _UpdateUI(ipc_id);
+    m_active_session = ipc_id;
+    return TRUE;
+  }
+  const bool penang_was_empty = _PenangInput(session_id).empty();
+  m_penang_committed = false;
   Bool handled = rime_api->process_key(session_id, keyEvent.keycode,
                                        expand_ibus_modifier(keyEvent.mask));
   // vim_mode when keydown only
@@ -291,6 +302,7 @@ BOOL RimeWithWeaselHandler::ProcessKeyEvent(KeyEvent keyEvent,
     }
   }
   _Respond(ipc_id, eat);
+  _PenangAfterKey(keyEvent, session_id, !!handled, penang_was_empty);
   _UpdateUI(ipc_id);
   m_active_session = ipc_id;
   return (BOOL)handled;
@@ -321,6 +333,10 @@ void RimeWithWeaselHandler::SelectCandidateOnCurrentPage(
              << ", index = " << index;
   if (m_disabled)
     return;
+  if (m_penang_ov.kind && m_penang_ov.session == to_session_id(ipc_id)) {
+    _PenangSelect((int)index);
+    return;
+  }
   rime_api->select_candidate_on_current_page(to_session_id(ipc_id), index);
 }
 
@@ -330,6 +346,11 @@ bool RimeWithWeaselHandler::HighlightCandidateOnCurrentPage(
     EatLine eat) {
   DLOG(INFO) << "highlight candidate on current page, ipc_id = " << ipc_id
              << ", index = " << index;
+  if (m_penang_ov.kind && m_penang_ov.session == to_session_id(ipc_id)) {
+    m_penang_ov.index = (int)index;
+    _Respond(ipc_id, eat);
+    return true;
+  }
   bool res = rime_api->highlight_candidate_on_current_page(
       to_session_id(ipc_id), index);
   _Respond(ipc_id, eat);
@@ -342,6 +363,11 @@ bool RimeWithWeaselHandler::ChangePage(bool backward,
                                        EatLine eat) {
   DLOG(INFO) << "change page, ipc_id = " << ipc_id
              << (backward ? "backward" : "foreward");
+  if (m_penang_ov.kind && m_penang_ov.session == to_session_id(ipc_id)) {
+    _PenangMove(backward ? -m_penang_ov.page_size : m_penang_ov.page_size);
+    _Respond(ipc_id, eat);
+    return true;
+  }
   bool res = rime_api->change_page(to_session_id(ipc_id), backward);
   _Respond(ipc_id, eat);
   _UpdateUI(ipc_id);
@@ -361,6 +387,9 @@ void RimeWithWeaselHandler::FocusOut(DWORD param, WeaselSessionId ipc_id) {
   DLOG(INFO) << "Focus out: ipc_id = " << ipc_id;
   if (m_ui)
     m_ui->Hide();
+  m_penang_ov = PenangOverlay();
+  m_penang_down = 0;
+  m_penang_space_time = 0;
   m_active_session = 0;
   if (!m_disabled && RIME_API_AVAILABLE(rime_api, cleanup_stale_sessions))
     rime_api->cleanup_stale_sessions();
@@ -760,24 +789,37 @@ bool RimeWithWeaselHandler::_Respond(WeaselSessionId ipc_id, EatLine eat) {
   SessionStatus& session_status = get_session_status(ipc_id);
   RimeSessionId session_id = session_status.session_id;
   RIME_STRUCT(RimeCommit, commit);
+  std::wstring rime_commit_w;
   if (rime_api->get_commit(session_id, &commit)) {
-    actions.push_back("commit");
-    std::wstring commit_text_w = escape_string(u8tow(commit.text));
-    body.append(L"commit=").append(commit_text_w).append(L"\n");
+    rime_commit_w = u8tow(commit.text);
     rime_api->free_commit(&commit);
   }
+  // Penang: text from tone marks, double space or continuations.
+  std::wstring commit_all_w = rime_commit_w + m_penang_commit;
+  m_penang_commit.clear();
+  if (!commit_all_w.empty()) {
+    actions.push_back("commit");
+    body.append(L"commit=").append(escape_string(commit_all_w)).append(L"\n");
+  }
+  if (!rime_commit_w.empty()) {
+    m_penang_committed = true;
+    if (!m_penang_ov.kind)
+      _PenangOfferContinuations(session_id, rime_commit_w);
+  }
+  const bool penang_overlay =
+      m_penang_ov.kind != 0 && m_penang_ov.session == session_id;
 
   bool is_composing = false;
   RIME_STRUCT(RimeStatus, status);
   static const std::wstring Bool_wstring[] = {L"0", L"1"};
   if (rime_api->get_status(session_id, &status)) {
-    is_composing = !!status.is_composing;
+    is_composing = !!status.is_composing || penang_overlay;
     actions.push_back("status");
     body.append(L"status.ascii_mode=")
         .append(Bool_wstring[!!status.is_ascii_mode])
         .append(L"\n")
         .append(L"status.composing=")
-        .append(Bool_wstring[!!status.is_composing])
+        .append(Bool_wstring[is_composing])
         .append(L"\n")
         .append(L"status.disabled=")
         .append(Bool_wstring[!!status.is_disabled])
@@ -801,7 +843,29 @@ bool RimeWithWeaselHandler::_Respond(WeaselSessionId ipc_id, EatLine eat) {
   }
 
   RIME_STRUCT(RimeContext, ctx);
-  if (rime_api->get_context(session_id, &ctx)) {
+  if (penang_overlay) {
+    const PenangOverlay& ov = m_penang_ov;
+    const int start = ov.page * ov.page_size;
+    const int count =
+        (std::max)(0, (std::min)(ov.page_size, (int)ov.items.size() - start));
+    CandidateInfo cinfo;
+    cinfo.candies.resize(count);
+    cinfo.comments.resize(count);
+    cinfo.labels.resize(count);
+    for (int i = 0; i < count; ++i) {
+      cinfo.candies[i].str = escape_string(ov.items[start + i]);
+      cinfo.labels[i].str = std::to_wstring((i + 1) % 10);
+    }
+    cinfo.highlighted = ov.index;
+    cinfo.currentPage = ov.page;
+    cinfo.is_last_page = start + count >= (int)ov.items.size();
+    actions.push_back("ctx");
+    body.append(L"ctx.preedit=\n");
+    std::wstringstream ss;
+    boost::archive::text_woarchive oa(ss);
+    oa << cinfo;
+    body.append(L"ctx.cand=").append(ss.str()).append(L"\n");
+  } else if (rime_api->get_context(session_id, &ctx)) {
     bool has_candidates = ctx.menu.num_candidates > 0;
     CandidateInfo cinfo;
     if (has_candidates) {
@@ -1589,4 +1653,342 @@ void RimeWithWeaselHandler::_PenangPageSize(RimeSessionId session_id) {
   }
   rime_api->config_close(&config);
   m_penang_page[session_id] = wanted;
+}
+
+// ---------------------------------------------------------------------------
+// Penang Hokkien Keyboard typing features (same behaviour as macOS):
+// tone marks by press and hold, double space -> 。, word continuations.
+#pragma comment(lib, "Normaliz.lib")
+
+namespace {
+
+const wchar_t* const kPenangToneMarks[] = {L"", L"́", L"̀", L"̂",
+                                           L"̌", L"̄", L"̍", L"̋"};
+
+std::wstring PenangNfc(const std::wstring& text) {
+  int size =
+      NormalizeString(NormalizationC, text.c_str(), (int)text.size(), NULL, 0);
+  if (size <= 0)
+    return text;
+  std::wstring out(size, L'\0');
+  size = NormalizeString(NormalizationC, text.c_str(), (int)text.size(),
+                         &out[0], size);
+  if (size <= 0)
+    return text;
+  out.resize(size);
+  return out;
+}
+
+// Tone order 1, 2, 3, 5, 6, 7, 8, 9; m and n have no double acute.
+std::vector<std::wstring> PenangAccentChoices(wchar_t letter,
+                                              bool capital,
+                                              bool poj) {
+  std::vector<std::wstring> out;
+  const int count = (letter == L'm' || letter == L'n') ? 7 : 8;
+  const wchar_t base = capital ? towupper(letter) : letter;
+  for (int i = 0; i < count; ++i)
+    out.push_back(PenangNfc(std::wstring(1, base) + kPenangToneMarks[i]));
+  if (poj && (letter == L'e' || letter == L'o')) {
+    for (int i = 0; i < count; ++i)
+      out.push_back(
+          PenangNfc(std::wstring(1, base) + kPenangToneMarks[i] + L"͘"));
+  }
+  if (poj && letter == L'n')
+    out.push_back(L"ⁿ");
+  return out;
+}
+
+bool PenangIsHan(const std::wstring& text) {
+  if (text.empty())
+    return false;
+  for (size_t i = 0; i < text.size(); ++i) {
+    unsigned cp = text[i];
+    if (cp >= 0xD800 && cp <= 0xDBFF && i + 1 < text.size()) {
+      cp = 0x10000 + ((cp - 0xD800) << 10) + (text[i + 1] - 0xDC00);
+      ++i;
+    }
+    bool han =
+        (cp >= 0x3400 && cp <= 0x4DBF) || (cp >= 0x4E00 && cp <= 0x9FFF) ||
+        (cp >= 0xF900 && cp <= 0xFAFF) || (cp >= 0x20000 && cp <= 0x2FA1F) ||
+        (cp >= 0x30000 && cp <= 0x3347F);
+    if (!han)
+      return false;
+  }
+  return true;
+}
+
+std::wstring PenangLastChar(const std::wstring& text) {
+  if (text.empty())
+    return std::wstring();
+  size_t n = text.size();
+  if (n >= 2 && text[n - 1] >= 0xDC00 && text[n - 1] <= 0xDFFF)
+    return text.substr(n - 2);
+  return text.substr(n - 1);
+}
+
+std::filesystem::path PenangLearningFile() {
+  return std::filesystem::u8path(rime_api->get_user_data_dir()) /
+         L"penang_continuations_learning.txt";
+}
+
+}  // namespace
+
+bool RimeWithWeaselHandler::_PenangChineseMode(RimeSessionId session_id) {
+  char schema[64] = {0};
+  if (!rime_api->get_current_schema(session_id, schema, sizeof(schema) - 1))
+    return false;
+  return std::string(schema) == "penang_hokkien" &&
+         !rime_api->get_option(session_id, "ascii_mode");
+}
+
+std::string RimeWithWeaselHandler::_PenangInput(RimeSessionId session_id) {
+  const char* input = rime_api->get_input(session_id);
+  return input ? std::string(input) : std::string();
+}
+
+void RimeWithWeaselHandler::_PenangMove(int step) {
+  PenangOverlay& ov = m_penang_ov;
+  const int count = (int)ov.items.size();
+  if (count == 0)
+    return;
+  int absolute = ov.page * ov.page_size + ov.index + step;
+  absolute = ((absolute % count) + count) % count;
+  ov.page = absolute / ov.page_size;
+  ov.index = absolute % ov.page_size;
+}
+
+bool RimeWithWeaselHandler::_PenangSelect(int index) {
+  PenangOverlay& ov = m_penang_ov;
+  const int absolute = ov.page * ov.page_size + index;
+  if (index < 0 || index >= ov.page_size || absolute >= (int)ov.items.size())
+    return false;
+  const std::wstring text = ov.items[absolute];
+  const int kind = ov.kind;
+  const RimeSessionId session_id = ov.session;
+  const std::wstring prefix = ov.prefix;
+  m_penang_ov = PenangOverlay();
+  m_penang_commit += text;
+  if (kind == 2) {
+    _PenangRecord(prefix, text);
+    // Chain: prefer the whole selected ending, then its final character.
+    auto it = m_penang_cont.find(text);
+    std::wstring next = (it != m_penang_cont.end() && !it->second.empty())
+                            ? text
+                            : PenangLastChar(text);
+    _PenangOfferContinuations(session_id, next);
+  }
+  return true;
+}
+
+void RimeWithWeaselHandler::_PenangLoadContinuations() {
+  if (m_penang_cont_loaded)
+    return;
+  m_penang_cont_loaded = true;
+  std::ifstream data(std::filesystem::u8path(rime_api->get_shared_data_dir()) /
+                         L"penang_continuations.txt",
+                     std::ios::binary);
+  std::string line;
+  while (std::getline(data, line)) {
+    if (!line.empty() && line.back() == '\r')
+      line.pop_back();
+    std::wstring wline = u8tow(line);
+    std::vector<std::wstring> fields;
+    size_t start = 0;
+    while (true) {
+      size_t tab = wline.find(L'\t', start);
+      fields.push_back(wline.substr(start, tab - start));
+      if (tab == std::wstring::npos)
+        break;
+      start = tab + 1;
+    }
+    if (fields.size() < 2 || !PenangIsHan(fields[0]))
+      continue;
+    std::vector<std::wstring>& list = m_penang_cont[fields[0]];
+    for (size_t i = 1; i < fields.size(); ++i) {
+      if (PenangIsHan(fields[i]) &&
+          std::find(list.begin(), list.end(), fields[i]) == list.end())
+        list.push_back(fields[i]);
+    }
+  }
+  std::ifstream learned(PenangLearningFile(), std::ios::binary);
+  while (std::getline(learned, line)) {
+    std::wstring wline = u8tow(line);
+    size_t tab = wline.rfind(L'\t');
+    if (tab == std::wstring::npos)
+      continue;
+    int count = _wtoi(wline.substr(tab + 1).c_str());
+    if (count > 0)
+      m_penang_learn[wline.substr(0, tab)] = count;
+  }
+}
+
+void RimeWithWeaselHandler::_PenangRecord(const std::wstring& prefix,
+                                          const std::wstring& suffix) {
+  auto it = m_penang_cont.find(prefix);
+  if (it == m_penang_cont.end() ||
+      std::find(it->second.begin(), it->second.end(), suffix) ==
+          it->second.end())
+    return;
+  int& count = m_penang_learn[prefix + L"\t" + suffix];
+  count = (std::min)(count, 999999) + 1;
+  if (m_penang_learn.size() > 5000) {
+    std::vector<std::pair<std::wstring, int>> ordered(m_penang_learn.begin(),
+                                                      m_penang_learn.end());
+    std::stable_sort(
+        ordered.begin(), ordered.end(),
+        [](const auto& a, const auto& b) { return a.second > b.second; });
+    ordered.resize(5000);
+    m_penang_learn =
+        std::map<std::wstring, int>(ordered.begin(), ordered.end());
+  }
+  std::ofstream out(PenangLearningFile(), std::ios::binary | std::ios::trunc);
+  for (const auto& pair : m_penang_learn)
+    out << wtou8(pair.first) << '\t' << pair.second << '\n';
+}
+
+void RimeWithWeaselHandler::_PenangOfferContinuations(
+    RimeSessionId session_id,
+    const std::wstring& prefix) {
+  if (!m_penang.continuations || !PenangIsHan(prefix) ||
+      !_PenangChineseMode(session_id) || !_PenangInput(session_id).empty())
+    return;
+  _PenangLoadContinuations();
+  auto it = m_penang_cont.find(prefix);
+  if (it == m_penang_cont.end() || it->second.empty())
+    return;
+  std::vector<std::wstring> items = it->second;
+  std::stable_sort(
+      items.begin(), items.end(),
+      [this, &prefix](const std::wstring& a, const std::wstring& b) {
+        auto la = m_penang_learn.find(prefix + L"\t" + a);
+        auto lb = m_penang_learn.find(prefix + L"\t" + b);
+        int ca = la == m_penang_learn.end() ? 0 : la->second;
+        int cb = lb == m_penang_learn.end() ? 0 : lb->second;
+        return ca > cb;
+      });
+  m_penang_ov = PenangOverlay();
+  m_penang_ov.session = session_id;
+  m_penang_ov.kind = 2;
+  m_penang_ov.items = items;
+  m_penang_ov.page_size = m_penang.page_size;
+  m_penang_ov.prefix = prefix;
+}
+
+bool RimeWithWeaselHandler::_PenangHandleKey(const KeyEvent& ke,
+                                             RimeSessionId session_id) {
+  PenangOverlay& ov = m_penang_ov;
+  if (ov.kind && ov.session != session_id)
+    ov = PenangOverlay();
+  const bool active = ov.kind != 0;
+  const UINT code = ke.keycode;
+  if (ke.mask & ibus::RELEASE_MASK) {
+    if (code == m_penang_down)
+      m_penang_down = 0;
+    return active;  // keep key releases away from Rime while a list is open
+  }
+  const bool repeat = (code == m_penang_down);
+  m_penang_down = code;
+  const bool modifier_key = code >= ibus::Shift_L && code <= 0xFFEE;
+  const UINT ctrl_alt = ke.mask & (ibus::CONTROL_MASK | ibus::MOD1_MASK);
+
+  if (active) {
+    if (modifier_key)
+      return true;
+    if (ov.kind == 1 && repeat && code == ov.keycode)
+      return true;  // keeping the key held keeps the list open
+    if (ctrl_alt || (ov.kind == 2 && (ke.mask & ibus::SHIFT_MASK))) {
+      ov = PenangOverlay();
+      return false;
+    }
+    switch (code) {
+      case ibus::Escape:
+        ov = PenangOverlay();
+        return true;
+      case ibus::BackSpace:
+        if (ov.kind == 1) {
+          ov = PenangOverlay();
+          return true;
+        }
+        break;
+      case ibus::space:
+      case ibus::Return:
+      case ibus::KP_Enter:
+        _PenangSelect(ov.index);
+        return true;
+      case ibus::Right:
+      case ibus::Down:
+        _PenangMove(1);
+        return true;
+      case ibus::Left:
+      case ibus::Up:
+        _PenangMove(-1);
+        return true;
+      case ibus::Page_Down:
+        _PenangMove(ov.page_size);
+        return true;
+      case ibus::Page_Up:
+        _PenangMove(-ov.page_size);
+        return true;
+      default:
+        if (code >= '1' && code <= '9' && _PenangSelect((int)(code - '1')))
+          return true;
+        break;
+    }
+    ov = PenangOverlay();
+    return false;
+  }
+
+  // Press and hold a, e, i, o, u, m, n or y: the first press typed the
+  // letter; take it back, enter any other letters as typed, offer the list.
+  if (repeat && !ctrl_alt && code < 0x80 && isalpha((int)code)) {
+    const wchar_t letter = (wchar_t)towlower((wint_t)code);
+    if (wcschr(L"aeiouymn", letter) && _PenangChineseMode(session_id)) {
+      std::string input = _PenangInput(session_id);
+      if (input.empty() || towlower((wint_t)input.back()) != letter)
+        return true;
+      input.pop_back();
+      rime_api->clear_composition(session_id);
+      m_penang_commit = u8tow(input);
+      ov = PenangOverlay();
+      ov.session = session_id;
+      ov.kind = 1;
+      ov.items =
+          PenangAccentChoices(letter, isupper((int)code) != 0, m_penang.poj);
+      ov.page_size = 8;
+      ov.keycode = code;
+      return true;
+    }
+  }
+
+  // Double space: two quick spaces after text become 。 (Chinese mode only).
+  if (code == ibus::space && !(ke.mask & (ibus::SHIFT_MASK | ctrl_alt)) &&
+      m_penang_space_time && GetTickCount64() - m_penang_space_time < 600 &&
+      _PenangInput(session_id).empty() && _PenangChineseMode(session_id)) {
+    m_penang_space_time = 0;
+    m_penang_commit = L"\b。";  // \b: replace the space just typed
+    return true;
+  }
+  return false;
+}
+
+void RimeWithWeaselHandler::_PenangAfterKey(const KeyEvent& ke,
+                                            RimeSessionId session_id,
+                                            bool handled,
+                                            bool was_empty) {
+  if (ke.mask & ibus::RELEASE_MASK)
+    return;
+  const UINT code = ke.keycode;
+  if (code >= ibus::Shift_L && code <= 0xFFEE)
+    return;  // modifier keys alone change nothing
+  const bool plain =
+      !(ke.mask & (ibus::SHIFT_MASK | ibus::CONTROL_MASK | ibus::MOD1_MASK));
+  if (code == ibus::space && plain && !handled && was_empty &&
+      _PenangChineseMode(session_id)) {
+    m_penang_space_time = m_penang_text_before ? GetTickCount64() : 0;
+    m_penang_text_before = false;
+    return;
+  }
+  m_penang_space_time = 0;
+  m_penang_text_before =
+      m_penang_committed || (!handled && code > 0x20 && code < 0x7F);
 }

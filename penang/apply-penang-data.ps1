@@ -8,8 +8,24 @@ $drop = '*.schema.yaml', '*.dict.yaml', '*.txt', '*.gram'
 Get-ChildItem $data -File | Where-Object {
   $n = $_.Name; ($drop | Where-Object { $n -like $_ }).Count -gt 0
 } | Remove-Item
-Get-ChildItem $src -File | Where-Object { $_.Name -ne 'default.yaml' } |
+Get-ChildItem $src -File |
+  Where-Object { $_.Name -ne 'default.yaml' -and $_.Extension -ne '.json' } |
   Copy-Item -Destination $data
+# Word continuations: JSON -> one line per prefix, tab-separated suggestions.
+$json = Join-Path $src 'ChineseContinuations.json'
+if (Test-Path $json) {
+  $obj = [IO.File]::ReadAllText($json, [Text.Encoding]::UTF8) | ConvertFrom-Json
+  if ($obj.version -eq 1 -and $obj.enabled) {
+    $sb = New-Object Text.StringBuilder
+    foreach ($p in $obj.entries.PSObject.Properties) {
+      [void]$sb.Append($p.Name)
+      foreach ($v in $p.Value) { [void]$sb.Append("`t").Append($v) }
+      [void]$sb.Append("`n")
+    }
+    $out = Join-Path $data 'penang_continuations.txt'
+    [IO.File]::WriteAllText($out, $sb.ToString(), (New-Object Text.UTF8Encoding $false))
+  }
+}
 $def = Join-Path $data 'default.yaml'
 $text = [IO.File]::ReadAllText($def)
 $new = "schema_list:`n  - schema: penang_hokkien`n"

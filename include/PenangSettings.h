@@ -18,8 +18,9 @@ enum : UINT {
   ID_LARGE,
   ID_XLARGE,
   ID_HINTS,
+  ID_CONTINUATIONS,
   ID_FIRST = ID_POJ,
-  ID_LAST = ID_HINTS
+  ID_LAST = ID_CONTINUATIONS
 };
 
 struct Settings {
@@ -29,6 +30,7 @@ struct Settings {
   bool partial_match = false;
   bool vertical = false;
   bool hints = true;
+  bool continuations = true;
   int page_size = 7;
   int text_size = 0;  // 0 normal, 1 large, 2 extra large
 };
@@ -54,6 +56,7 @@ inline Settings Load() {
   s.partial_match = ReadDword(L"PartialMatchRomanisations", 0) != 0;
   s.vertical = ReadDword(L"VerticalLayout", 0) != 0;
   s.hints = ReadDword(L"RomanisationHints", 1) != 0;
+  s.continuations = ReadDword(L"WordContinuations", 1) != 0;
   DWORD page = ReadDword(L"PageSize", 7);
   s.page_size = (page == 5 || page == 9) ? (int)page : 7;
   DWORD text = ReadDword(L"TextSize", 0);
@@ -98,6 +101,9 @@ inline void Toggle(UINT id) {
     case ID_HINTS:
       WriteDword(L"RomanisationHints", !s.hints);
       break;
+    case ID_CONTINUATIONS:
+      WriteDword(L"WordContinuations", !s.continuations);
+      break;
   }
 }
 
@@ -109,6 +115,7 @@ inline HMENU BuildMenu() {
     AppendMenuW(menu, MF_STRING | (on ? MF_CHECKED : MF_UNCHECKED), id, text);
   };
   auto separator = [menu]() { AppendMenuW(menu, MF_SEPARATOR, 0, NULL); };
+  add(ID_CONTINUATIONS, L"Word Continuations", s.continuations);
   add(ID_POJ, L"Use POJ Romanisation", s.poj);
   separator();
   add(ID_ALT_CHINESE, L"Rare Chinese Alternatives", s.alt_chinese);
