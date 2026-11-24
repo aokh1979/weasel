@@ -1,13 +1,12 @@
-name: CI
+name: Penang Hokkien Keyboard
 
+# Every push to the penang branch builds and publishes a release named
+# "Penang Hokkien Keyboard <VERSION> build <BUILD>" (from penang/VERSION and
+# penang/BUILD). Commit titles follow "<VERSION> build <BUILD> — <change>".
 on:
   push:
     branches:
-      - '*'
-    tags:
-      - '[0-9]+.*'
-      - 'penang-*'
-  pull_request:
+      - penang
   workflow_dispatch:
 
 jobs:
@@ -44,7 +43,7 @@ jobs:
       SDKVER: 10.0.19041.0
     strategy:
       matrix:
-        variant: [msbuild, xmake]
+        variant: [msbuild]
     steps:
       - name: Checkout last commit
         uses: actions/checkout@v4
@@ -61,10 +60,12 @@ jobs:
           cp env.vs2022.bat env.bat
           echo git_ref_name="$(git describe --always)" >> $GITHUB_ENV
 
-      - name: Penang version from tag
-        if: ${{ startsWith(github.ref, 'refs/tags/penang-') }}
+      - name: Penang version and build number
         shell: bash
-        run: echo "WEASEL_VERSION=${GITHUB_REF_NAME#penang-}" >> $GITHUB_ENV
+        run: |
+          echo "PENANG_VERSION=$(tr -d '[:space:]' < penang/VERSION)" >> $GITHUB_ENV
+          echo "PENANG_BUILD=$(tr -d '[:space:]' < penang/BUILD)" >> $GITHUB_ENV
+          echo "WEASEL_BUILD=$(tr -d '[:space:]' < penang/BUILD)" >> $GITHUB_ENV
 
       - name: Cache Boost
         id: cache-boost
@@ -144,7 +145,7 @@ jobs:
         shell: pwsh
         id: build_weasel
         env:
-          RELEASE_BUILD: ${{ (github.repository == 'rime/weasel' && startsWith(github.ref, 'refs/tags/')) && '1' || '' }}
+          RELEASE_BUILD: '1'
         run: |
           $ErrorActionPreference = 'Stop'
           if ('${{ matrix.variant }}' -eq 'msbuild') {
@@ -160,32 +161,16 @@ jobs:
           $ErrorActionPreference = 'Stop'
           output\7z.exe a -t7z "./output/archives/debug_symbols.7z" "output/*.pdb" -r
 
-      - name: Upload artifacts
+      - name: Publish release
         if: matrix.variant == 'msbuild'
-        uses: actions/upload-artifact@v4
-        with:
-          name: weasel-artifact-${{ env.git_ref_name }}
-          if-no-files-found: error
-          path: |
-            .\output\archives\penang-hokkien-keyboard*.exe
-            .\output\archives\debug_symbols.7z
-
-      # Penang Hokkien Keyboard release (tags named penang-YYYY.M.D)
-      - name: Prepare Penang release file
-        if: ${{ startsWith(github.ref, 'refs/tags/penang-') && matrix.variant == 'msbuild' }}
-        shell: pwsh
-        run: |
-          $i = Get-Item .\output\archives\penang-hokkien-keyboard*-installer.exe
-          Copy-Item $i.FullName .\output\archives\PenangHokkienKeyboard-Setup.exe
-
-      - name: Publish Penang release
-        if: ${{ startsWith(github.ref, 'refs/tags/penang-') && matrix.variant == 'msbuild' }}
         uses: softprops/action-gh-release@v2
         with:
-          name: Penang Hokkien Keyboard ${{ github.ref_name }}
+          tag_name: ${{ env.PENANG_VERSION }}_build_${{ env.PENANG_BUILD }}
+          target_commitish: ${{ github.sha }}
+          name: Penang Hokkien Keyboard ${{ env.PENANG_VERSION }} build ${{ env.PENANG_BUILD }}
           make_latest: true
-          files: |
-            ./output/archives/PenangHokkienKeyboard-Setup.exe
+          fail_on_unmatched_files: true
+          files: ./output/archives/penang_hokkien_keyboard_*.exe
 
       # Release-only steps (run on tags or master)
       - name: Extract changelog

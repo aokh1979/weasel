@@ -18,14 +18,16 @@ Unicode true
 !define WEASEL_BUILD 0
 !endif
 
-!define WEASEL_ROOT $INSTDIR\penang-hokkien-${WEASEL_VERSION}
+!define PENANG_VERSION "$%PENANG_VERSION%"
+!define PENANG_BUILD "$%PENANG_BUILD%"
+!define WEASEL_ROOT $INSTDIR\build_${PENANG_BUILD}
 !define REG_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien"
 
 ; The name of the installer
-Name "Penang Hokkien Keyboard ${WEASEL_VERSION}"
+Name "Penang Hokkien Keyboard ${PENANG_VERSION} build ${PENANG_BUILD}"
 
 ; The file to write
-OutFile "archives\penang-hokkien-keyboard-${PRODUCT_VERSION}-installer.exe"
+OutFile "archives\penang_hokkien_keyboard_${PENANG_VERSION}_build_${PENANG_BUILD}.exe"
 
 VIProductVersion "${WEASEL_VERSION}.${WEASEL_BUILD}"
 VIAddVersionKey /LANG=2052 "ProductName" "庇能福建拍字盤"
@@ -135,18 +137,18 @@ toquit:
   ; install x64 build for NativeARM64_WINDOWS11 and NativeAMD64_WINDOWS11
   ${If} ${AtLeastWin11} ; Windows 11 and above
     ${If} ${IsNativeARM64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkienKeyboard"
     ${ElseIf} ${IsNativeAMD64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkienKeyboard"
     ${Else}
-      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkien"
+      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkienKeyboard"
     ${Endif}
   ; install x64 build for NativeAMD64_BELLOW_WINDOWS11
   ${Else} ; Windows 10 or bellow
     ${If} ${IsNativeAMD64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkienKeyboard"
     ${Else}
-      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkien"
+      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkienKeyboard"
     ${Endif}
   ${Endif}
 skip:
@@ -315,7 +317,7 @@ program_files:
   ; Write the uninstall keys for Windows
   WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayName" "$(DISPLAYNAME)"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayIcon" '"$INSTDIR\WeaselServer.exe"'
-  WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayVersion" "${WEASEL_VERSION}.${WEASEL_BUILD}"
+  WriteRegStr HKLM "${REG_UNINST_KEY}" "DisplayVersion" "${PENANG_VERSION} build ${PENANG_BUILD}"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "UninstallString" '"$INSTDIR\uninstall.exe"'
   WriteRegStr HKLM "${REG_UNINST_KEY}" "Publisher" "Penang Hokkien Podcast"
   WriteRegStr HKLM "${REG_UNINST_KEY}" "URLInfoAbout" "https://rime.im/"
