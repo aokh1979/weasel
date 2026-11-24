@@ -1,0 +1,22 @@
+schema:
+  schema_id: penang_hokkien_exact
+  name: Exact lookup
+  version: "1"
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyzASDFGHJKLQWER
+  delimiter: " 'x"
+  algebra:
+    __include: penang_fuzzy_algebra:/exact_algebra
+translator:
+  dictionary: penang_hokkien
+  prism: penang_hokkien_exact
+  user_dict: penang_hokkien_user
+  enable_completion: false
+  enable_sentence: true
+  enable_user_dict: true
+  initial_quality: 1
+  spelling_hints: 9
+  comment_format:
+    - xform/[A-Z ]//
+  preedit_format:
+    - xform/ //

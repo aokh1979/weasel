@@ -1,0 +1,3843 @@
+---
+name: penang_hokkien_alias
+version: "1.0"
+sort: by_weight
+...
+
+輕浮	khimAE phuGW	1000
+khin-phû	khimAE phuGW	500
+斷片	tuinmJE phinnDE	1000
+tuīnn-phìnn	tuinmJE phinnDE	500
+甜品	tinmAE phinSR	1000
+tinn-phín	tinmAE phinSR	500
+吻別	bumSQ piatKQ	1000
+bún-pia̍t	bumSQ piatKQ	500
+特殊需求	tepKE suGE suAE kiuGW	1000
+te̍k-sû-su-kiû	tepKE suGE suAE kiuGW	500
+特殊需求	tapKE suGE suAE kiuGW	1000
+ta̍k-sû-su-kiû	tapKE suGE suAE kiuGW	150
+特殊要求	tepKE suGE iauAE kiuGW	1000
+te̍k-sû-iau-kiû	tepKE suGE iauAE kiuGW	500
+特殊要求	tapKE suGE iauAE kiuGW	1000
+ta̍k-sû-iau-kiû	tapKE suGE iauAE kiuGW	150
+般配	pamAE phueDE	1000
+pan-phuè	pamAE phueDE	500
+斑駁	pamAE pokFE	1000
+pan-pok	pamAE pokFE	500
+半百	puanmDQ pahFE	1000
+puànn-pah	puanmDQ pahFE	500
+便秘	piamJE piDE	1000
+piān-pì	piamJE piDE	500
+稟報	pimSQ poDE	1000
+pín-pò	pimSQ poDE	500
+博識	phopFQ sekFE	1000
+phok-sek	phopFQ sekFE	500
+辯駁	piamJE pokFE	1000
+piān-pok	piamJE pokFE	500
+三百	sanmAE pahFE	1000
+弎佰	sanmAE pahFE	250
+sann-pah	sanmAE pahFE	500
+沙巴進步黨	saAE paAE tsimDQ pooJE tongSR	1000
+sa-pa-tsìn-pōo-tóng	saAE paAE tsimDQ pooJE tongSR	500
+穆斯林	bopKE suAE limGW	1000
+bo̍k-su-lîm	bopKE suAE limGW	500
+人民醒覺黨	jinGE binGE sengSQ katFQ tongSR	1000
+人民醒覺黨	jinGE binGE sengSQ kotFQ tongSR	1000
+jîn-bîn-séng-kak-tóng	jinGE binGE sengSQ katFQ tongSR	500
+jîn-bîn-séng-kak-tóng	jinGE binGE sengSQ kotFQ tongSR	500
+人民醒覺黨	jinGE binGE tshennSQ katFQ tongSR	1000
+人民醒覺黨	jinGE binGE tshennSQ kotFQ tongSR	1000
+jîn-bîn-tshénn-kak-tóng	jinGE binGE tshennSQ katFQ tongSR	200
+jîn-bîn-tshénn-kak-tóng	jinGE binGE tshennSQ kotFQ tongSR	200
+醒覺黨	sengSQ kotFQ tongSR	1000
+醒覺黨	sengSQ katFQ tongSR	1000
+séng-kak-tóng	sengSQ kotFQ tongSR	500
+séng-kak-tóng	sengSQ katFQ tongSR	500
+醒覺黨	tshennSQ kotFQ tongSR	1000
+醒覺黨	tshennSQ katFQ tongSR	1000
+tshénn-kak-tóng	tshennSQ kotFQ tongSR	200
+tshénn-kak-tóng	tshennSQ katFQ tongSR	200
+依山傍水	iAE samAE pongJE suiSR	1000
+i-san-pōng-suí	iAE samAE pongJE suiSR	500
+依山傍水	iAE suanmAE pngJE tsuiSR	1000
+i-suann-pn̄g-tsuí	iAE suanmAE pngJE tsuiSR	200
+自我覺察	tsuJE ngooSQ katFQ tshatFE	1000
+自我覺察	tsuJE ngooSQ kotFQ tshatFE	1000
+tsū-ngóo-kak-tshat	tsuJE ngooSQ katFQ tshatFE	500
+tsū-ngóo-kak-tshat	tsuJE ngooSQ kotFQ tshatFE	500
+自我覺察	tsuJE waSQ kotFQ tshatFE	1000
+自我覺察	tsuJE waSQ katFQ tshatFE	1000
+tsū-wá-kak-tshat	tsuJE waSQ kotFQ tshatFE	200
+tsū-wá-kak-tshat	tsuJE waSQ katFQ tshatFE	200
+自我覺察	tsuJE guaSQ kotFQ tshatFE	1000
+自我覺察	tsuJE guaSQ katFQ tshatFE	1000
+tsū-guá-kak-tshat	tsuJE guaSQ kotFQ tshatFE	150
+tsū-guá-kak-tshat	tsuJE guaSQ katFQ tshatFE	150
+確定性	khotFQ tengJE sengDE	1000
+確定性	khatFQ tengJE sengDE	1000
+khak-tēng-sèng	khotFQ tengJE sengDE	500
+khak-tēng-sèng	khatFQ tengJE sengDE	500
+確定性	khatFQ tiannJE sengDE	1000
+確定性	khotFQ tiannJE sengDE	1000
+khak-tiānn-sèng	khatFQ tiannJE sengDE	200
+khak-tiānn-sèng	khotFQ tiannJE sengDE	200
+不確定性	putFQ khotFQ tengJE sengDE	1000
+不確定性	putFQ khatFQ tengJE sengDE	1000
+put-khak-tēng-sèng	putFQ khotFQ tengJE sengDE	500
+put-khak-tēng-sèng	putFQ khatFQ tengJE sengDE	500
+不確定性	putFQ khatFQ tiannJE sengDE	1000
+不確定性	putFQ khotFQ tiannJE sengDE	1000
+put-khak-tiānn-sèng	putFQ khatFQ tiannJE sengDE	200
+put-khak-tiānn-sèng	putFQ khotFQ tiannJE sengDE	200
+屏蔽力	pimGE piDQ latKQ	1000
+pîn-pì-la̍t	pimGE piDQ latKQ	500
+屏蔽力	pimGE piDQ lekKQ	1000
+pîn-pì-le̍k	pimGE piDQ lekKQ	200
+訊息繭房	sinDQ sitFQ kiamSQ pangGW	1000
+sìn-sit-kián-pâng	sinDQ sitFQ kiamSQ pangGW	500
+繭房	kiamSQ pangGW	1000
+kián-pâng	kiamSQ pangGW	500
+開天闢地	khaiAE thiamAE pekKE tiJE	1000
+khai-thian-pe̍k-tī	khaiAE thiamAE pekKE tiJE	500
+開天闢地	khuiAE thinmAE piahKE teJE	1000
+khui-thinn-pia̍h-tē	khuiAE thinmAE piahKE teJE	200
+聯邦直轄區	liamGE pangAE titKE hatFQ khuAQ	1000
+liân-pang-ti̍t-hat-khu	liamGE pangAE titKE hatFQ khuAQ	500
+番邦	huamAE pangAQ	1000
+huan-pang	huamAE pangAQ	500
+閩北	bamGE pakFE	1000
+bân-pak	bamGE pakFE	500
+閩北	bimGE pakFE	1000
+bîn-pak	bimGE pakFE	200
+閩北人	bamGE pakFQ langGW	1000
+bân-pak-lâng	bamGE pakFQ langGW	500
+閩北人	bimGE pakFQ langGW	1000
+bîn-pak-lâng	bimGE pakFQ langGW	200
+閩北菜	banGE potFQ tshaiDE	1000
+閩北菜	banGE patFQ tshaiDE	1000
+閩北菜	bamGE pakFQ tshaiDE	1000
+bân-pak-tshài	banGE potFQ tshaiDE	500
+bân-pak-tshài	banGE patFQ tshaiDE	500
+bân-pak-tshài	bamGE pakFQ tshaiDE	500
+閩北菜	binGE patFQ tshaiDE	1000
+閩北菜	binGE potFQ tshaiDE	1000
+閩北菜	bimGE pakFQ tshaiDE	1000
+bîn-pak-tshài	binGE patFQ tshaiDE	200
+bîn-pak-tshài	binGE potFQ tshaiDE	200
+bîn-pak-tshài	bimGE pakFQ tshaiDE	200
+閩北話	bamGE pakFQ uaJE	1000
+bân-pak-uā	bamGE pakFQ uaJE	500
+閩北話	bimGE pakFQ uaJE	1000
+bîn-pak-uā	bimGE pakFQ uaJE	200
+閩北語	bamGE pakFQ guSR	1000
+bân-pak-gú	bamGE pakFQ guSR	500
+閩北語	bimGE pakFQ guSR	1000
+bîn-pak-gú	bimGE pakFQ guSR	200
+閩北語	bamGE pakFQ uSR	1000
+bân-pak-ú	bamGE pakFQ uSR	150
+閩北語	bimGE pakFQ uSR	1000
+bîn-pak-ú	bimGE pakFQ uSR	80
+閩北語	bamGE pakFQ giSR	1000
+bân-pak-gí	bamGE pakFQ giSR	40
+閩北語	bimGE pakFQ giSR	1000
+bîn-pak-gí	bimGE pakFQ giSR	20
+識相	sepFQ siongDE	1000
+sek-siòng	sepFQ siongDE	500
+可讀性	khoSQ thopKE sengDE	1000
+khó-tho̍k-sèng	khoSQ thopKE sengDE	500
+屏蔽	pimGE piDE	1000
+pîn-pì	pimGE piDE	500
+基本盤	kiAE pumSQ puannGW	1000
+ki-pún-puânn	kiAE pumSQ puannGW	500
+覺得	kotFQ titFE	1000
+覺得	katFQ titFE	1000
+kak-tit	kotFQ titFE	500
+kak-tit	katFQ titFE	500
+覺得	katFQ tekFE	1000
+覺得	kotFQ tekFE	1000
+kak-tek	katFQ tekFE	200
+kak-tek	kotFQ tekFE	200
+意難平	iDQ lamGE pengGW	1000
+ì-lân-pêng	iDQ lamGE pengGW	500
+默寫	bepKE siaSR	1000
+be̍k-siá	bepKE siaSR	500
+默寫	bapKE siaSR	1000
+ba̍k-siá	bapKE siaSR	200
+北上	papFQ siongJE	1000
+pak-siōng	papFQ siongJE	500
+安親班	anAE tshimAE panAQ	1000
+an-tshin-pan	anAE tshimAE panAQ	500
+搖𡳞脬	ioGE lamJE phaAQ	1000
+搖膦脬	ioGE lamJE phaAQ	250
+搖𡳞葩	ioGE lamJE phaAQ	200
+搖膦葩	ioGE lamJE phaAQ	150
+iô-lān-pha	ioGE lamJE phaAQ	500
+獎盃	tsionmSQ pueAQ	1000
+獎杯	tsionmSQ pueAQ	250
+tsiónn-pue	tsionmSQ pueAQ	200
+新幣	simAE peDE	1000
+sin-pè	simAE peDE	500
+揚帆	ionmGE phangGW	1000
+iônn-phâng	ionmGE phangGW	200
+金牛	kimAE buGW	1000
+kim-gû	kimAE buGW	500
+金牛座	kimAE buGE tsoJE	1000
+kim-gû-tsō	kimAE buGE tsoJE	500
+天平座	thiamAE pengGE tsoJE	1000
+thian-pêng-tsō	thiamAE pengGE tsoJE	500
+結晶品	kiatFQ tsenmAE phinSR	1000
+kiat-tsenn-phín	kiatFQ tsenmAE phinSR	500
+嫌疑人	hiamGE biGE jinGW	1000
+hiâm-gî-jîn	hiamGE biGE jinGW	500
+嫌疑人	hiamGE biGE langGW	1000
+hiâm-gî-lâng	hiamGE biGE langGW	200
+確切	khatFQ tshiatFE	1000
+確切	khotFQ tshiatFE	1000
+khak-tshiat	khatFQ tshiatFE	500
+khak-tshiat	khotFQ tshiatFE	500
+悶悶不樂	bunJE bumJE putFQ lokKQ	1000
+būn-būn-put-lo̍k	bunJE bumJE putFQ lokKQ	500
+餐飲業	tshanAE imSQ biapKQ	1000
+tshan-ím-gia̍p	tshanAE imSQ biapKQ	500
+保險業	poSQ hiamSQ biapKQ	1000
+pó-hiám-gia̍p	poSQ hiamSQ biapKQ	500
+傳播業	thuamGE pooDQ giapKQ	1000
+thuân-pòo-gia̍p	thuamGE pooDQ giapKQ	500
+傳播業	thuamGE poDQ giapKQ	1000
+thuân-pò-gia̍p	thuamGE poDQ giapKQ	200
+租賃業	tsooAE jimJE biapKQ	1000
+tsoo-jīm-gia̍p	tsooAE jimJE biapKQ	500
+越南盾	uaKE lamGE tunSR	1000
+Ua̍t-lâm-tún	uaKE lamGE tunSR	500
+越南盾	guaKE lamGE tunSR	1000
+Gua̍t-lâm-tún	guaKE lamGE tunSR	200
+菲律賓披索	huiAE lutKE pimAE phiAE sohFE	1000
+Hui-lu̍t-pin-phi-soh	huiAE lutKE pimAE phiAE sohFE	500
+全片	tsuamGE phinnDE	1000
+tsuân-phìnn	tsuamGE phinnDE	500
+顛沛	tiamAE phaiDE	1000
+tian-phài	tiamAE phaiDE	500
+顛沛流離	tiamAE phaiDQ liuGE liGW	1000
+tian-phài-liû-lî	tiamAE phaiDQ liuGE liGW	500
+飯票	puinmJE phioDE	1000
+puīnn-phiò	puinmJE phioDE	500
+引爆	imSQ pauDE	1000
+ín-pàu	imSQ pauDE	500
+益生菌	epFQ sengAE khunSR	1000
+ek-seng-khún	epFQ sengAE khunSR	500
+牽絆	khiamAE puanDE	1000
+khian-puàn	khiamAE puanDE	500
+牽絆	khamAE puannDE	1000
+khan-puànn	khamAE puannDE	200
+翩翩	phiamAE phianAQ	1000
+phian-phian	phiamAE phianAQ	500
+客死	khepFQ siSR	1000
+khek-sí	khepFQ siSR	500
+百份百	pahFQ humJE pahFE	1000
+pah-hūn-pah	pahFQ humJE pahFE	500
+廁所	tshepFQ sooSR	1000
+tshek-sóo	tshepFQ sooSR	500
+遠房	huinmJE pangGW	1000
+huīnn-pâng	huinmJE pangGW	500
+泊車場	patKE tshiaAE tionnGW	1000
+泊車場	potKE tshiaAE tionnGW	1000
+pa̍k-tshia-tiônn	patKE tshiaAE tionnGW	500
+pa̍k-tshia-tiônn	potKE tshiaAE tionnGW	500
+正品	tsianmDQ phinSR	1000
+tsiànn-phín	tsianmDQ phinSR	500
+精神病	tsengAE simGE pennJE	1000
+tseng-sîn-pēnn	tsengAE simGE pennJE	500
+歷史課	lepKE suSQ khoDE	1000
+le̍k-sú-khò	lepKE suSQ khoDE	500
+歷史科	lepKE suSQ khoAQ	1000
+le̍k-sú-kho	lepKE suSQ khoAQ	500
+參議員	tshamAE biJE uanGW	1000
+tsham-gī-uân	tshamAE biJE uanGW	500
+參議員	tshamAE biJE guanGW	1000
+tsham-gī-guân	tshamAE biJE guanGW	200
+社群平台	siaJE kumGE pengGE taiGW	1000
+siā-kûn-pêng-tâi	siaJE kumGE pengGE taiGW	500
+社群平台	siaJE kumGE pennGE taiGW	1000
+siā-kûn-pênn-tâi	siaJE kumGE pennGE taiGW	200
+三伯	sanmAE peehFE	1000
+sann-peeh	sanmAE peehFE	500
+六叔	lotKE tsekFE	1000
+六叔	latKE tsekFE	1000
+la̍k-tsek	lotKE tsekFE	500
+la̍k-tsek	latKE tsekFE	500
+六嬸	lotKE tsimSR	1000
+六嬸	latKE tsimSR	1000
+la̍k-tsím	lotKE tsimSR	500
+la̍k-tsím	latKE tsimSR	500
+漢本位	hamDQ punSQ uiJE	1000
+hàn-pún-uī	hamDQ punSQ uiJE	500
+讒言	tsamGE bianGW	1000
+tsâm-giân	tsamGE bianGW	500
+讒言	tsamGE banGW	1000
+tsâm-gân	tsamGE banGW	200
+殺戮	saFQ lakFE	1000
+sat-lak	saFQ lakFE	500
+俗世	siopKE seDE	1000
+sio̍k-sè	siopKE seDE	500
+分泌物	humAE piDQ butKQ	1000
+hun-pì-bu̍t	humAE piDQ butKQ	500
+分泌物	pumAE piDQ butKQ	1000
+pun-pì-bu̍t	pumAE piDQ butKQ	200
+嚇破膽	hanmSR phuaDQ tannSR	1000
+hánn phuà-tánn	hanmSR phuaDQ tannSR	500
+淵博	iamAE phokFE	1000
+ian-phok	iamAE phokFE	500
+六世族	liopKE seDQ tsokKQ	1000
+lio̍k-sè-tso̍k	liopKE seDQ tsokKQ	500
+六世族	lapKE seDQ tsokKQ	1000
+la̍k-sè-tso̍k	lapKE seDQ tsokKQ	200
+嫡孫	tepFQ sunAQ	1000
+tek-sun	tepFQ sunAQ	500
+軸線	tepKE suannDE	1000
+軸綫	tepKE suannDE	250
+te̍k-suànn	tepKE suannDE	500
+ha̍k-seng-ka̍t	hapKE sengAE katKQ	500
+文白	bumGE peehKQ	1000
+bûn-pe̍eh	bumGE peehKQ	500
+逆襲	gepKE sipKQ	1000
+ge̍k-si̍p	gepKE sipKQ	500
+換房	uanmJE pangGW	1000
+uānn-pâng	uanmJE pangGW	500
+一點仔	tsitKE tiamSQ maSR	1000
+tsi̍t-tiám-á	tsitKE tiamSQ maSR	500
+一礐屎	tsitKE hapKE saiSR	1000
+tsi̍t-ha̍k-sái	tsitKE hapKE saiSR	500
+巾仔	kinAE naSR	1000
+kin-á	kinAE naSR	500
+巾仔	kunAE naSR	1000
+kun-á	kunAE naSR	200
+上北	tsionmJE pakFE	1000
+tsiōnn-pak	tsionmJE pakFE	500
+山伯英台	samAE phekFQ engAE taiGW	1000
+San-phek-eng-tâi	samAE phekFQ engAE taiGW	500
+三更半暝	sannAE kenmAE puannDQ meeGW	1000
+sann-kenn-puànn-mêe	sannAE kenmAE puannDQ meeGW	500
+川貝	tshuamAE pueDE	1000
+tshuan-puè	tshuamAE pueDE	500
+干貝	kamAE pueDE	1000
+kan-puè	kamAE pueDE	500
+三角窗	sannAE katFQ thangAQ	1000
+三角窗	sannAE kotFQ thangAQ	1000
+sann-kak-thang	sannAE katFQ thangAQ	500
+sann-kak-thang	sannAE kotFQ thangAQ	500
+山坪	suanmAE pennGW	1000
+suann-pênn	suanmAE pennGW	500
+山坪	suanmAE phiannGW	1000
+suann-phiânn	suanmAE phiannGW	200
+上殕	tshionmJE phuSR	1000
+tshiōnn-phú	tshionmJE phuSR	500
+大腹肚	tuaJE potFQ tooSR	1000
+大腹肚	tuaJE patFQ tooSR	1000
+tuā-pak-tóo	tuaJE potFQ tooSR	500
+tuā-pak-tóo	tuaJE patFQ tooSR	500
+勻勻仔	unGE unGE naSR	1000
+ûn-ûn-á	unGE unGE naSR	500
+勻勻仔火	unGE unGE naSQ hueSR	1000
+ûn-ûn-á-hué	unGE unGE naSQ hueSR	500
+今仔日	kinAE naSQ jitKQ	1000
+kin-á-ji̍t	kinAE naSQ jitKQ	500
+勻仔是	unGE naSQ siJE	1000
+ûn-á-sī	unGE naSQ siJE	500
+分伻	pumAE phennAQ	1000
+pun-phenn	pumAE phennAQ	500
+分別	humAE piatKQ	1000
+hun-pia̍t	humAE piatKQ	500
+分派	pumAE phaiDE	1000
+pun-phài	pumAE phaiDE	500
+分派	humAE phaiDE	1000
+hun-phài	humAE phaiDE	200
+六書	liopKE suAQ	1000
+lio̍k-su	liopKE suAQ	500
+分配	humAE phueDE	1000
+hun-phuè	humAE phueDE	500
+手巾仔	tshiuSQ kinAE naSR	1000
+tshiú-kin-á	tshiuSQ kinAE naSR	500
+手巾仔	tshiuSQ kunAE naSR	1000
+tshiú-kun-á	tshiuSQ kunAE naSR	200
+文文仔笑	bunGE bunGE naSQ tshioDE	1000
+bûn-bûn-á-tshiò	bunGE bunGE naSQ tshioDE	500
+木心枋	bopKE simAE pangAQ	1000
+bo̍k-sim-pang	bopKE simAE pangAQ	500
+毋甘願	mJE kamAE buanJE	1000
+m̄ kam-guān	mJE kamAE buanJE	500
+木匠	botKE tshionnJE	1000
+木匠	batKE tshionnJE	1000
+ba̍k-tshiōnn	botKE tshionnJE	500
+ba̍k-tshiōnn	batKE tshionnJE	500
+木虱	bapKE satFE	1000
+木蝨	bapKE satFE	250
+ba̍k-sat	bapKE satFE	500
+反背	huamSQ pueJE	1000
+huán-puē	huamSQ pueJE	500
+否腹肚	phainmSQ pakFQ tooSR	1000
+否腹肚	phainnSQ potFQ tooSR	1000
+否腹肚	phainnSQ patFQ tooSR	1000
+歹腹肚	phainmSQ pakFQ tooSR	250
+歹腹肚	phainnSQ potFQ tooSR	250
+歹腹肚	phainnSQ patFQ tooSR	250
+pháinn-pak-tóo	phainmSQ pakFQ tooSR	500
+pháinn-pak-tóo	phainnSQ potFQ tooSR	500
+pháinn-pak-tóo	phainnSQ patFQ tooSR	500
+否腹肚	phaiSQ potFQ tooSR	1000
+否腹肚	phaiSQ patFQ tooSR	1000
+歹腹肚	phaiSQ potFQ tooSR	250
+歹腹肚	phaiSQ patFQ tooSR	250
+phái-pak-tóo	phaiSQ potFQ tooSR	200
+phái-pak-tóo	phaiSQ patFQ tooSR	200
+文憑	bumGE pengGW	1000
+bûn-pêng	bumGE pengGW	500
+文憑	bumGE pinGW	1000
+bûn-pîn	bumGE pinGW	200
+天篷	thiamAE pongGW	1000
+thian-pông	thiamAE pongGW	500
+否癖	phainmSQ phiahFE	1000
+歹癖	phainmSQ phiahFE	250
+pháinn-phiah	phainmSQ phiahFE	500
+心願	simAE buanJE	1000
+sim-guān	simAE buanJE	500
+毋願	mJE buanJE	1000
+m̄-guān	mJE buanJE	500
+牛𡳞脬檨	guGE lamJE phaAE suainnJE	1000
+牛膦脬檨	guGE lamJE phaAE suainnJE	250
+牛𡳞葩檨	guGE lamJE phaAE suainnJE	200
+牛膦葩檨	guGE lamJE phaAE suainnJE	150
+gû-lān-pha-suāinn	guGE lamJE phaAE suainnJE	500
+仙拼仙	siamAE piannDQ sianAQ	1000
+仙拚仙	siamAE piannDQ sianAQ	200
+sian-piànn-sian	siamAE piannDQ sianAQ	500
+央三託四	iongAE sannAE thopFQ siDE	1000
+iong-sann-thok-sì	iongAE sannAE thopFQ siDE	500
+半信半疑	puanDQ simDQ puanDQ giGW	1000
+puàn-sìn-puàn-gî	puanDQ simDQ puanDQ giGW	500
+半信半疑	puannDQ simDQ puannDQ giGW	1000
+puànn-sìn-puànn-gî	puannDQ simDQ puannDQ giGW	200
+半晡	puanmDQ pooAQ	1000
+puànn-poo	puanmDQ pooAQ	500
+半精白	puannDQ tsianmAE peehKQ	1000
+puànn-tsiann-pe̍eh	puannDQ tsianmAE peehKQ	500
+尻川䫌	khaAE tshuinmAE pheSR	1000
+尻脽䫌	khaAE tshuinmAE pheSR	250
+kha-tshuinn-phé	khaAE tshuinmAE pheSR	500
+尻川䫌	khaAE tshuinmAE phueSR	1000
+尻脽䫌	khaAE tshuinmAE phueSR	250
+kha-tshuinn-phué	khaAE tshuinmAE phueSR	150
+平分	penmGE punAQ	1000
+pênn-pun	penmGE punAQ	500
+正旁	tsianmDQ pengGW	1000
+正爿	tsianmDQ pengGW	250
+tsiànn-pêng	tsianmDQ pengGW	500
+平平	penmGE pennGW	1000
+pênn-pênn	penmGE pennGW	500
+正本	tsianmDQ punSR	1000
+tsiànn-pún	tsianmDQ punSR	500
+打扮	tanmSQ panJE	1000
+tánn-pān	tanmSQ panJE	500
+平埔	penmGE pooAQ	1000
+pênn-poo	penmGE pooAQ	500
+生囡仔	sennAE ginSQ naSR	1000
+senn-gín-á	sennAE ginSQ naSR	500
+目地	botKE teJE	1000
+目地	batKE teJE	1000
+ba̍k-tē	botKE teJE	500
+ba̍k-tē	batKE teJE	500
+目色	bapKE sekFE	1000
+ba̍k-sek	bapKE sekFE	500
+目前	batKE tsengGW	1000
+目前	botKE tsengGW	1000
+ba̍k-tsêng	batKE tsengGW	150
+ba̍k-tsêng	botKE tsengGW	150
+目屎	bapKE saiSR	1000
+ba̍k-sái	bapKE saiSR	500
+目屎膏	bapKE saiSQ koAQ	1000
+ba̍k-sái-ko	bapKE saiSQ koAQ	500
+目針	botKE tsiamAQ	1000
+目針	batKE tsiamAQ	1000
+ba̍k-tsiam	botKE tsiamAQ	500
+ba̍k-tsiam	batKE tsiamAQ	500
+目針	botKE tsamAQ	1000
+目針	batKE tsamAQ	1000
+ba̍k-tsam	botKE tsamAQ	200
+ba̍k-tsam	batKE tsamAQ	200
+目珠	batKE tsiuAQ	1000
+目珠	botKE tsiuAQ	1000
+ba̍k-tsiu	batKE tsiuAQ	500
+ba̍k-tsiu	botKE tsiuAQ	500
+目珠仁	botKE tsiuAE jinGW	1000
+目珠仁	batKE tsiuAE jinGW	1000
+ba̍k-tsiu-jîn	botKE tsiuAE jinGW	500
+ba̍k-tsiu-jîn	batKE tsiuAE jinGW	500
+目睫毛	botKE tsiahFQ mooGW	1000
+目睫毛	batKE tsiahFQ mooGW	1000
+ba̍k-tsiah-môo	botKE tsiahFQ mooGW	500
+ba̍k-tsiah-môo	batKE tsiahFQ mooGW	500
+目睫毛	botKE tsiapFQ mooGW	1000
+目睫毛	batKE tsiapFQ mooGW	1000
+ba̍k-tsiap-môo	botKE tsiapFQ mooGW	200
+ba̍k-tsiap-môo	batKE tsiapFQ mooGW	200
+目珠毛	batKE tsiuAE mooGW	1000
+目珠毛	botKE tsiuAE mooGW	1000
+ba̍k-tsiu-môo	batKE tsiuAE mooGW	500
+ba̍k-tsiu-môo	botKE tsiuAE mooGW	500
+目珠皮	botKE tsiuAE phueGW	1000
+目珠皮	batKE tsiuAE phueGW	1000
+ba̍k-tsiu-phuê	botKE tsiuAE phueGW	500
+ba̍k-tsiu-phuê	batKE tsiuAE phueGW	500
+目頭	batKE thauGW	1000
+目頭	botKE thauGW	1000
+ba̍k-thâu	batKE thauGW	500
+ba̍k-thâu	botKE thauGW	500
+甘願	kamAE buanJE	1000
+kam-guān	kamAE buanJE	500
+白鑠鑠	peehKE siapFQ siakFE	1000
+pe̍eh-siak-siak	peehKE siapFQ siakFE	500
+先輩	siamAE pueDE	1000
+sian-puè	siamAE pueDE	500
+印仔	inDQ naSR	1000
+ìn-á	inDQ naSR	500
+囡仔	ginSQ naSR	1000
+囡兒	ginSQ naSR	50
+gín-á	ginSQ naSR	500
+囡仔人	ginSQ naSQ langGW	1000
+gín-á-lâng	ginSQ naSQ langGW	500
+囡仔工	ginSQ naSQ kangAQ	1000
+gín-á-kang	ginSQ naSQ kangAQ	500
+囡仔兄	ginSQ naSQ hiannAQ	1000
+gín-á-hiann	ginSQ naSQ hiannAQ	500
+囡仔囝	ginSQ naSQ kiannSR	1000
+gín-á-kiánn	ginSQ naSQ kiannSR	500
+囡仔疕	ginSQ naSQ phiSR	1000
+gín-á-phí	ginSQ naSQ phiSR	500
+囡仔性	ginSQ naSQ sengDE	1000
+gín-á-sèng	ginSQ naSQ sengDE	500
+囡仔栽	ginSQ naSQ tsaiAQ	1000
+gín-á-tsai	ginSQ naSQ tsaiAQ	500
+囡仔款	ginSQ naSQ khuanSR	1000
+gín-á-khuán	ginSQ naSQ khuanSR	500
+囡仔歌	ginSQ naSQ kuaAQ	1000
+gín-á-kua	ginSQ naSQ kuaAQ	500
+囡仔嬰	ginSQ naSQ ennAQ	1000
+gín-á-enn	ginSQ naSQ ennAQ	500
+年尾囡仔	niGE bueSQ ginSQ naSR	1000
+nî-bué-gín-á	niGE bueSQ ginSQ naSR	500
+安排	amAE paiGW	1000
+an-pâi	amAE paiGW	500
+死囡仔	siSQ ginSQ naSR	1000
+sí-gín-á	siSQ ginSQ naSR	500
+扞盤	huanmJE puannGW	1000
+捍盤	huanmJE puannGW	250
+huānn-puânn	huanmJE puannGW	500
+耳扒	hinmJE peeGW	1000
+hīnn-pêe	hinmJE peeGW	500
+羊角豆	ionnGE katFQ tauJE	1000
+羊角豆	ionnGE kotFQ tauJE	1000
+iônn-kak-tāu	ionnGE katFQ tauJE	500
+iônn-kak-tāu	ionnGE kotFQ tauJE	500
+色素	sepFQ sooDE	1000
+sek-sòo	sepFQ sooDE	500
+竹筍	tepFQ sunSR	1000
+tek-sún	tepFQ sunSR	500
+免錢飯	mianSQ tsinmGE puinnJE	1000
+mián-tsînn-puīnn	mianSQ tsinmGE puinnJE	500
+免錢飯	bianSQ tsinmGE puinnJE	1000
+bián-tsînn-puīnn	bianSQ tsinmGE puinnJE	200
+別人	paKE langGW	1000
+pa̍t-lâng	paKE langGW	500
+含冤	hamGE buanAQ	1000
+hâm-guan	hamGE buanAQ	200
+即時	tsepFQ siGW	1000
+tsek-sî	tsepFQ siGW	500
+坉平	thumJE pennGW	1000
+thūn-pênn	thumJE pennGW	500
+局勢	kiopKE seDE	1000
+kio̍k-sè	kiopKE seDE	500
+扶𡳞脬	phooGE lamJE phaAQ	1000
+扶膦脬	phooGE lamJE phaAQ	250
+扶𡳞葩	phooGE lamJE phaAQ	200
+扶膦葩	phooGE lamJE phaAQ	150
+phôo-lān-pha	phooGE lamJE phaAQ	500
+沃水	otFQ tsuiSR	1000
+沃水	atFQ tsuiSR	1000
+ak-tsuí	otFQ tsuiSR	500
+ak-tsuí	atFQ tsuiSR	500
+沐手	botFQ tshiuSR	1000
+沐手	batFQ tshiuSR	1000
+bak-tshiú	botFQ tshiuSR	500
+bak-tshiú	batFQ tshiuSR	500
+沐水	batFE tsuiSR	1000
+沐水	botFE tsuiSR	1000
+bak tsuí	batFE tsuiSR	500
+bak tsuí	botFE tsuiSR	500
+沐沐泅	bokKE bopKE siuGW	1000
+bo̍k-bo̍k-siû	bokKE bopKE siuGW	500
+沃澹	otFQ tamGW	1000
+沃澹	atFQ tamGW	1000
+沃㴷	otFQ tamGW	250
+沃㴷	atFQ tamGW	250
+ak-tâm	otFQ tamGW	500
+ak-tâm	atFQ tamGW	500
+育囡仔	ioAQ ginSQ naSR	1000
+io gín-á	ioAQ ginSQ naSR	500
+育囡仔歌	ioAE ginSQ naSQ kuaAQ	1000
+io-gín-á-kua	ioAE ginSQ naSQ kuaAQ	500
+見本	kiamDQ punSR	1000
+kiàn-pún	kiamDQ punSR	500
+角色	kapFQ sekFE	1000
+kak-sek	kapFQ sekFE	500
+角勢	kapFQ siDE	1000
+kak-sì	kapFQ siDE	500
+角頭	kotFQ thauGW	1000
+角頭	katFQ thauGW	1000
+kak-thâu	kotFQ thauGW	500
+kak-thâu	katFQ thauGW	500
+見擺	kiamDQ paiSR	1000
+kiàn-pái	kiamDQ paiSR	500
+使目箭	saiSQ batKE tsinnDE	1000
+使目箭	saiSQ botKE tsinnDE	1000
+sái-ba̍k-tsìnn	saiSQ batKE tsinnDE	500
+sái-ba̍k-tsìnn	saiSQ botKE tsinnDE	500
+亞鉛鉼	aAE iamGE phiannSR	1000
+a-iân-phiánn	aAE iamGE phiannSR	500
+刻印仔	khekFQ inDQ naSR	1000
+khek-ìn-á	khekFQ inDQ naSR	500
+刺竹筍	tshiDQ tepFQ sunSR	1000
+tshì-tek-sún	tshiDQ tepFQ sunSR	500
+卸面皮	siaDQ bimJE phueGW	1000
+sià-bīn-phuê	siaDQ bimJE phueGW	500
+叔孫	tsepFQ sunAQ	1000
+tsek-sun	tsepFQ sunAQ	500
+坦白	thamSQ pekKQ	1000
+thán-pe̍k	thamSQ pekKQ	500
+坦白	thamSQ peehKQ	1000
+thán-pe̍eh	thamSQ peehKQ	200
+坦覆	thamSQ phakFE	1000
+thán-phak	thamSQ phakFE	500
+夜間部	iaJE kamAE pooJE	1000
+iā-kan-pōo	iaJE kamAE pooJE	500
+店員	tiamDQ buanGW	1000
+tiàm-guân	tiamDQ buanGW	200
+抿仔	binSQ naSR	1000
+bín-á	binSQ naSR	500
+抾囡仔	khiohFQ ginSQ naSR	1000
+擷囡仔	khiohFQ ginSQ naSR	250
+khioh-gín-á	khiohFQ ginSQ naSR	500
+所得稅	sooSQ tepFQ sueDE	1000
+sóo-tek-suè	sooSQ tepFQ sueDE	500
+拍算盤	phahFQ suinmDQ puannGW	1000
+phah-suìnn-puânn	phahFQ suinmDQ puannGW	500
+明仔日	binGE naSQ jitKQ	1000
+bîn-á-ji̍t	binGE naSQ jitKQ	500
+明仔早起	binGE naSQ tsaSQ khiSR	1000
+bîn-á-tsá-khí	binGE naSQ tsaSQ khiSR	500
+明仔暗	binGE naSQ amDE	1000
+bîn-á-àm	binGE naSQ amDE	500
+明仔載	binGE naSQ tsaiDE	1000
+明仔哉	binGE naSQ tsaiDE	250
+bîn-á-tsài	binGE naSQ tsaiDE	500
+服侍	hopKE saiJE	1000
+ho̍k-sāi	hopKE saiJE	500
+法力	huaFQ latKQ	1000
+huat-la̍t	huaFQ latKQ	500
+牧師	bopKE suAQ	1000
+bo̍k-su	bopKE suAQ	500
+空殼支票	khangAE khotFQ tsiAE phioDE	1000
+空殼支票	khangAE khatFQ tsiAE phioDE	1000
+khang-khak-tsi-phiò	khangAE khotFQ tsiAE phioDE	500
+khang-khak-tsi-phiò	khangAE khatFQ tsiAE phioDE	500
+芡芳	khiamDQ phangAQ	1000
+khiàn-phang	khiamDQ phangAQ	500
+金言	kimAE bianGW	1000
+kim-giân	kimAE bianGW	500
+金言	kimAE banGW	1000
+kim-gân	kimAE banGW	200
+便便	piamJE pianJE	1000
+piān-piān	piamJE pianJE	500
+便飯	piamJE puinnJE	1000
+piān-puīnn	piamJE puinnJE	500
+卻是	khiopFQ siJE	1000
+khiok-sī	khiopFQ siJE	500
+保溫杯	poSQ umAE pueAQ	1000
+pó-un-pue	poSQ umAE pueAQ	500
+前輩	tsiamGE pueDE	1000
+tsiân-puè	tsiamGE pueDE	500
+厚面皮	kauJE bimJE phueGW	1000
+kāu-bīn-phuê	kauJE bimJE phueGW	500
+咯痰	khatKE thamGW	1000
+咯痰	khotKE thamGW	1000
+kha̍k-thâm	khatKE thamGW	500
+kha̍k-thâm	khotKE thamGW	500
+宣佈	suamAE pooDE	1000
+suan-pòo	suamAE pooDE	500
+查某囡仔	tsaAE booSQ ginSQ naSR	1000
+奼姥囡仔	tsaAE booSQ ginSQ naSR	200
+姹姥囡仔	tsaAE booSQ ginSQ naSR	100
+tsa-bóo-gín-á	tsaAE booSQ ginSQ naSR	500
+查甫囡仔	taAE pooAE ginSQ naSR	1000
+查夫囡仔	taAE pooAE ginSQ naSR	250
+諸夫囡仔	taAE pooAE ginSQ naSR	200
+丈夫囡仔	taAE pooAE ginSQ naSR	150
+ta-poo-gín-á	taAE pooAE ginSQ naSR	500
+洗衫枋	seSQ sanmAE pangAQ	1000
+sé-sann-pang	seSQ sanmAE pangAQ	500
+流目屎	lauGW bapKE saiSR	1000
+lâu ba̍k-sái	lauGW bapKE saiSR	500
+珍寶	timAE poSR	1000
+tin-pó	timAE poSR	500
+看病	khuanmDQ pennJE	1000
+khuànn-pēnn	khuanmDQ pennJE	500
+看破	khuanmDQ phuaDE	1000
+khuànn-phuà	khuanmDQ phuaDE	500
+胡螓拍	hooGE simGE phahFE	1000
+胡蠅拍	hooGE simGE phahFE	250
+hôo-sîn-phah	hooGE simGE phahFE	500
+面布	bimJE pooDE	1000
+bīn-pòo	bimJE pooDE	500
+面皮	bimJE phueGW	1000
+bīn-phuê	bimJE phueGW	500
+面盆	bimJE phunGW	1000
+bīn-phûn	bimJE phunGW	500
+風聲嗙影	hongAE sianmAE pongDQ iannSR	1000
+hong-siann-pòng-iánn	hongAE sianmAE pongDQ iannSR	500
+凊飯	tshimDQ puinnJE	1000
+tshìn-puīnn	tshimDQ puinnJE	500
+原本	guamGE punSR	1000
+guân-pún	guamGE punSR	500
+厝角頭	tshuDQ katFQ thauGW	1000
+厝角頭	tshuDQ kotFQ thauGW	1000
+茨角頭	tshuDQ katFQ thauGW	250
+茨角頭	tshuDQ kotFQ thauGW	250
+tshù-kak-thâu	tshuDQ katFQ thauGW	500
+tshù-kak-thâu	tshuDQ kotFQ thauGW	500
+孫仔	sunAE naSR	1000
+sun-á	sunAE naSR	500
+電報	tiamJE poDE	1000
+tián-pó	tiamSQ poSR	500
+恁父	limSQ peeJE	1000
+乃父	limSQ peeJE	250
+lín-pēe	limSQ peeJE	500
+捒走	satFQ tsauSR	1000
+捒走	sotFQ tsauSR	1000
+搡走	satFQ tsauSR	250
+搡走	sotFQ tsauSR	250
+sak-tsáu	satFQ tsauSR	500
+sak-tsáu	sotFQ tsauSR	500
+捒做堆	sotFQ tsoDQ tuiAQ	1000
+捒做堆	satFQ tsoDQ tuiAQ	1000
+sak-tsò-tui	sotFQ tsoDQ tuiAQ	500
+sak-tsò-tui	satFQ tsoDQ tuiAQ	500
+捆縛	khumSQ pakKQ	1000
+khún-pa̍k	khumSQ pakKQ	500
+根本	kimAE punSR	1000
+kin-pún	kimAE punSR	500
+根本	kumAE punSR	1000
+kun-pún	kumAE punSR	200
+桔仔	kiatFQ laSR	1000
+kiat-á	kiatFQ laSR	500
+桔仔汁	kiatFQ laSQ tsiapFE	1000
+kiat-á-tsiap	kiatFQ laSQ tsiapFE	500
+特色	tepKE sekFE	1000
+te̍k-sek	tepKE sekFE	500
+特色	tapKE sekFE	1000
+ta̍k-sek	tapKE sekFE	150
+特殊	tepKE suGW	1000
+te̍k-sû	tepKE suGW	500
+特殊	tapKE suGW	1000
+ta̍k-sû	tapKE suGW	150
+畜生	thepFQ sennAQ	1000
+thek-senn	thepFQ sennAQ	500
+祖傳秘方	tsooSQ thuamGW piDQ hngAQ	1000
+tsóo-thuân pì-hng	tsooSQ thuamGW piDQ hngAQ	500
+祖傳秘方	tsooSQ tshuamGW piDQ hngAQ	1000
+tsóo-tshuân pì-hng	tsooSQ tshuamGW piDQ hngAQ	200
+祖傳秘方	tsooSQ thuamGW piDQ hongAQ	1000
+tsóo-thuân pì-hong	tsooSQ thuamGW piDQ hongAQ	150
+祖傳秘方	tsooSQ tshuamGW piDQ hongAQ	1000
+tsóo-tshuân pì-hong	tsooSQ tshuamGW piDQ hongAQ	80
+祖傳秘方	tsooSQ thuamGW piDQ huinnAQ	1000
+tsóo-thuân pì-huinn	tsooSQ thuamGW piDQ huinnAQ	40
+祖傳秘方	tsooSQ tshuamGW piDQ huinnAQ	1000
+tsóo-tshuân pì-huinn	tsooSQ tshuamGW piDQ huinnAQ	20
+秤仔	tshinDQ naSR	1000
+稱仔	tshinDQ naSR	250
+tshìn-á	tshinDQ naSR	500
+粉筆	humSQ pitFE	1000
+hún-pit	humSQ pitFE	500
+粉餅	humSQ piannSR	1000
+hún-piánn	humSQ piannSR	500
+舀肥	ionmSQ puiGW	1000
+iónn-puî	ionmSQ puiGW	200
+乾仔孫	kanAE naSQ sunAQ	1000
+間仔孫	kanAE naSQ sunAQ	250
+kan-á-sun	kanAE naSQ sunAQ	500
+剪布	tsiamSQ pooDE	1000
+tsián-pòo	tsiamSQ pooDE	500
+偏偏	phiamAE phianAQ	1000
+偏偏仔	phiamAE phianAE aSR	1000
+偏偏仔	phianAE phianAE naSR	1000
+phian-phian-á	phiamAE phianAE aSR	500
+phian-phian-á	phianAE phianAE naSR	500
+假銀票	keeSQ gimGE phioDE	1000
+kée-gîn-phiò	keeSQ gimGE phioDE	500
+偏僻	phiamAE phiahFE	1000
+phian-phiah	phiamAE phiahFE	500
+勘驗	khamAE biamJE	1000
+kham-giām	khamAE biamJE	500
+堅巴	kiamAE paAQ	1000
+kian-pa	kiamAE paAQ	500
+凝疕	kiamGE phiSR	1000
+kiân-phí	kiamGE phiSR	500
+娶新婦	tshuaJE simAE puJE	1000
+tshuā-sin-pū	tshuaJE simAE puJE	500
+得失	tepFQ sitFE	1000
+tek-sit	tepFQ sitFE	500
+得勢	tepFQ seDE	1000
+tek-sè	tepFQ seDE	200
+惜面皮	siohFE bimJE phueGW	1000
+sioh bīn-phuê	siohFE bimJE phueGW	500
+添飯	thinmAE puinnJE	1000
+thinn-puīnn	thinmAE puinnJE	500
+添福壽	thiamAE hopFQ siuJE	1000
+thiam-hok-siū	thiamAE hopFQ siuJE	500
+產婆	samSQ poGW	1000
+sán-pô	samSQ poGW	500
+粗菜便飯	tshooAE tshaiDE piamJE puinnJE	1000
+tshoo-tshài piān-puīnn	tshooAE tshaiDE piamJE puinnJE	500
+船仔	tsunGE naSR	1000
+tsûn-á	tsunGE naSR	500
+博士	phopFQ suJE	1000
+phok-sū	phopFQ suJE	500
+喙唇皮	tshuiDQ tumGE phueGW	1000
+嘴唇皮	tshuiDQ tumGE phueGW	250
+喙脣皮	tshuiDQ tumGE phueGW	200
+嘴脣皮	tshuiDQ tumGE phueGW	150
+tshuì-tûn-phuê	tshuiDQ tumGE phueGW	500
+復習	hopKE sipKQ	1000
+複習	hopKE sipKQ	250
+ho̍k-si̍p	hopKE sipKQ	500
+惡性	opFQ sengDE	1000
+ok-sèng	opFQ sengDE	500
+握手	otFQ tshiuSR	1000
+握手	atFQ tshiuSR	1000
+ak-tshiú	otFQ tshiuSR	500
+ak-tshiú	atFQ tshiuSR	500
+摒本	pianmDQ punSR	1000
+piànn-pún	pianmDQ punSR	500
+散票	suanmSQ phioDE	1000
+suánn-phiò	suanmSQ phioDE	500
+換鋪	uanmJE phooAQ	1000
+換舖	uanmJE phooAQ	250
+uānn-phoo	uanmJE phooAQ	500
+無半步	boGE puanmDQ pooJE	1000
+bô-puànn-pōo	boGE puanmDQ pooJE	500
+無半撇	boGE puanmDQ phiatFE	1000
+bô-puànn-phiat	boGE puanmDQ phiatFE	500
+猴囡仔	kauGE ginSQ naSR	1000
+kâu-gín-á	kauGE ginSQ naSR	500
+番仔	huanAE naSR	1000
+huan-á	huanAE naSR	500
+番仔幔	huanAE naSQ muaAQ	1000
+huan-á-mua	huanAE naSQ muaAQ	500
+番婆	huamAE poGW	1000
+huan-pô	huamAE poGW	500
+睏房	khumDQ pangGW	1000
+khùn-pâng	khumDQ pangGW	500
+結案	kiatFQ lanDE	1000
+kiat-àn	kiatFQ lanDE	500
+象桮	sionmJE pueAQ	1000
+象杯	sionmJE pueAQ	250
+siōnn-pue	sionmJE pueAQ	500
+進步	tsimDQ pooJE	1000
+tsìn-pōo	tsimDQ pooJE	500
+飯包	puinmJE pauAQ	1000
+puīnn-pau	puinmJE pauAQ	500
+飯疕	puinmJE phiSR	1000
+puīnn-phí	puinmJE phiSR	500
+黃錦錦	uinnGE gimDQ bimDE	1000
+uînn-gìm-gìm	uinnGE gimDQ bimDE	500
+黃錦錦	ngGE gimDQ bimDE	1000
+n̂g-gìm-gìm	ngGE gimDQ bimDE	200
+傳票	thuamGE phioDE	1000
+thuân-phiò	thuamGE phioDE	500
+傳票	tshuamGE phioDE	1000
+tshuân-phiò	tshuamGE phioDE	200
+嫌疑	hiamGE biGW	1000
+hiâm-gî	hiamGE biGW	500
+想空想縫	sionnJE khangAE sionmJE phangJE	1000
+siōnn-khang-siōnn-phāng	sionnJE khangAE sionmJE phangJE	500
+慄慄掣	lakKE lotKE tshuahFE	1000
+慄慄掣	lakKE latKE tshuahFE	1000
+la̍k-la̍k-tshuah	lakKE lotKE tshuahFE	500
+la̍k-la̍k-tshuah	lakKE latKE tshuahFE	500
+搦屎搦尿	lapKE saiSQ lakKE jioJE	1000
+la̍k-sái-la̍k-jiō	lapKE saiSQ lakKE jioJE	500
+新婦	simAE puJE	1000
+sin-pū	simAE puJE	500
+新婦仔	simAE puJE aSR	1000
+sin-pū-á	simAE puJE aSR	500
+準備	tsumSQ piJE	1000
+tsún-pī	tsumSQ piJE	500
+煏桌	piotFQ tohFE	1000
+煏桌	piatFQ tohFE	1000
+piak-toh	piotFQ tohFE	500
+piak-toh	piatFQ tohFE	500
+碗盤	uanmSQ puannGW	1000
+uánn-puânn	uanmSQ puannGW	500
+節力	tsaFQ latKQ	1000
+tsat-la̍t	tsaFQ latKQ	500
+萬不得已	bamJE putFQ tekFQ iSR	1000
+bān-put-tek-í	bamJE putFQ tekFQ iSR	500
+萬年筆	banJE liamGE pitFE	1000
+bān-liân-pit	banJE liamGE pitFE	500
+落成	lopKE sengGW	1000
+lo̍k-sêng	lopKE sengGW	500
+落色	lapFQ sekFE	1000
+lak-sek	lapFQ sekFE	500
+腹肚	potFQ tooSR	1000
+腹肚	patFQ tooSR	1000
+pak-tóo	potFQ tooSR	500
+pak-tóo	patFQ tooSR	500
+腹肚尾	potFQ tooSQ bueSR	1000
+腹肚尾	patFQ tooSQ bueSR	1000
+pak-tóo-bué	potFQ tooSQ bueSR	500
+pak-tóo-bué	patFQ tooSQ bueSR	500
+腹肚枵	patFQ tooSQ iauAQ	1000
+腹肚枵	potFQ tooSQ iauAQ	1000
+pak-tóo-iau	patFQ tooSQ iauAQ	500
+pak-tóo-iau	potFQ tooSQ iauAQ	500
+萬般	bamJE puannAQ	1000
+bān-puann	bamJE puannAQ	500
+落選	lopKE suanSR	1000
+lo̍k-suán	lopKE suanSR	500
+鉛筆	iamGE pitFE	1000
+iân-pit	iamGE pitFE	500
+鉛筆絞	iamGE pitFQ kaSR	1000
+iân-pit-ká	iamGE pitFQ kaSR	500
+鉛筆剾	iamGE pitFQ khauAQ	1000
+iân-pit-khau	iamGE pitFQ khauAQ	500
+鉛鉼	iamGE phiannSR	1000
+iân-phiánn	iamGE phiannSR	500
+電冰箱	tiamJE pengAE sionnAQ	1000
+tiān-peng-sionn	tiamJE pengAE sionnAQ	500
+展寶	tiamSQ poSR	1000
+tiān-pò	tiamJE poDE	500
+電錶	tiamJE pioAQ	1000
+tiān-pio	tiamJE pioAQ	500
+鼎疕	tianmSQ phiSR	1000
+tiánn-phí	tianmSQ phiSR	500
+摔倒	siatFE toSR	1000
+摔倒	siotFE toSR	1000
+siak--tó	siatFE toSR	500
+siak--tó	siotFE toSR	500
+摔桶	siatFQ thangSR	1000
+摔桶	siotFQ thangSR	1000
+siak-tháng	siatFQ thangSR	500
+siak-tháng	siotFQ thangSR	500
+摔粟	siotFQ tshekFE	1000
+摔粟	siatFQ tshekFE	1000
+siak-tshek	siotFQ tshekFE	500
+siak-tshek	siatFQ tshekFE	500
+慢慢仔	banJE banJE naSR	1000
+bān-bān-á	banJE banJE naSR	500
+演變	iamSQ pianDE	1000
+ián-piàn	iamSQ pianDE	500
+碩士	sepKE suJE	1000
+se̍k-sū	sepKE suJE	500
+福相	hopFQ siongDE	1000
+hok-siòng	hopFQ siongDE	500
+盡磅	tsimJE pongJE	1000
+tsīn-pōng	tsimJE pongJE	500
+綠色	lepKE sekFE	1000
+le̍k-sek	lepKE sekFE	500
+算盤	suinmDQ puannGW	1000
+suìnn-puânn	suinmDQ puannGW	500
+緊事寬辦	kinSQ suJE khuanmAE panJE	1000
+kín-sū-khuann-pān	kinSQ suJE khuanmAE panJE	500
+蒜仔	suanDQ naSR	1000
+suàn-á	suanDQ naSR	500
+輕便	khimAE pianJE	1000
+khin-piān	khimAE pianJE	500
+銀票	gimGE phioDE	1000
+gîn-phiò	gimGE phioDE	500
+輕薄	khimAE pohKQ	1000
+khin-po̍h	khimAE pohKQ	500
+魂魄	humGE phekFE	1000
+hûn-phek	humGE phekFE	500
+鼻目喙	phinnJE batKE tshuiDE	1000
+鼻目喙	phinnJE botKE tshuiDE	1000
+鼻目嘴	phinnJE batKE tshuiDE	250
+鼻目嘴	phinnJE botKE tshuiDE	250
+phīnn-ba̍k-tshuì	phinnJE batKE tshuiDE	500
+phīnn-ba̍k-tshuì	phinnJE botKE tshuiDE	500
+鼻目喙	phiJE batKE tshuiDE	1000
+鼻目喙	phiJE botKE tshuiDE	1000
+鼻目嘴	phiJE batKE tshuiDE	250
+鼻目嘴	phiJE botKE tshuiDE	250
+phī-ba̍k-tshuì	phiJE batKE tshuiDE	200
+phī-ba̍k-tshuì	phiJE botKE tshuiDE	200
+鼻芳	phinmJE phangAQ	1000
+phīnn-phang	phinmJE phangAQ	500
+儉儉用	khiamJE khiamJE maSR iongDE	1000
+khiām-khiām-á iòng	khiamJE khiamJE maSR iongDE	200
+墨斗	batKE tauSR	1000
+墨斗	botKE tauSR	1000
+ba̍k-táu	batKE tauSR	500
+ba̍k-táu	botKE tauSR	500
+墨水	batKE tsuiSR	1000
+墨水	botKE tsuiSR	1000
+ba̍k-tsuí	batKE tsuiSR	500
+ba̍k-tsuí	botKE tsuiSR	500
+墨汁	botKE tsiapFE	1000
+墨汁	batKE tsiapFE	1000
+ba̍k-tsiap	botKE tsiapFE	500
+ba̍k-tsiap	batKE tsiapFE	500
+墨賊	botKE tshatFE	1000
+墨賊	batKE tshatFE	1000
+ba̍k-tshat	botKE tshatFE	500
+ba̍k-tshat	batKE tshatFE	500
+影片	ianmSQ phinnDE	1000
+iánn-phìnn	ianmSQ phinnDE	500
+戮鑽	latFQ tsuinnDE	1000
+戮鑽	lotFQ tsuinnDE	1000
+lak-tsuìnn	latFQ tsuinnDE	500
+lak-tsuìnn	lotFQ tsuinnDE	500
+樂隊	gotKE tuiJE	1000
+樂隊	gatKE tuiJE	1000
+ga̍k-tuī	gotKE tuiJE	500
+ga̍k-tuī	gatKE tuiJE	500
+熟似	sepKE saiJE	1000
+se̍k-sāi	sepKE saiJE	500
+熟似人	sepKE saiJE langGW	1000
+se̍k-sāi-lâng	sepKE saiJE langGW	500
+㾪卑巴	samSQ piAE paAQ	1000
+瘦卑巴	samSQ piAE paAQ	250
+sán-pi-pa	samSQ piAE paAQ	500
+璇筆	suamJE pitFE	1000
+suān-pit	suamJE pitFE	500
+確定	khatFQ tengJE	1000
+確定	khotFQ tengJE	1000
+khak-tēng	khatFQ tengJE	500
+khak-tēng	khotFQ tengJE	500
+確實	khapFQ sitKQ	1000
+khak-si̍t	khapFQ sitKQ	500
+輪班	lumGE panAQ	1000
+lûn-pan	lumGE panAQ	500
+養父	ionmSQ peeJE	1000
+iónn-pēe	ionmSQ peeJE	200
+齒抿仔	khiSQ binSQ naSR	1000
+khí-bín-á	khiSQ binSQ naSR	500
+學士	hapKE suJE	1000
+ha̍k-sū	hapKE suJE	500
+學仙	hapKE sianAQ	1000
+ha̍k-sian	hapKE sianAQ	500
+ha̍k-seng	hapKE sengAQ	500
+學堂	hatKE tongGW	1000
+學堂	hotKE tongGW	1000
+ha̍k-tông	hatKE tongGW	200
+ha̍k-tông	hotKE tongGW	200
+學習	hapKE sipKQ	1000
+ha̍k-si̍p	hapKE sipKQ	500
+學術	hapKE sutKQ	1000
+ha̍k-su̍t	hapKE sutKQ	500
+憲兵	hiamDQ pengAQ	1000
+hiàn-peng	hiamDQ pengAQ	500
+擔肥	tanmAE puiGW	1000
+tann-puî	tanmAE puiGW	500
+擉算盤	tiapKQ suinnDQ puannGW	1000
+擉算盤	tiakKQ suinmDQ puannGW	1000
+tia̍k suìnn-puânn	tiapKQ suinnDQ puannGW	500
+tia̍k suìnn-puânn	tiakKQ suinmDQ puannGW	500
+橐袋	latFQ teJE	1000
+橐袋	lotFQ teJE	1000
+lak-tē	latFQ teJE	500
+lak-tē	lotFQ teJE	500
+激心	kepFQ simAQ	1000
+kek-sim	kepFQ simAQ	500
+歷史	lepKE suSR	1000
+le̍k-sú	lepKE suSR	500
+激屎	kepFQ saiSR	1000
+kek-sái	kepFQ saiSR	500
+橫霸霸	huainmGE paDQ paDE	1000
+huâinn-pà-pà	huainmGE paDQ paDE	500
+獨身	topKE sinAQ	1000
+to̍k-sin	topKE sinAQ	500
+燜飯	bumJE puinnJE	1000
+būn-puīnn	bumJE puinnJE	500
+縛粽	potKQ tsangDE	1000
+縛粽	patKQ tsangDE	1000
+縛糉	potKQ tsangDE	250
+縛糉	patKQ tsangDE	250
+pa̍k tsàng	potKQ tsangDE	500
+pa̍k tsàng	patKQ tsangDE	500
+褪腹裼	thngDQ patFQ thehFE	1000
+褪腹裼	thngDQ potFQ thehFE	1000
+thǹg-pak-theh	thngDQ patFQ thehFE	500
+thǹg-pak-theh	thngDQ potFQ thehFE	500
+選票	suamSQ phioDE	1000
+suán-phiò	suamSQ phioDE	500
+餡餅	anmJE piannSR	1000
+ānn-piánn	anmJE piannSR	500
+檢驗	kiamSQ biamJE	1000
+kiám-giām	kiamSQ biamJE	500
+點眼	tiamSQ banSR	1000
+tiám-gán	tiamSQ banSR	500
+翻版	huamAE panSR	1000
+huan-pán	huamAE panSR	500
+轉變	tsuamSQ pianDE	1000
+tsuán-piàn	tsuamSQ pianDE	500
+颺颺飛	iannJE ianmJE pueAQ	1000
+iānn-iānn-pue	iannJE ianmJE pueAQ	500
+曝粟	photKQ tshekFE	1000
+曝粟	phatKQ tshekFE	1000
+pha̍k tshek	photKQ tshekFE	500
+pha̍k tshek	phatKQ tshekFE	500
+穩心仔	unSQ simAE maSR	1000
+ún-sim-á	unSQ simAE maSR	500
+穩觸觸	unSQ tatFQ takFE	1000
+穩觸觸	unSQ totFQ takFE	1000
+ún-tak-tak	unSQ tatFQ takFE	500
+ún-tak-tak	unSQ totFQ takFE	500
+騙囡仔	phianDQ ginSQ naSR	1000
+phiàn-gín-á	phianDQ ginSQ naSR	500
+攕仔	tshiamSQ maSR	1000
+鋟仔	tshiamSQ maSR	250
+tshiám-á	tshiamSQ maSR	500
+觸舌	totFQ tsihKQ	1000
+觸舌	tatFQ tsihKQ	1000
+tak-tsi̍h	totFQ tsihKQ	500
+tak-tsi̍h	tatFQ tsihKQ	500
+覺醒	katFQ tshennSR	1000
+覺醒	kotFQ tshennSR	1000
+kak-tshénn	katFQ tshennSR	500
+kak-tshénn	kotFQ tshennSR	500
+讀冊	thatKE tsheehFE	1000
+讀冊	thotKE tsheehFE	1000
+tha̍k-tsheeh	thatKE tsheehFE	500
+tha̍k-tsheeh	thotKE tsheehFE	500
+讀冊人	thotKE tsheehFQ langGW	1000
+讀冊人	thatKE tsheehFQ langGW	1000
+tha̍k-tsheeh-lâng	thotKE tsheehFQ langGW	500
+tha̍k-tsheeh-lâng	thatKE tsheehFQ langGW	500
+讀死冊	thapKE siSQ tsheehFE	1000
+tha̍k-sí-tsheeh	thapKE siSQ tsheehFE	500
+讀者	thotKE tsiaSR	1000
+讀者	thatKE tsiaSR	1000
+tha̍k-tsiá	thotKE tsiaSR	200
+tha̍k-tsiá	thatKE tsiaSR	200
+贖身	siopKE sinAQ	1000
+sio̍k-sin	siopKE sinAQ	500
+變步	piamDQ pooJE	1000
+piàn-pōo	piamDQ pooJE	500
+鬢邊	pimDQ pinnAQ	1000
+pìn-pinn	pimDQ pinnAQ	500
+齷齪	atFQ tsakFE	1000
+齷齪	otFQ tsakFE	1000
+ak-tsak	atFQ tsakFE	500
+ak-tsak	otFQ tsakFE	500
+鑱仔	tshimGE maSR	1000
+tshîm-á	tshimGE maSR	500
+蠻皮	bamGE phueGW	1000
+bân-phuê	bamGE phueGW	500
+蠻皮癬	bamGE phueGE sianSR	1000
+bân-phuê-sián	bamGE phueGE sianSR	500
+贌田	potKE tshanGW	1000
+贌田	patKE tshanGW	1000
+pa̍k-tshân	potKE tshanGW	500
+pa̍k-tshân	patKE tshanGW	500
+𡳞脬	lamJE phaAQ	1000
+膦脬	lamJE phaAQ	250
+𡳞葩	lamJE phaAQ	200
+膦葩	lamJE phaAQ	150
+lān-pha	lamJE phaAQ	500
+佚陶囡仔	tshitFQ thoGE ginSQ naSR	1000
+𨑨迌囡仔	tshitFQ thoGE ginSQ naSR	250
+tshit-thô-gín-á	tshitFQ thoGE ginSQ naSR	500
+佚陶囡仔	thitFQ thoGW ginSQ naSR	1000
+𨑨迌囡仔	thitFQ thoGW ginSQ naSR	250
+thit-thô gín-á	thitFQ thoGW ginSQ naSR	200
+山腹	suanmAE pakFE	1000
+suann-pak	suanmAE pakFE	500
+羹飯	kinmAE puinnJE	1000
+焿飯	kinmAE puinnJE	200
+kinn-puīnn	kinmAE puinnJE	500
+羹飯	kenmAE puinnJE	1000
+焿飯	kenmAE puinnJE	200
+kenn-puīnn	kenmAE puinnJE	200
+觸纏	totFQ tinnGW	1000
+觸纏	tatFQ tinnGW	1000
+tak-tînn	totFQ tinnGW	500
+tak-tînn	tatFQ tinnGW	500
+七晏八晏	tshitFQ uanmDQ pehFQ uannDE	1000
+tshit-uànn-peh-uànn	tshitFQ uanmDQ pehFQ uannDE	500
+七晏八晏	tshytFQ uanmDQ pehFQ uannDE	1000
+tshyt-uànn-peh-uànn	tshytFQ uanmDQ pehFQ uannDE	200
+反變	huamSQ pianDE	1000
+huán-piàn	huamSQ pianDE	500
+否紡	phainmSQ phangSR	1000
+歹紡	phainmSQ phangSR	250
+pháinn-pháng	phainmSQ phangSR	500
+毋成囡仔	mJE tsiannGE ginSQ naSR	1000
+m̄-tsiânn-gín-á	mJE tsiannGE ginSQ naSR	500
+正範	tsianmDQ panJE	1000
+tsiànn-pān	tsianmDQ panJE	500
+生本	senmAE punSR	1000
+senn-pún	senmAE punSR	500
+目睭遮	batKE tsiuAE tsiaAQ	1000
+目睭遮	botKE tsiuAE tsiaAQ	1000
+ba̍k-tsiu-tsia	batKE tsiuAE tsiaAQ	500
+ba̍k-tsiu-tsia	botKE tsiuAE tsiaAQ	500
+囡仔頭王	ginSQ naSQ thauGE ongGW	1000
+gín-á-thâu-ông	ginSQ naSQ thauGE ongGW	500
+忘恩背義	bongJE umAE pueJE giJE	1000
+bōng-un-puē-gī	bongJE umAE pueJE giJE	500
+罕罕仔	hanSQ hanSR naSR	1000
+hán-hán--á	hanSQ hanSR naSR	500
+空殼厝	khangAE khatFQ tshuDE	1000
+空殼厝	khangAE khotFQ tshuDE	1000
+空殼茨	khangAE khatFQ tshuDE	250
+空殼茨	khangAE khotFQ tshuDE	250
+khang-khak-tshù	khangAE khatFQ tshuDE	500
+khang-khak-tshù	khangAE khotFQ tshuDE	500
+金鑠鑠	kimAE siapFQ siakFE	1000
+kim-siak-siak	kimAE siapFQ siakFE	500
+看破骹手	khuanmDQ phuaDQ khaAE tshiuSR	1000
+看破跤手	khuanmDQ phuaDQ khaAE tshiuSR	250
+看破腳手	khuanmDQ phuaDQ khaAE tshiuSR	200
+khuànn-phuà-kha-tshiú	khuanmDQ phuaDQ khaAE tshiuSR	500
+美國時間	biSQ kopFQ siGE kanAQ	1000
+Bí-kok-sî-kan	biSQ kopFQ siGE kanAQ	500
+梳妝打扮	seAE tsngAE tanmSQ panJE	1000
+se-tsng-tánn-pān	seAE tsngAE tanmSQ panJE	500
+梳妝打扮	seAE tsongAE tanmSQ panJE	1000
+se-tsong-tánn-pān	seAE tsongAE tanmSQ panJE	150
+惜花連盆	siohFE huaAQ liamGW phunGW	1000
+sioh hua liân phûn	siohFE huaAQ liamGW phunGW	500
+規碗捧	kuiAE uanmSQ phangGW	1000
+規碗捀	kuiAE uanmSQ phangGW	200
+kui-uánn-phâng	kuiAE uanmSQ phangGW	500
+喙笑目笑	tshuiDQ tshioDQ botKE tshioDE	1000
+喙笑目笑	tshuiDQ tshioDQ batKE tshioDE	1000
+嘴笑目笑	tshuiDQ tshioDQ botKE tshioDE	250
+嘴笑目笑	tshuiDQ tshioDQ batKE tshioDE	250
+tshuì-tshiò-ba̍k-tshiò	tshuiDQ tshioDQ botKE tshioDE	500
+tshuì-tshiò-ba̍k-tshiò	tshuiDQ tshioDQ batKE tshioDE	500
+摕囡仔	thehKE ginSQ naSR	1000
+the̍h-gín-á	thehKE ginSQ naSR	500
+睏癖	khumDQ phiahFE	1000
+khùn-phiah	khumDQ phiahFE	500
+腰痠背疼	ioAE suinmAE pueJE thiannDE	1000
+io-suinn-puē-thiànn	ioAE suinmAE pueJE thiannDE	500
+腹腸	potFQ tngGW	1000
+腹腸	patFQ tngGW	1000
+pak-tn̂g	potFQ tngGW	500
+pak-tn̂g	patFQ tngGW	500
+萬不幸	bamJE putFQ hengJE	1000
+bān-put-hēng	bamJE putFQ hengJE	500
+落漆	lotFQ tshatFE	1000
+落漆	latFQ tshatFE	1000
+lak-tshat	lotFQ tshatFE	500
+lak-tshat	latFQ tshatFE	500
+香芳	hionmAE phangAQ	1000
+hionn-phang	hionmAE phangAQ	500
+摔大眠	siotFQ tuaJE binGW	1000
+摔大眠	siatFQ tuaJE binGW	1000
+siak-tuā-bîn	siotFQ tuaJE binGW	500
+siak-tuā-bîn	siatFQ tuaJE binGW	500
+縛骹縛手	pakKE khaAE patKE tshiuSR	1000
+縛骹縛手	pakKE khaAE potKE tshiuSR	1000
+縛跤縛手	pakKE khaAE patKE tshiuSR	250
+縛跤縛手	pakKE khaAE potKE tshiuSR	250
+縛腳縛手	pakKE khaAE patKE tshiuSR	200
+縛腳縛手	pakKE khaAE potKE tshiuSR	200
+pa̍k-kha-pa̍k-tshiú	pakKE khaAE patKE tshiuSR	500
+pa̍k-kha-pa̍k-tshiú	pakKE khaAE potKE tshiuSR	500
+金言玉語	kimAE bianGE giokKE guSR	1000
+kim-giân-gio̍k-gú	kimAE bianGE giokKE guSR	500
+金言玉語	kimAE bianGE giokKE uSR	1000
+kim-giân-gio̍k-ú	kimAE bianGE giokKE uSR	200
+金言玉語	kimAE bianGE giokKE giSR	1000
+kim-giân-gio̍k-gí	kimAE bianGE giokKE giSR	150
+金言玉語	kimAE banGE giokKE guSR	1000
+kim-gân-gio̍k-gú	kimAE banGE giokKE guSR	80
+金言玉語	kimAE banGE giokKE uSR	1000
+kim-gân-gio̍k-ú	kimAE banGE giokKE uSR	40
+金言玉語	kimAE banGE giokKE giSR	1000
+kim-gân-gio̍k-gí	kimAE banGE giokKE giSR	20
+𡢃婢	kamSQ piJE	1000
+kán-pī	kamSQ piJE	500
+人品	jimGE phinSR	1000
+jîn-phín	jimGE phinSR	500
+卜聖卦	popFQ sengDQ kuaDE	1000
+pok-sèng-kuà	popFQ sengDQ kuaDE	500
+勻勻仔是	unGE unGE naSQ siJE	1000
+ûn-ûn-á-sī	unGE unGE naSQ siJE	500
+不顛不戒	putFQ tiamAE putFQ kaiDE	1000
+put-tian-put-kài	putFQ tiamAE putFQ kaiDE	500
+北斗星	potFQ tauSQ tshennAQ	1000
+北斗星	patFQ tauSQ tshennAQ	1000
+pak-táu-tshenn	potFQ tauSQ tshennAQ	500
+pak-táu-tshenn	patFQ tauSQ tshennAQ	500
+半肥㾪	puanmDQ puiGE sanSR	1000
+半肥瘦	puanmDQ puiGE sanSR	250
+puànn-puî-sán	puanmDQ puiGE sanSR	500
+半精肥	puannDQ tsianmAE puiGW	1000
+puànn-tsiann-puî	puannDQ tsianmAE puiGW	500
+甘言蜜語	kamAE bianGE bitKE guSR	1000
+kam-giân-bi̍t-gú	kamAE bianGE bitKE guSR	500
+甘言蜜語	kamAE bianGE bitKE uSR	1000
+kam-giân-bi̍t-ú	kamAE bianGE bitKE uSR	200
+甘言蜜語	kamAE bianGE bitKE giSR	1000
+kam-giân-bi̍t-gí	kamAE bianGE bitKE giSR	150
+甘言蜜語	kamAE banGE bitKE guSR	1000
+kam-gân-bi̍t-gú	kamAE banGE bitKE guSR	80
+甘言蜜語	kamAE banGE bitKE uSR	1000
+kam-gân-bi̍t-ú	kamAE banGE bitKE uSR	40
+甘言蜜語	kamAE banGE bitKE giSR	1000
+kam-gân-bi̍t-gí	kamAE banGE bitKE giSR	20
+目識	bapKE sekFE	1000
+全步數	tsuamGE pooJE sooDE	1000
+tsuân-pōo-sòo	tsuamGE pooJE sooDE	500
+囡仔姊	ginSQ naSQ tsiSR	1000
+gín-á-tsí	ginSQ naSQ tsiSR	500
+囡仔鬼	ginSQ naSQ kuiSR	1000
+gín-á-kuí	ginSQ naSQ kuiSR	500
+有囡仔	uJE ginSQ naSR	1000
+ū-gín-á	uJE ginSQ naSR	500
+死囡仔災	siSQ ginSQ naSQ tsaiAQ	1000
+sí-gín-á-tsai	siSQ ginSQ naSQ tsaiAQ	500
+死囡仔胎	siSQ ginSQ naSQ thaiAQ	1000
+sí-gín-á-thai	siSQ ginSQ naSQ thaiAQ	500
+死囡仔胎	siSQ ginSQ naSQ theAQ	1000
+sí-gín-á-the	siSQ ginSQ naSQ theAQ	200
+長房	tionmSQ pangGW	1000
+tiónn-pâng	tionmSQ pangGW	500
+扁扁	pinmSQ pinnSR	1000
+pínn-pínn	pinmSQ pinnSR	500
+看無目地	khuannDE boGW botKE teJE	1000
+看無目地	khuannDE boGW batKE teJE	1000
+khuànn bô ba̍k-tē	khuannDE boGW botKE teJE	500
+khuànn bô ba̍k-tē	khuannDE boGW batKE teJE	500
+捒倒	sotFQ toSR	1000
+捒倒	satFQ toSR	1000
+sak-tó	sotFQ toSR	500
+sak-tó	satFQ toSR	500
+耽誤	tamAE booJE	1000
+tam-gōo	tamAE booJE	500
+晚輩	buamSQ pueDE	1000
+buán-puè	buamSQ pueDE	500
+船桮	tsumGE pueAQ	1000
+tsûn-pue	tsumGE pueAQ	500
+善報	siamJE poDE	1000
+siān-pò	siamJE poDE	500
+悶悶仔	bunJE bunJE naSR	1000
+būn-būn-á	bunJE bunJE naSR	500
+猴死囡仔	kauGE siSQ ginSQ naSR	1000
+kâu-sí-gín-á	kauGE siSQ ginSQ naSR	500
+無錢飯	boGE tsinmGE puinnJE	1000
+bô-tsînn-puīnn	boGE tsinmGE puinnJE	500
+圓房	inmGE pangGW	1000
+înn-pâng	inmGE pangGW	500
+劍竹筍	kiamDQ tepFQ sunSR	1000
+kiàm-tek-sún	kiamDQ tepFQ sunSR	500
+影印本	iannSQ imDQ punSR	1000
+iánn-ìn-pún	iannSQ imDQ punSR	500
+潤餅	jumJE piannSR	1000
+jūn-piánn	jumJE piannSR	500
+潤餅	lumJE piannSR	1000
+lūn-piánn	lumJE piannSR	200
+㾪疕疕	samSQ phiSQ phiSR	1000
+瘦疕疕	samSQ phiSQ phiSR	250
+sán-phí-phí	samSQ phiSQ phiSR	500
+獨身仔	tokKE sinAE naSR	1000
+獨身仔	topKE sinAE aSR	1000
+to̍k-sin-á	tokKE sinAE naSR	500
+to̍k-sin-á	topKE sinAE aSR	500
+頷仔頸	amJE maSQ kunSR	1000
+ām-á-kún	amJE maSQ kunSR	500
+頭殼疼	thauGE khotFQ thiannDE	1000
+頭殼疼	thauGE khatFQ thiannDE	1000
+thâu-khak-thiànn	thauGE khotFQ thiannDE	500
+thâu-khak-thiànn	thauGE khatFQ thiannDE	500
+觸喙	totFQ tshuiDE	1000
+觸喙	tatFQ tshuiDE	1000
+觸嘴	totFQ tshuiDE	250
+觸嘴	tatFQ tshuiDE	250
+tak-tshuì	totFQ tshuiDE	500
+tak-tshuì	tatFQ tshuiDE	500
+摔椅摔桌	siakFQ iSQ siotFQ tohFE	1000
+摔椅摔桌	siakFQ iSQ siatFQ tohFE	1000
+siak-í-siak-toh	siakFQ iSQ siotFQ tohFE	500
+siak-í-siak-toh	siakFQ iSQ siatFQ tohFE	500
+輕本	khimAE punSR	1000
+khin-pún	khimAE punSR	500
+棧房	tsamDQ pangGW	1000
+tsàn-pâng	tsamDQ pangGW	500
+齷齪熱	atFQ tsakFQ juahKQ	1000
+齷齪熱	otFQ tsakFQ juahKQ	1000
+ak-tsak-jua̍h	atFQ tsakFQ juahKQ	500
+ak-tsak-jua̍h	otFQ tsakFQ juahKQ	500
+本埠	pumSQ pooJE	1000
+pún-pōo	pumSQ pooJE	500
+目赤	botKE tshiahFE	1000
+目赤	batKE tshiahFE	1000
+ba̍k-tshiah	botKE tshiahFE	500
+ba̍k-tshiah	batKE tshiahFE	500
+目睭掩	botKE tsiuAE iamSR	1000
+目睭掩	batKE tsiuAE iamSR	1000
+ba̍k-tsiu-iám	botKE tsiuAE iamSR	500
+ba̍k-tsiu-iám	batKE tsiuAE iamSR	500
+囡仔王	ginSQ naSQ ongGW	1000
+gín-á-ông	ginSQ naSQ ongGW	500
+囡仔頭	ginSQ naSQ thauGW	1000
+gín-á-thâu	ginSQ naSQ thauGW	500
+毒心	topKE simAQ	1000
+to̍k-sim	topKE simAQ	500
+萬不二	bamJE putFQ jiJE	1000
+bān-put-jī	bamJE putFQ jiJE	500
+電批	tiamJE pheAQ	1000
+tiān-phe	tiamJE pheAQ	500
+電批	tiamJE phueAQ	1000
+tiān-phue	tiamJE phueAQ	200
+相耽誤	sioAE tamAE booJE	1000
+sio-tam-gōo	sioAE tamAE booJE	500
+大𡳞脬	tuaJE lamJE phaAQ	1000
+大膦脬	tuaJE lamJE phaAQ	250
+大𡳞葩	tuaJE lamJE phaAQ	200
+大膦葩	tuaJE lamJE phaAQ	150
+tuā-lān-pha	tuaJE lamJE phaAQ	500
+足心願	tsiokFQ simAE buanJE	1000
+足心願	tsiopFQ simAE guanJE	1000
+tsiok-sim-guān	tsiokFQ simAE buanJE	500
+tsiok-sim-guān	tsiopFQ simAE guanJE	500
+產品	samSQ phinSR	1000
+sán-phín	samSQ phinSR	500
+音樂	imAE bakKQ	1000
+im-ga̍k	imAE bakKQ	500
+品牌	phimSQ paiGW	1000
+phín-pâi	phimSQ paiGW	500
+角度	kotFQ tooJE	1000
+角度	katFQ tooJE	1000
+kak-tōo	kotFQ tooJE	500
+kak-tōo	katFQ tooJE	500
+金額	kimAE biahKQ	1000
+kim-gia̍h	kimAE biahKQ	500
+轉播	tsuamSQ pooDE	1000
+tsuân-pōo	tsuamGE pooJE	500
+陸續	liopKE siokKQ	1000
+lio̍k-sio̍k	liopKE siokKQ	500
+促銷	tshiopFQ siauAQ	1000
+tshiok-siau	tshiopFQ siauAQ	500
+學者	hotKE tsiaSR	1000
+學者	hatKE tsiaSR	1000
+ha̍k-tsiá	hotKE tsiaSR	500
+ha̍k-tsiá	hatKE tsiaSR	500
+樂團	gatKE thuanGW	1000
+樂團	gotKE thuanGW	1000
+ga̍k-thuân	gatKE thuanGW	500
+ga̍k-thuân	gotKE thuanGW	500
+唱片	tshionmDQ phinnDE	1000
+tshiònn-phìnn	tshionmDQ phinnDE	500
+特質	tatKE tsitFE	1000
+特質	totKE tsitFE	1000
+ta̍k-tsit	tatKE tsitFE	150
+ta̍k-tsit	totKE tsitFE	150
+東南亞	tangAE lamGE maAQ	1000
+Tang-lâm-a	tangAE lamGE maAQ	500
+東南亞	tongAE lamGE maAQ	1000
+Tong-lâm-a	tongAE lamGE maAQ	200
+環保	khuamGE poSR	1000
+khuân-pó	khuamGE poSR	500
+環保	huamGE poSR	1000
+huân-pó	huamGE poSR	200
+版本	pamSQ punSR	1000
+pán-pún	pamSQ punSR	500
+核心	hepKE simAQ	1000
+he̍k-sim	hepKE simAQ	500
+特性	tepKE sengDE	1000
+te̍k-sèng	tepKE sengDE	500
+特性	tapKE sengDE	1000
+ta̍k-sèng	tapKE sengDE	150
+幹部	kamDQ pooJE	1000
+kàn-pōo	kamDQ pooJE	500
+落實	lopKE sitKQ	1000
+lo̍k-si̍t	lopKE sitKQ	500
+服飾	hopKE sekFE	1000
+ho̍k-sek	hopKE sekFE	500
+特定	tatKE tengJE	1000
+特定	totKE tengJE	1000
+ta̍k-tēng	tatKE tengJE	150
+ta̍k-tēng	totKE tengJE	150
+頻頻	pimGE pinGW	1000
+pîn-pîn	pimGE pinGW	500
+復甦	hopKE sooAQ	1000
+ho̍k-soo	hopKE sooAQ	500
+屬性	siopKE sengDE	1000
+sio̍k-sèng	siopKE sengDE	500
+國產	kopFQ sanSR	1000
+kok-sán	kopFQ sanSR	500
+身邊	simAE pinnAQ	1000
+sin-pinn	simAE pinnAQ	500
+樂章	gatKE tsiongAQ	1000
+樂章	gotKE tsiongAQ	1000
+ga̍k-tsiong	gatKE tsiongAQ	500
+ga̍k-tsiong	gotKE tsiongAQ	500
+特徵	tatKE tengAQ	1000
+特徵	totKE tengAQ	1000
+ta̍k-teng	tatKE tengAQ	150
+ta̍k-teng	totKE tengAQ	150
+分泌	humAE piDE	1000
+hun-pì	humAE piDE	500
+分泌	pumAE piDE	1000
+pun-pì	pumAE piDE	200
+研判	giamSQ phuannDE	1000
+gián-phuànn	giamSQ phuannDE	500
+國小	kopFQ sioSR	1000
+kok-sió	kopFQ sioSR	500
+縮小	sopFQ sioSR	1000
+sok-sió	sopFQ sioSR	500
+促使	tshiopFQ suSR	1000
+tshiok-sú	tshiopFQ suSR	500
+曲線	khiopFQ suannDE	1000
+曲綫	khiopFQ suannDE	250
+khiok-suànn	khiopFQ suannDE	500
+神秘	simGE piDE	1000
+sîn-pì	simGE piDE	500
+國產車	kopFQ sanSQ tshiaAQ	1000
+kok-sán-tshia	kopFQ sanSQ tshiaAQ	500
+病房	penmJE pangGW	1000
+pēnn-pâng	penmJE pangGW	500
+傳播	thuamGE pooDE	1000
+thuân-pòo	thuamGE pooDE	500
+傳播	thuamGE poDE	1000
+thuân-pò	thuamGE poDE	200
+傳播	tshuamGE pooDE	1000
+tshuân-pòo	tshuamGE pooDE	150
+傳播	tshuamGE poDE	1000
+tshuân-pò	tshuamGE poDE	80
+祝壽	tsiopFQ siuJE	1000
+tsiok-siū	tsiopFQ siuJE	500
+廠房	tshionmSQ pangGW	1000
+tshiónn-pâng	tshionmSQ pangGW	500
+全部	tsuamGE pooJE	1000
+tsuán-pòo	tsuamSQ pooDE	500
+轉播	tsuamSQ poDE	1000
+tsuán-pò	tsuamSQ poDE	200
+分佈	humAE pooDE	1000
+hun-pòo	humAE pooDE	500
+分辨	humAE pianJE	1000
+hun-piān	humAE pianJE	500
+病變	penmJE pianDE	1000
+pēnn-piàn	penmJE pianDE	500
+申報	simAE poDE	1000
+sin-pò	simAE poDE	500
+陳皮	timGE phiGW	1000
+tîn-phî	timGE phiGW	500
+簡報	kamSQ poDE	1000
+kán-pò	kamSQ poDE	500
+毒性	topKE sengDE	1000
+to̍k-sèng	topKE sengDE	500
+特點	totKE tiamSR	1000
+特點	tatKE tiamSR	1000
+ta̍k-tiám	totKE tiamSR	150
+ta̍k-tiám	tatKE tiamSR	150
+國稅局	kopFQ sueDQ kiokKQ	1000
+Kok-suè-kio̍k	kopFQ sueDQ kiokKQ	500
+產房	samSQ pangGW	1000
+sán-pâng	samSQ pangGW	500
+廠牌	tshionmSQ paiGW	1000
+tshiónn-pâi	tshionmSQ paiGW	500
+複賽	hopKE saiDE	1000
+ho̍k-sài	hopKE saiDE	500
+奔波	pumAE phoAQ	1000
+pun-pho	pumAE phoAQ	500
+宿舍	sopFQ siaDE	1000
+sok-sià	sopFQ siaDE	500
+宿舍	siopFQ siaDE	1000
+siok-sià	siopFQ siaDE	200
+復仇	hopKE siuGW	1000
+ho̍k-siû	hopKE siuGW	500
+鏡片	kianmDQ phinnDE	1000
+kiànn-phìnn	kianmDQ phinnDE	500
+sió-ha̍k-seng	sioSQ hapKE sengAQ	500
+部編本	pooJE piamAE punSR	1000
+Pōo-pian-pún	pooJE piamAE punSR	500
+福壽螺	hopFQ siuJE leGW	1000
+hok-siū-lê	hopFQ siuJE leGW	500
+山坡地	suanmAE phoAE teJE	1000
+suann-pho-tē	suanmAE phoAE teJE	500
+反駁	huamSQ pokFE	1000
+huán-pok	huamSQ pokFE	500
+促成	tshiopFQ sengGW	1000
+tshiok-sêng	tshiopFQ sengGW	500
+城堡	sianmGE poSR	1000
+siânn-pó	sianmGE poSR	500
+原版	guamGE panSR	1000
+guân-pán	guamGE panSR	500
+影本	ianmSQ punSR	1000
+iánn-pún	ianmSQ punSR	500
+輻射	hopFQ siaJE	1000
+hok-siā	hopFQ siaJE	500
+文筆	bumGE pitFE	1000
+bûn-pit	bumGE pitFE	500
+生平	senmAE pengGW	1000
+senn-pêng	senmAE pengGW	200
+林業	limGE biapKQ	1000
+lîm-gia̍p	limGE biapKQ	500
+革新	kepFQ sinAQ	1000
+kek-sin	kepFQ sinAQ	500
+弱勢	jiopKE seDE	1000
+jio̍k-sè	jiopKE seDE	500
+散步	samDQ pooJE	1000
+sàn-pōo	samDQ pooJE	500
+電波	tiamJE phoAQ	1000
+tiān-pho	tiamJE phoAQ	500
+寬頻	khuamAE pinGW	1000
+khuan-pîn	khuamAE pinGW	500
+樂壇	gotKE tuannGW	1000
+樂壇	gatKE tuannGW	1000
+ga̍k-tuânn	gotKE tuannGW	500
+ga̍k-tuânn	gatKE tuannGW	500
+獎品	tsionmSQ phinSR	1000
+tsiónn-phín	tsionmSQ phinSR	200
+編排	piamAE paiGW	1000
+pian-pâi	piamAE paiGW	500
+戰備	tsiamDQ piJE	1000
+tsiàn-pī	tsiamDQ piJE	500
+工讀生	kangAE thopKE sengAQ	1000
+kang-tho̍k-seng	kangAE thopKE sengAQ	500
+工讀生	kangAE thopKE sennAQ	1000
+kang-tho̍k-senn	kangAE thopKE sennAQ	200
+公德心	kongAE tepFQ simAQ	1000
+kong-tek-sim	kongAE tepFQ simAQ	500
+百分比	pahFQ humAE piSR	1000
+pah-hun-pí	pahFQ humAE piSR	500
+官兵	kuanmAE pengAQ	1000
+kuann-peng	kuanmAE pengAQ	500
+宣判	suamAE phuannDE	1000
+suan-phuànn	suamAE phuannDE	500
+約束	iopFQ sokFE	1000
+iok-sok	iopFQ sokFE	500
+特產	tepKE sanSR	1000
+te̍k-sán	tepKE sanSR	500
+特產	tapKE sanSR	1000
+ta̍k-sán	tapKE sanSR	150
+特種	totKE tsiongSR	1000
+特種	tatKE tsiongSR	1000
+ta̍k-tsióng	totKE tsiongSR	150
+ta̍k-tsióng	tatKE tsiongSR	150
+散佈	samDQ pooDE	1000
+sàn-pòo	samDQ pooDE	500
+樂手	gatKE tshiuSR	1000
+樂手	gotKE tshiuSR	1000
+ga̍k-tshiú	gatKE tshiuSR	500
+ga̍k-tshiú	gotKE tshiuSR	500
+選罷法	suamSQ paJE huatFE	1000
+suán-pā-huat	suamSQ paJE huatFE	500
+分貝	humAE pueDE	1000
+hun-puè	humAE pueDE	500
+新版	simAE panSR	1000
+sin-pān	simAE panJE	500
+完備	uamGE piJE	1000
+uân-pī	uamGE piJE	500
+肝病	kuanmAE pennJE	1000
+kuann-pēnn	kuanmAE pennJE	500
+初學者	tshooAE hotKE tsiaSR	1000
+初學者	tshooAE hatKE tsiaSR	1000
+tshoo-ha̍k-tsiá	tshooAE hotKE tsiaSR	500
+tshoo-ha̍k-tsiá	tshooAE hatKE tsiaSR	500
+軍備	kumAE piJE	1000
+kun-pī	kumAE piJE	500
+健保	kiamJE poSR	1000
+kiān-pó	kiamJE poSR	500
+審議	simSQ biJE	1000
+sím-gī	simSQ biJE	500
+學長	hotKE tionnSR	1000
+學長	hatKE tionnSR	1000
+ha̍k-tiónn	hotKE tionnSR	500
+ha̍k-tiónn	hatKE tionnSR	500
+學長	hatKE tiongSR	1000
+學長	hotKE tiongSR	1000
+ha̍k-tióng	hatKE tiongSR	200
+ha̍k-tióng	hotKE tiongSR	200
+學說	hapKE suatFE	1000
+ha̍k-suat	hapKE suatFE	500
+辨別	piamJE piatKQ	1000
+piān-pia̍t	piamJE piatKQ	500
+聯邦	liamGE pangAQ	1000
+liân-pang	liamGE pangAQ	500
+簡便	kamSQ pianJE	1000
+kán-piān	kamSQ pianJE	500
+山坡	suanmAE phoAQ	1000
+suann-pho	suanmAE phoAQ	500
+內分泌	laiJE humAE piDE	1000
+lāi-hun-pì	laiJE humAE piDE	500
+本票	pumSQ phioDE	1000
+pún-phiò	pumSQ phioDE	500
+免不了	miamSQ putFQ liauSR	1000
+mián-put-liáu	miamSQ putFQ liauSR	500
+免不了	biamSQ putFQ liauSR	1000
+bián-put-liáu	biamSQ putFQ liauSR	200
+岸邊	huanmJE pinnAQ	1000
+huānn-pinn	huanmJE pinnAQ	500
+南亞	lamGE maAQ	1000
+Lâm-a	lamGE maAQ	500
+南亞	lamGE maDE	1000
+Lâm-à	lamGE maDE	200
+毒素	topKE sooDE	1000
+to̍k-sòo	topKE sooDE	500
+剝削	papFQ siahFE	1000
+pak-siah	papFQ siahFE	500
+特使	tepKE saiDE	1000
+te̍k-sài	tepKE saiDE	500
+特使	tapKE saiDE	1000
+ta̍k-sài	tapKE saiDE	150
+特首	tepKE siuSR	1000
+te̍k-siú	tepKE siuSR	500
+特首	tapKE siuSR	1000
+ta̍k-siú	tapKE siuSR	150
+唱盤	tshionmDQ puannGW	1000
+tshiònn-puânn	tshionmDQ puannGW	500
+塑身	sopFQ sinAQ	1000
+sok-sin	sopFQ sinAQ	500
+煎餅	tsiamAE piannSR	1000
+tsian-piánn	tsiamAE piannSR	500
+遍佈	piamDQ pooDE	1000
+piàn-pòo	piamDQ pooDE	500
+遍佈	phiamDQ pooDE	1000
+phiàn-pòo	phiamDQ pooDE	200
+頒佈	pamAE pooDE	1000
+pan-pòo	pamAE pooDE	500
+獎牌	tsionmSQ paiGW	1000
+tsiónn-pâi	tsionmSQ paiGW	200
+親筆	tshimAE pitFE	1000
+tshin-pit	tshimAE pitFE	500
+聯播	liamGE pooDE	1000
+liân-pòo	liamGE pooDE	500
+聯播	liamGE poDE	1000
+liân-pò	liamGE poDE	200
+天邊	thinmAE pinnAQ	1000
+thinn-pinn	thinmAE pinnAQ	500
+音樂聲	imAE bakKE siannAQ	1000
+音樂聲	imAE gapKE siannAQ	1000
+im-ga̍k-siann	imAE bakKE siannAQ	500
+im-ga̍k-siann	imAE gapKE siannAQ	500
+乾杯	kamAE pueAQ	1000
+kan-pue	kamAE pueAQ	500
+讀書	thatKE tsuAQ	1000
+讀書	thotKE tsuAQ	1000
+tha̍k-tsu	thatKE tsuAQ	500
+tha̍k-tsu	thotKE tsuAQ	500
+規半晡	kuiAE puanmDQ pooAQ	1000
+kui-puànn-poo	kuiAE puanmDQ pooAQ	500
+經布	kinmAE pooDE	1000
+kinn-pòo	kinmAE pooDE	500
+經布	kenmAE pooDE	1000
+kenn-pòo	kenmAE pooDE	200
+孫新婦	sunAE simAE puJE	1000
+sun-sin-pū	sunAE simAE puJE	500
+平棒	penmGE pangJE	1000
+pênn-pāng	penmGE pangJE	500
+木師	bapKE saiAQ	1000
+ba̍k-sai	bapKE saiAQ	500
+木匠師	botKE tshionnJE saiAQ	1000
+木匠師	batKE tshionnJE saiAQ	1000
+ba̍k-tshiōnn-sai	botKE tshionnJE saiAQ	500
+ba̍k-tshiōnn-sai	batKE tshionnJE saiAQ	500
+險險仔	hiamSQ hiamSQ maSR	1000
+hiám-hiám-á	hiamSQ hiamSQ maSR	500
+賞兵	sionmSQ pengAQ	1000
+siónn-peng	sionmSQ pengAQ	500
+目神	bapKE sinGW	1000
+ba̍k-sîn	bapKE sinGW	500
+嬤孫仔	maSQ sunAE naSR	1000
+媽孫仔	maSQ sunAE naSR	250
+má-sun-á	maSQ sunAE naSR	500
+辟邪	phepFQ siaGW	1000
+phek-siâ	phepFQ siaGW	500
+規山坪	kuiAE suanmAE pennGW	1000
+kui-suann-pênn	kuiAE suanmAE pennGW	500
+規山坪	kuiAE suanmAE phiannGW	1000
+kui-suann-phiânn	kuiAE suanmAE phiannGW	200
+洛神	lopKE sinGW	1000
+lo̍k-sîn	lopKE sinGW	500
+洛神花	lopKE sinGE huaAQ	1000
+lo̍k-sîn-hua	lopKE sinGE huaAQ	500
+運搬	umJE puannAQ	1000
+ūn-puann	umJE puannAQ	500
+半醒半睏	puannDQ tshenmSQ puannDQ khunDE	1000
+puànn-tshénn-puànn-khùn	puannDQ tshenmSQ puannDQ khunDE	500
+韌布布	jumJE pooDQ pooDE	1000
+jūn-pòo-pòo	jumJE pooDQ pooDE	500
+韌布布	lumJE pooDQ pooDE	1000
+lūn-pòo-pòo	lumJE pooDQ pooDE	200
+半身不遂	puanDQ simAE putFQ suiJE	1000
+puàn-sin-put-suī	puanDQ simAE putFQ suiJE	500
+半身不隨	puanDQ simAE putFQ suiGW	1000
+puàn-sin-put-suî	puanDQ simAE putFQ suiGW	500
+目彩	botKE tshaiSR	1000
+目彩	batKE tshaiSR	1000
+ba̍k-tshái	botKE tshaiSR	500
+ba̍k-tshái	batKE tshaiSR	500
+使性搦地	saiSQ sengDQ lotKE teJE	1000
+使性搦地	saiSQ sengDQ latKE teJE	1000
+sái-sèng-la̍k-tē	saiSQ sengDQ lotKE teJE	500
+sái-sèng-la̍k-tē	saiSQ sengDQ latKE teJE	500
+剔斥	thotFQ thekFE	1000
+剔斥	thatFQ thekFE	1000
+thak-thek	thotFQ thekFE	500
+thak-thek	thatFQ thekFE	500
+壓落性	apFQ lopKE sengDE	1000
+ap-lo̍k-sèng	apFQ lopKE sengDE	80
+壓落性	apFQ lapFQ sengDE	1000
+ap-lak-sèng	apFQ lapFQ sengDE	40
+省本	senmSQ punSR	1000
+sénn-pún	senmSQ punSR	500
+一半擺	tsitKE puanmDQ paiSR	1000
+tsi̍t-puànn-pái	tsitKE puanmDQ paiSR	500
+萬不一	bamJE putFQ itFE	1000
+bān-put-it	bamJE putFQ itFE	500
+學識	hapKE sekFE	1000
+ha̍k-sek	hapKE sekFE	500
+囡仔伴	ginSQ naSQ phuannJE	1000
+gín-á-phuānn	ginSQ naSQ phuannJE	500
+平波波	penmGE phoAE phoAQ	1000
+pênn-pho-pho	penmGE phoAE phoAQ	500
+半病	puamDQ pennJE	1000
+puàn-pēnn	puamDQ pennJE	500
+半病仔	puamDQ pennJE aSR	1000
+puàn-pēnn-á	puamDQ pennJE aSR	500
+複審	hopKE simSR	1000
+ho̍k-sím	hopKE simSR	500
+約定俗成	iokFQ tengJE siopKE sengGW	1000
+iok-tēng-sio̍k-sêng	iokFQ tengJE siopKE sengGW	500
+農產品	longGE samSQ phinSR	1000
+lông-sán-phín	longGE samSQ phinSR	500
+平輩	penmGE pueDE	1000
+pênn-puè	penmGE pueDE	500
+半票	puanmDQ phioDE	1000
+puànn-phiò	puanmDQ phioDE	500
+時間表	siGE kamAE pioSR	1000
+sî-kan-pió	siGE kamAE pioSR	500
+縮寫	sopFQ siaSR	1000
+sok-siá	sopFQ siaSR	500
+正牌	tsianmDQ paiGW	1000
+tsiànn-pâi	tsianmDQ paiGW	500
+爭辯	tsenmAE pianJE	1000
+tsenn-piān	tsenmAE pianJE	500
+全票	tsuamGE phioDE	1000
+tsuân-phiò	tsuamGE phioDE	500
+搧腹肚邊	siamDQ pakFQ tooSQ pinnAQ	1000
+搧腹肚邊	sianDQ patFQ tooSQ pinnAQ	1000
+搧腹肚邊	sianDQ potFQ tooSQ pinnAQ	1000
+siàn-pak-tóo-pinn	siamDQ pakFQ tooSQ pinnAQ	500
+siàn-pak-tóo-pinn	sianDQ patFQ tooSQ pinnAQ	500
+siàn-pak-tóo-pinn	sianDQ potFQ tooSQ pinnAQ	500
+三角六尖	sannAE kakFQ latKE tsiamAQ	1000
+三角六尖	sannAE kakFQ lotKE tsiamAQ	1000
+sann-kak-la̍k-tsiam	sannAE kakFQ latKE tsiamAQ	500
+sann-kak-la̍k-tsiam	sannAE kakFQ lotKE tsiamAQ	500
+溫瓶	umAE panGW	1000
+un-pân	umAE panGW	500
+囡仔古	ginSQ naSQ kooSR	1000
+gín-á-kóo	ginSQ naSQ kooSR	500
+上範	tsionmJE panJE	1000
+tsiōnn-pān	tsionmJE panJE	500
+囡仔物	ginSQ naSQ mihKQ	1000
+gín-á-mi̍h	ginSQ naSQ mihKQ	500
+囡仔耍	ginSQ naSQ sngSR	1000
+gín-á-sńg	ginSQ naSQ sngSR	500
+囡仔話	ginSQ naSQ uaJE	1000
+gín-á-uā	ginSQ naSQ uaJE	500
+沃田	otFQ tshanGW	1000
+沃田	atFQ tshanGW	1000
+ak-tshân	otFQ tshanGW	500
+ak-tshân	atFQ tshanGW	500
+慢步	bamJE pooJE	1000
+bān-pōo	bamJE pooJE	500
+水捘仔	tsuiSQ tsunJE naSR	1000
+tsuí-tsūn-á	tsuiSQ tsunJE naSR	500
+偏僻話	phiamAE phiahFQ uaJE	1000
+phian-phiah-uā	phiamAE phiahFQ uaJE	500
+落站	lotFQ tsamJE	1000
+落站	latFQ tsamJE	1000
+lak-tsām	lotFQ tsamJE	500
+lak-tsām	latFQ tsamJE	500
+落人喙唇皮	lohKQ langGW tshuiDQ tumGE phueGW	1000
+落人嘴唇皮	lohKQ langGW tshuiDQ tumGE phueGW	250
+落人喙脣皮	lohKQ langGW tshuiDQ tumGE phueGW	200
+落人嘴脣皮	lohKQ langGW tshuiDQ tumGE phueGW	150
+lo̍h lâng tshuì-tûn-phuê	lohKQ langGW tshuiDQ tumGE phueGW	500
+慄色	lepFQ sekFE	1000
+lek-sek	lepFQ sekFE	500
+面慄色	binJE lepFQ sekFE	1000
+bīn-lek-sek	binJE lepFQ sekFE	500
+投影片	tauGE ianmSQ phinnDE	1000
+tâu-iánn-phìnn	tauGE ianmSQ phinnDE	500
+特製	tatKE tseDE	1000
+特製	totKE tseDE	1000
+ta̍k-tsè	tatKE tseDE	150
+ta̍k-tsè	totKE tseDE	150
+畜產	thiopFQ sanSR	1000
+thiok-sán	thiopFQ sanSR	500
+liû-ha̍k-seng	liuGE hapKE sengAQ	500
+加護病房	kaAE hooJE penmJE pangGW	1000
+ka-hōo pēnn-pâng	kaAE hooJE penmJE pangGW	500
+工作室	kangAE tsopFQ sekFE	1000
+kang-tsok-sek	kangAE tsopFQ sekFE	500
+交易所	kauAE epKE sooSR	1000
+kau-e̍k-sóo	kauAE epKE sooSR	500
+健保卡	kiamJE poSQ katKQ	1000
+kiān-pó-ka̍t	kiamJE poSQ katKQ	500
+健身房	kianJE simAE pangGW	1000
+kiān-sin-pâng	kianJE simAE pangGW	500
+激素	kepFQ sooDE	1000
+kek-sòo	kepFQ sooDE	500
+銀牌	gimGE paiGW	1000
+gîn-pâi	gimGE paiGW	500
+銀幣	gimGE peDE	1000
+gîn-pè	gimGE peDE	500
+原配	guamGE phueDE	1000
+guân-phuè	guamGE phueDE	500
+蟳仔座	tsimGE maSQ tsoJE	1000
+tsîm-á-tsō	tsimGE maSQ tsoJE	500
+秤仔座	tshinDQ naSQ tsoJE	1000
+稱仔座	tshinDQ naSQ tsoJE	250
+tshìn-á-tsō	tshinDQ naSQ tsoJE	500
+蠍仔座	giatFQ laSQ tsoJE	1000
+giat-á-tsō	giatFQ laSQ tsoJE	500
+烏漉心	ooAE lopFQ simAQ	1000
+oo-lok-sim	ooAE lopFQ simAQ	500
+鴉片泡	aAE phiamDQ phaDE	1000
+a-phiàn-phà	aAE phiamDQ phaDE	500
+沃欉	otFQ tsangGW	1000
+沃欉	atFQ tsangGW	1000
+ak-tsâng	otFQ tsangGW	500
+ak-tsâng	atFQ tsangGW	500
+安佛座	amAQ putKE tseJE	1000
+an pu̍t-tsē	amAQ putKE tseJE	200
+目珠紅	botKE tsiuAQ angGW	1000
+目珠紅	batKE tsiuAQ angGW	1000
+ba̍k-tsiu âng	botKE tsiuAQ angGW	500
+ba̍k-tsiu âng	batKE tsiuAQ angGW	500
+目珠屎	batKE tsiuAE saiSR	1000
+目珠屎	botKE tsiuAE saiSR	1000
+ba̍k-tsiu-sái	batKE tsiuAE saiSR	500
+ba̍k-tsiu-sái	botKE tsiuAE saiSR	500
+目屎針	bapKE saiSQ tsiamAQ	1000
+ba̍k-sái-tsiam	bapKE saiSQ tsiamAQ	500
+目屎針	bapKE saiSQ tsamAQ	1000
+ba̍k-sái-tsam	bapKE saiSQ tsamAQ	200
+木心	bopKE simAQ	1000
+bo̍k-sim	bopKE simAQ	500
+灶君牌	tsauDQ kumAE paiGW	1000
+tsàu-kun-pâi	tsauDQ kumAE paiGW	500
+簪仔	tsiamAE maSR	1000
+tsiam-á	tsiamAE maSR	500
+磚壁	tsuinmAE piahFE	1000
+tsuinn-piah	tsuinmAE piahFE	500
+船邊	tsumGE pinnAQ	1000
+tsûn-pinn	tsumGE pinnAQ	500
+青寶石	tshenmAE poSQ tsiohKQ	1000
+tshenn-pó-tsio̍h	tshenmAE poSQ tsiohKQ	500
+青皮囝	tshenmAE phueGE kiannSR	1000
+tshenn-phuê-kiánn	tshenmAE phueGE kiannSR	500
+唱盤機	tshionmDQ puannGE kiAQ	1000
+tshiònn-puânn-ki	tshionmDQ puannGE kiAQ	500
+𠢕讀冊	gauGE thotKE tsheehFE	1000
+𠢕讀冊	gauGE thatKE tsheehFE	1000
+爻讀冊	gauGE thotKE tsheehFE	250
+爻讀冊	gauGE thatKE tsheehFE	250
+敖讀冊	gauGE thotKE tsheehFE	200
+敖讀冊	gauGE thatKE tsheehFE	200
+gâu-tha̍k-tsheeh	gauGE thotKE tsheehFE	500
+gâu-tha̍k-tsheeh	gauGE thatKE tsheehFE	500
+驗目珠	giamJE batKE tsiuAQ	1000
+驗目珠	giamJE botKE tsiuAQ	1000
+giām-ba̍k-tsiu	giamJE batKE tsiuAQ	500
+giām-ba̍k-tsiu	giamJE botKE tsiuAQ	500
+蠍仔蟲	giatFQ laSQ thangGW	1000
+giat-á-thâng	giatFQ laSQ thangGW	500
+銀箔	gimGE pohKQ	1000
+gîn-po̍h	gimGE pohKQ	500
+囡仔椅	ginSQ naSQ iSR	1000
+gín-á-í	ginSQ naSQ iSR	500
+囡仔間	ginSQ naSQ kengAQ	1000
+gín-á-keng	ginSQ naSQ kengAQ	500
+囡仔骹車	ginSQ naSQ khaAE tshiaAQ	1000
+囡仔跤車	ginSQ naSQ khaAE tshiaAQ	250
+囡仔腳車	ginSQ naSQ khaAE tshiaAQ	200
+gín-á-kha-tshia	ginSQ naSQ khaAE tshiaAQ	500
+囡仔帛	ginSQ naSQ peehKQ	1000
+gín-á-pe̍eh	ginSQ naSQ peehKQ	500
+元寶	guamGE poSR	1000
+guân-pó	guamGE poSR	500
+杏仁餅	hengJE jimGE piannSR	1000
+hēng-jîn-piánn	hengJE jimGE piannSR	500
+荷蘭牌	hooGE lamAE paiGW	1000
+Hôo-lan-pâi	hooGE lamAE paiGW	500
+荷蘭牌	hoGE lamAE paiGW	1000
+Hô-lan-pâi	hoGE lamAE paiGW	200
+番仔冊	huanAE naSQ tsheehFE	1000
+huan-á-tsheeh	huanAE naSQ tsheehFE	500
+番仔正	huanAE naSQ tsiannAQ	1000
+huan-á-tsiann	huanAE naSQ tsiannAQ	500
+番仔柑榜	huanAE naSQ kamSQ poungAQ	1000
+huan-á-kám-poung	huanAE naSQ kamSQ poungAQ	500
+番仔囝	huanAE naSQ kiannSR	1000
+huan-á-kiánn	huanAE naSQ kiannSR	500
+番仔金	huanAE naSQ kimAQ	1000
+huan-á-kim	huanAE naSQ kimAQ	500
+番仔區	huanAE naSQ khuAQ	1000
+huan-á-khu	huanAE naSQ khuAQ	500
+番仔話	huanAE naSQ uaJE	1000
+huan-á-uā	huanAE naSQ uaJE	500
+番旁人	huamAE pengGE langGW	1000
+番爿人	huamAE pengGE langGW	250
+huan-pêng-lâng	huamAE pengGE langGW	500
+翻反	huamAE pengSR	1000
+huan-péng	huamAE pengSR	500
+鉛筆盒	iamGE pitFQ ahKQ	1000
+iân-pit-a̍h	iamGE pitFQ ahKQ	500
+鉛筆盒	iamGE pitFQ apKQ	1000
+iân-pit-a̍p	iamGE pitFQ apKQ	200
+鉛筆黜	iamGE pitFQ thutFE	1000
+iân-pit-thut	iamGE pitFQ thutFE	500
+日本仔人	jitKE punSQ naSQ langGW	1000
+Ji̍t-pún-á-lâng	jitKE punSQ naSQ langGW	500
+日本仔話	jitKE punSQ naSQ uaJE	1000
+Ji̍t-pún-á-uā	jitKE punSQ naSQ uaJE	500
+日本仔淺拖	jitKE punSQ naSR tshianSQ thuaAQ	1000
+Ji̍t-pún-á tshián-thua	jitKE punSQ naSR tshianSQ thuaAQ	500
+日本仔點聲	jitKE punSQ naSR tiamSQ siannAQ	1000
+Ji̍t-pún-á tiám-siann	jitKE punSQ naSR tiamSQ siannAQ	500
+雞角車	keAE kotFQ tshiaAQ	1000
+雞角車	keAE katFQ tshiaAQ	1000
+鷄角車	keAE kotFQ tshiaAQ	250
+鷄角車	keAE katFQ tshiaAQ	250
+ke-kak-tshia	keAE kotFQ tshiaAQ	500
+ke-kak-tshia	keAE katFQ tshiaAQ	500
+驚肥	kianmAE puiGW	1000
+kiann-puî	kianmAE puiGW	500
+金玉滿堂	kimAE bekKQ muaSQ tngGW	1000
+kim-ge̍k muá-tn̂g	kimAE bekKQ muaSQ tngGW	500
+金玉滿堂	kimAE biokKE buanSQ tongGW	1000
+kim-gio̍k-buán-tông	kimAE biokKE buanSQ tongGW	200
+妗仔	kimJE maSR	1000
+kīm-á	kimJE maSR	500
+㢨仔	konDQ naSR	1000
+kòn-á	konDQ naSR	500
+㢨仔火	konDQ naSQ hueSR	1000
+kòn-á-hué	konDQ naSQ hueSR	500
+群薄	kumGE pohKQ	1000
+kûn-po̍h	kumGE pohKQ	500
+崁目珠	khamDQ botKE tsiuAQ	1000
+崁目珠	khamDQ batKE tsiuAQ	1000
+khàm-ba̍k-tsiu	khamDQ botKE tsiuAQ	500
+khàm-ba̍k-tsiu	khamDQ batKE tsiuAQ	500
+看飯	khuanmDQ puinnJE	1000
+khuànn-puīnn	khuanmDQ puinnJE	500
+開目珠	khuiAE batKE tsiuAQ	1000
+開目珠	khuiAE botKE tsiuAQ	1000
+khui-ba̍k-tsiu	khuiAE batKE tsiuAQ	500
+khui-ba̍k-tsiu	khuiAE botKE tsiuAQ	500
+睏佛	khumDQ putKQ	1000
+khùn-pu̍t	khumDQ putKQ	200
+睏飽	khumDQ paSR	1000
+khùn-pá	khumDQ paSR	500
+睏半醒	khumDQ puannDQ tshennSR	1000
+khùn-puànn-tshénn	khumDQ puannDQ tshennSR	500
+叻沙姨	lapFQ saSQ iGW	1000
+lak-sá-î	lapFQ saSQ iGW	500
+落勢	lapKE seDE	1000
+la̍k-sè	lapKE seDE	500
+落勢面	lapKE seDQ binJE	1000
+la̍k-sè-bīn	lapKE seDQ binJE	500
+南傳佛教	lamGE thuamGW putKE kauDE	1000
+lâm-thuân pu̍t-kàu	lamGE thuamGW putKE kauDE	150
+南傳佛教	lamGE tshuamGW putKE kauDE	1000
+lâm-tshuân pu̍t-kàu	lamGE tshuamGW putKE kauDE	80
+南北朝	lamGE potFQ tiauGW	1000
+南北朝	lamGE patFQ tiauGW	1000
+lâm-pak-tiâu	lamGE potFQ tiauGW	500
+lâm-pak-tiâu	lamGE patFQ tiauGW	500
+留面皮	lauGE bimJE phueGW	1000
+lâu-bīn-phuê	lauGE bimJE phueGW	500
+啱啱好	gamAE bamAE hoSR	1000
+gam-gam-hó	gamAE bamAE hoSR	200
+學堂囡仔	ohKE tngGW ginSQ naSR	1000
+o̍h-tn̂g gín-á	ohKE tngGW ginSQ naSR	500
+惡心	opFQ simAQ	1000
+ok-sim	opFQ simAQ	500
+北傳佛教	patFQ thuanGW hutKE kauDE	1000
+北傳佛教	potFQ thuanGW hutKE kauDE	1000
+pak-thuân hu̍t-kàu	patFQ thuanGW hutKE kauDE	500
+pak-thuân hu̍t-kàu	potFQ thuanGW hutKE kauDE	500
+北傳佛教	patFQ tshuanGW hutKE kauDE	1000
+北傳佛教	potFQ tshuanGW hutKE kauDE	1000
+pak-tshuân hu̍t-kàu	patFQ tshuanGW hutKE kauDE	200
+pak-tshuân hu̍t-kàu	potFQ tshuanGW hutKE kauDE	200
+北傳佛教	pakFQ thuamGW putKE kauDE	1000
+北傳佛教	patFQ thuanGW putKE kauDE	1000
+北傳佛教	potFQ thuanGW putKE kauDE	1000
+pak-thuân pu̍t-kàu	pakFQ thuamGW putKE kauDE	150
+pak-thuân pu̍t-kàu	patFQ thuanGW putKE kauDE	150
+pak-thuân pu̍t-kàu	potFQ thuanGW putKE kauDE	150
+北傳佛教	potFQ tshuanGW putKE kauDE	1000
+北傳佛教	patFQ tshuanGW putKE kauDE	1000
+北傳佛教	pakFQ tshuamGW putKE kauDE	1000
+pak-tshuân pu̍t-kàu	potFQ tshuanGW putKE kauDE	80
+pak-tshuân pu̍t-kàu	patFQ tshuanGW putKE kauDE	80
+pak-tshuân pu̍t-kàu	pakFQ tshuamGW putKE kauDE	80
+縛手	patKE tshiuSR	1000
+縛手	potKE tshiuSR	1000
+pa̍k-tshiú	patKE tshiuSR	500
+pa̍k-tshiú	potKE tshiuSR	500
+縛𧘹	patKE taiSR	1000
+縛𧘹	potKE taiSR	1000
+pa̍k-tái	patKE taiSR	500
+pa̍k-tái	potKE taiSR	500
+贌食	patKE tsiahKQ	1000
+贌食	potKE tsiahKQ	1000
+pa̍k-tsia̍h	patKE tsiahKQ	500
+pa̍k-tsia̍h	potKE tsiahKQ	500
+贌車	potKE tshiaAQ	1000
+贌車	patKE tshiaAQ	1000
+pa̍k-tshia	potKE tshiaAQ	500
+pa̍k-tshia	patKE tshiaAQ	500
+包山包海	pauAE suanmAQ pauAE haiSR	1000
+pau-suann pau-hái	pauAE suanmAQ pauAE haiSR	500
+保長伯	poSQ tionmSQ peehFE	1000
+pó-tiónn-peeh	poSQ tionmSQ peehFE	500
+半斤八兩	puannDQ kimAQ pehFQ niooSR	1000
+puànn-kin peh-nióo	puannDQ kimAQ pehFQ niooSR	500
+半睏半醒	puannDQ khumDE puannDQ tshennSR	1000
+puànn-khùn puànn-tshénn	puannDQ khumDE puannDQ tshennSR	500
+半枋厝	puanmDQ pangAE tshuDE	1000
+半枋茨	puanmDQ pangAE tshuDE	250
+puànn-pang-tshù	puanmDQ pangAE tshuDE	500
+本坡	pumSQ phoAQ	1000
+pún-pho	pumSQ phoAQ	500
+拍散炮	phahFQ suanmSQ phauDE	1000
+phah-suánn-phàu	phahFQ suanmSQ phauDE	500
+否囡仔	phainnSQ ginSQ naSR	1000
+歹囡仔	phainnSQ ginSQ naSR	250
+pháinn-gín-á	phainnSQ ginSQ naSR	500
+否囡仔	phaiSQ ginSQ naSR	1000
+歹囡仔	phaiSQ ginSQ naSR	250
+phái-gín-á	phaiSQ ginSQ naSR	200
+否囝病	phainnSQ kianmSQ pennJE	1000
+歹囝病	phainnSQ kianmSQ pennJE	250
+pháinn-kiánn-pēnn	phainnSQ kianmSQ pennJE	500
+否囝病	phaiSQ kianmSQ pennJE	1000
+歹囝病	phaiSQ kianmSQ pennJE	250
+phái-kiánn-pēnn	phaiSQ kianmSQ pennJE	200
+曝衫架	phapKE sannAE keeDE	1000
+pha̍k-sann-kèe	phapKE sannAE keeDE	500
+抨飯	phenmAE puinnJE	1000
+phenn-puīnn	phenmAE puinnJE	500
+洒軵德士	saSQ puSQ tepFQ siSR	1000
+sá-pú-tek-sí	saSQ puSQ tepFQ siSR	500
+洒軵德士	saSQ puSQ teepFQ siSR	1000
+sá-pú-teek-sí	saSQ puSQ teepFQ siSR	200
+捒車	satFQ tshiaAQ	1000
+捒車	sotFQ tshiaAQ	1000
+sak-tshia	satFQ tshiaAQ	500
+sak-tshia	sotFQ tshiaAQ	500
+生囝旁	sennAE kianmSQ pengGW	1000
+生囝爿	sennAE kianmSQ pengGW	250
+senn-kiánn-pêng	sennAE kianmSQ pengGW	500
+四角豆	siDQ kotFQ tauJE	1000
+四角豆	siDQ katFQ tauJE	1000
+sì-kak-tāu	siDQ kotFQ tauJE	500
+sì-kak-tāu	siDQ katFQ tauJE	500
+四角桌	siDQ kotFQ tohFE	1000
+四角桌	siDQ katFQ tohFE	1000
+sì-kak-toh	siDQ kotFQ tohFE	500
+sì-kak-toh	siDQ katFQ tohFE	500
+摔誚	siapFQ sauAQ	1000
+siak-sau	siapFQ sauAQ	500
+摔性地	siapFQ sengDQ teJE	1000
+siak-sèng-tē	siapFQ sengDQ teJE	500
+暹仔	siamJE maSR	1000
+siām-á	siamJE maSR	500
+暹仔	siamGE maSR	1000
+siâm-á	siamGE maSR	200
+暹仔老君	siamJE maSQ loSQ kunAQ	1000
+siām-á-ló-kun	siamJE maSQ loSQ kunAQ	500
+暹仔老君	siamGE maSQ loSQ kunAQ	1000
+siâm-á-ló-kun	siamGE maSQ loSQ kunAQ	200
+暹仔藥粉	siamJE maSQ iohKE hunSR	1000
+siām-á-io̍h-hún	siamJE maSQ iohKE hunSR	500
+暹仔藥粉	siamGE maSQ iohKE hunSR	1000
+siâm-á-io̍h-hún	siamGE maSQ iohKE hunSR	200
+巡房	sumGE pangGW	1000
+sûn-pâng	sumGE pangGW	500
+德士	tepFQ siSR	1000
+tek-sí	tepFQ siSR	500
+德士	teepFQ siSR	1000
+teek-sí	teepFQ siSR	200
+硩腹肚	teehFQ patFQ tooSR	1000
+硩腹肚	teehFQ potFQ tooSR	1000
+迮腹肚	teehFQ patFQ tooSR	250
+迮腹肚	teehFQ potFQ tooSR	250
+笮腹肚	teehFQ patFQ tooSR	200
+笮腹肚	teehFQ potFQ tooSR	200
+teeh-pak-tóo	teehFQ patFQ tooSR	500
+teeh-pak-tóo	teehFQ potFQ tooSR	500
+店仔	tiamDQ maSR	1000
+tiàm-á	tiamDQ maSR	500
+大腹肚佛	tuaJE patFQ tooSQ hutKQ	1000
+大腹肚佛	tuaJE potFQ tooSQ hutKQ	1000
+tuā-pak-tóo-hu̍t	tuaJE patFQ tooSQ hutKQ	500
+tuā-pak-tóo-hu̍t	tuaJE potFQ tooSQ hutKQ	500
+大腹肚佛	tuaJE patFQ tooSQ putKQ	1000
+大腹肚佛	tuaJE potFQ tooSQ putKQ	1000
+tuā-pak-tóo-pu̍t	tuaJE patFQ tooSQ putKQ	200
+tuā-pak-tóo-pu̍t	tuaJE potFQ tooSQ putKQ	200
+讀冊音	thotKE tsheehFQ imAQ	1000
+讀冊音	thatKE tsheehFQ imAQ	1000
+tha̍k-tsheeh-im	thotKE tsheehFQ imAQ	500
+tha̍k-tsheeh-im	thatKE tsheehFQ imAQ	500
+讀冊桌	thatKE tsheehFQ tohFE	1000
+讀冊桌	thotKE tsheehFQ tohFE	1000
+tha̍k-tsheeh-toh	thatKE tsheehFQ tohFE	500
+tha̍k-tsheeh-toh	thotKE tsheehFQ tohFE	500
+趁獎品	thanDQ tsionmSQ phinSR	1000
+thàn-tsiónn-phín	thanDQ tsionmSQ phinSR	200
+脫藍	thuaFQ lamGW	1000
+thuat-lâm	thuaFQ lamGW	500
+黃皮	uinmGE phueGW	1000
+uînn-phuê	uinmGE phueGW	500
+百萬富翁	pahFQ bamJE puDQ ongAQ	1000
+pah-bān-pù-ong	pahFQ bamJE puDQ ongAQ	200
+角蕉	katFQ tsioAQ	1000
+角蕉	kotFQ tsioAQ	1000
+kak-tsio	katFQ tsioAQ	500
+kak-tsio	kotFQ tsioAQ	500
+分報紙	pumAE poDQ tsuaSR	1000
+pun-pò-tsuá	pumAE poDQ tsuaSR	500
+目沙	bapKE suaAQ	1000
+ba̍k-sua	bapKE suaAQ	500
+橫濱	huainmGE pinAQ	1000
+Huâinn-pin	huainmGE pinAQ	500
+格成	kepFQ sengGW	1000
+Kek-sêng	kepFQ sengGW	500
+新亞	sinAE naAQ	1000
+sin-a	sinAE naAQ	500
+新亞	sinAE naDE	1000
+sin-à	sinAE naDE	200
+唐詩三百首	tongGE siAE sanmAE pahFQ siuSR	1000
+Tông-si-sann-pah-siú	tongGE siAE sanmAE pahFQ siuSR	500
+宋詞三百首	songDQ suGE sanmAE pahFQ siuSR	1000
+Sòng-sû-sann-pah-siú	songDQ suGE sanmAE pahFQ siuSR	500
+福德祠	hokFQ tepFQ suGW	1000
+Hok-tek-sû	hokFQ tepFQ suGW	500
+封神榜	hongAE simGE pongSR	1000
+Hong-sîn-póng	hongAE simGE pongSR	500
+囡仔步	ginSQ naSQ pooJE	1000
+gín-á-pōo	ginSQ naSQ pooJE	500
+番旁	huamAE pengGW	1000
+番爿	huamAE pengGW	250
+番平	huamAE pengGW	200
+huan-pêng	huamAE pengGW	500
+柴木師	tshaGE bapKE suAQ	1000
+tshâ-ba̍k-su	tshaGE bapKE suAQ	500
+扚擉鉛筆	tikKQ tiakKQ iamGE pitFE	1000
+ti̍k tia̍k iân-pit	tikKQ tiakKQ iamGE pitFE	500
+半枋磚	puanmDQ pangAE tsuinnAQ	1000
+puànn-pang-tsuinn	puanmDQ pangAE tsuinnAQ	500
+嘜頭	batKE thauGW	1000
+嘜頭	botKE thauGW	1000
+沃欉飼魚	atFQ tsangGE tshiJE huGW	1000
+沃欉飼魚	otFQ tsangGE tshiJE huGW	1000
+ak-tsâng-tshī-hû	atFQ tsangGE tshiJE huGW	500
+ak-tsâng-tshī-hû	otFQ tsangGE tshiJE huGW	500
+曝衫	phapKE sannAQ	1000
+pha̍k-sann	phapKE sannAQ	500
+四蕊目珠	siDQ luiSR batKE tsiuAQ	1000
+四蕊目珠	siDQ luiSR botKE tsiuAQ	1000
+sì-luí ba̍k-tsiu	siDQ luiSR batKE tsiuAQ	500
+sì-luí ba̍k-tsiu	siDQ luiSR botKE tsiuAQ	500
+藍芠仔色	lamGE bunGE naSQ sekFE	1000
+lâm-bûn-á-sek	lamGE bunGE naSQ sekFE	500
+挼目珠	jueGW batKE tsiuAQ	1000
+挼目珠	jueGW botKE tsiuAQ	1000
+juê ba̍k-tsiu	jueGW batKE tsiuAQ	500
+juê ba̍k-tsiu	jueGW botKE tsiuAQ	500
+捽藤仔	sutFE tinGE naSR	1000
+sut tîn-á	sutFE tinGE naSR	500
+捒出去	satFE tshutFE khiDE	1000
+捒出去	sotFE tshutFE khiDE	1000
+sak tshut--khì	satFE tshutFE khiDE	500
+sak tshut--khì	sotFE tshutFE khiDE	500
+盾仔囝	tunSQ naSQ kiannSR	1000
+tún-á-kiánn	tunSQ naSQ kiannSR	500
+𬦰懸𬦰下	peehFE kuamGE peehFE keeJE	1000
+𬦰懸𬦰低	peehFE kuamGE peehFE keeJE	250
+𧻙懸𧻙下	peehFE kuamGE peehFE keeJE	200
+𧻙懸𧻙低	peehFE kuamGE peehFE keeJE	150
+peeh kuân-peeh kēe	peehFE kuamGE peehFE keeJE	500
+逐逐个	totKE takKE leGW	1000
+逐逐个	tatKE takKE leGW	1000
+ta̍k-ta̍k-lê	totKE takKE leGW	500
+ta̍k-ta̍k-lê	tatKE takKE leGW	500
+逐逐个	totKE takKE eGW	1000
+逐逐个	tatKE takKE eGW	1000
+ta̍k-ta̍k-ê	totKE takKE eGW	150
+ta̍k-ta̍k-ê	tatKE takKE eGW	150
+逐逐个	totKE takKE geGW	1000
+逐逐个	tatKE takKE geGW	1000
+ta̍k-ta̍k-gê	totKE takKE geGW	40
+ta̍k-ta̍k-gê	tatKE takKE geGW	40
+面熟熟	binJE sepKE sekKQ	1000
+bīn-se̍k-se̍k	binJE sepKE sekKQ	500
+行房	kianmGE pangGW	1000
+kiânn-pâng	kianmGE pangGW	500
+曝佇外口	photKQ tiDE guaJE khauSR	1000
+曝佇外口	phatKQ tiDE guaJE khauSR	1000
+曝置外口	photKQ tiDE guaJE khauSR	250
+曝置外口	phatKQ tiDE guaJE khauSR	250
+pha̍k tì guā-kháu	photKQ tiDE guaJE khauSR	500
+pha̍k tì guā-kháu	phatKQ tiDE guaJE khauSR	500
+曝佇外口	phatKE tiJE guaJE khauSR	1000
+曝佇外口	photKE tiJE guaJE khauSR	1000
+曝置外口	phatKE tiJE guaJE khauSR	250
+曝置外口	photKE tiJE guaJE khauSR	250
+pha̍k-tī-guā-kháu	phatKE tiJE guaJE khauSR	200
+pha̍k-tī-guā-kháu	photKE tiJE guaJE khauSR	200
+逐逐日	totKE takKE jitKQ	1000
+逐逐日	tatKE takKE jitKQ	1000
+ta̍k-ta̍k-ji̍t	totKE takKE jitKQ	500
+ta̍k-ta̍k-ji̍t	tatKE takKE jitKQ	500
+三葩花	sanmAE phaAE huaAQ	1000
+sann-pha-hua	sanmAE phaAE huaAQ	500
+平平趁	penmGE pennGW thanDE	1000
+pênn-pênn thàn	penmGE pennGW thanDE	500
+有佇身邊	uJE tiDE simAE pinnAQ	1000
+有置身邊	uJE tiDE simAE pinnAQ	250
+ū-tì sin-pinn	uJE tiDE simAE pinnAQ	500
+有佇身邊	uJE tiJE simAE pinnAQ	1000
+有置身邊	uJE tiJE simAE pinnAQ	250
+ū-tī sin-pinn	uJE tiJE simAE pinnAQ	200
+縛牢牢	patKQ tiauGE tiauGW	1000
+縛牢牢	potKQ tiauGE tiauGW	1000
+pa̍k tiâu-tiâu	patKQ tiauGE tiauGW	500
+pa̍k tiâu-tiâu	potKQ tiauGE tiauGW	500
+𤆬囡仔	tshuaJE ginSQ naSR	1000
+tshuā-gín-á	tshuaJE ginSQ naSR	500
+霜角茶	sngAE kotFQ teeGW	1000
+霜角茶	sngAE katFQ teeGW	1000
+sng-kak-têe	sngAE kotFQ teeGW	500
+sng-kak-têe	sngAE katFQ teeGW	500
+桔仔酸梅	kiatFQ laSQ suinnAE bueGW	1000
+kiat-á-suinn-buê	kiatFQ laSQ suinnAE bueGW	500
+捷足先登	tsiapKE tsiopFQ sianAE tengAQ	1000
+tsia̍p-tsiok-sian-teng	tsiapKE tsiopFQ sianAE tengAQ	500
+七懸八下	tshitFQ kuamGW pehFQ keeJE	1000
+七懸八低	tshitFQ kuamGW pehFQ keeJE	250
+tshit-kuân peh-kēe	tshitFQ kuamGW pehFQ keeJE	500
+七懸八下	tshytFQ kuamGW pehFQ keeJE	1000
+七懸八低	tshytFQ kuamGW pehFQ keeJE	250
+tshyt-kuân peh-kēe	tshytFQ kuamGW pehFQ keeJE	200
+三房	sanmAE pangGW	1000
+sann-pâng	sanmAE pangGW	500
+山芭厝	suanmAE paAE tshuDE	1000
+山芭茨	suanmAE paAE tshuDE	250
+山巴厝	suanmAE paAE tshuDE	200
+山巴茨	suanmAE paAE tshuDE	150
+山岜厝	suanmAE paAE tshuDE	100
+山岜茨	suanmAE paAE tshuDE	50
+suann-pa-tshù	suanmAE paAE tshuDE	500
+三牙	samAE beeGW	1000
+sam-gêe	samAE beeGW	500
+叄佰	sanmAE pahFE	1000
+三百萬	sanmAE pahFQ banJE	1000
+sann-pah-bān	sanmAE pahFQ banJE	500
+趕飛機	kuanmSQ pueAE kiAQ	1000
+kuánn-pue-ki	kuanmSQ pueAE kiAQ	500
+仆心仆命	phopFQ simAQ phokFQ miaJE	1000
+phok-sim phok-miā	phopFQ simAQ phokFQ miaJE	500
+作實	tsopFQ sitKQ	1000
+tsok-si̍t	tsopFQ sitKQ	500
+全身不遂	tsuanGE simAQ putFQ suiGW	1000
+tsuân-sin put-suî	tsuanGE simAQ putFQ suiGW	500
+六十千	latKE tsapKE tshengAQ	1000
+六十千	lotKE tsapKE tshengAQ	1000
+la̍k-tsa̍p-tsheng	latKE tsapKE tshengAQ	500
+la̍k-tsa̍p-tsheng	lotKE tsapKE tshengAQ	500
+六十萬	latKE tsapKE banJE	1000
+六十萬	lotKE tsapKE banJE	1000
+la̍k-tsa̍p-bān	latKE tsapKE banJE	500
+la̍k-tsa̍p-bān	lotKE tsapKE banJE	500
+六千	latKE tshengAQ	1000
+六千	lotKE tshengAQ	1000
+la̍k-tsheng	latKE tshengAQ	500
+la̍k-tsheng	lotKE tshengAQ	500
+六千萬	latKE tshengAE banJE	1000
+六千萬	lotKE tshengAE banJE	1000
+la̍k-tsheng-bān	latKE tshengAE banJE	500
+la̍k-tsheng-bān	lotKE tshengAE banJE	500
+六神無主	lapKE sinGE boGE tsuSR	1000
+la̍k-sîn-bô-tsú	lapKE sinGE boGE tsuSR	500
+媾姻房	kauAE imGE pangGW	1000
+交寅房	kauAE imGE pangGW	250
+kau-în-pâng	kauAE imGE pangGW	500
+勒索	lapKE sokFE	1000
+la̍k-sok	lapKE sokFE	500
+勻仔	unGE naSR	1000
+ûn-á	unGE naSR	500
+北斗	potFQ tauSR	1000
+北斗	patFQ tauSR	1000
+pak-táu	potFQ tauSR	500
+pak-táu	patFQ tauSR	500
+半枋壁	puanmDQ pangAE piahFE	1000
+puànn-pang-piah	puanmDQ pangAE piahFE	500
+南北大道	lamGE patFQ tuaJE toJE	1000
+南北大道	lamGE potFQ tuaJE toJE	1000
+lâm-pak-tuā-tō	lamGE patFQ tuaJE toJE	500
+lâm-pak-tuā-tō	lamGE potFQ tuaJE toJE	500
+看病房	khuanmDQ pennJE pangGW	1000
+看病房	khuannDQ penmJE pangGW	1000
+khuànn-pēnn-pâng	khuanmDQ pennJE pangGW	500
+khuànn-pēnn-pâng	khuannDQ penmJE pangGW	500
+反天反地	pengSQ thinmAQ pengSQ teJE	1000
+péng-thinn péng-tē	pengSQ thinmAQ pengSQ teJE	500
+叻沙	lapFQ saSR	1000
+lak-sá	lapFQ saSR	500
+吉隆坡	kaFQ langGE phoAQ	1000
+kat-lâng-pho	kaFQ langGE phoAQ	500
+束砂	sopFQ saAQ	1000
+sok-sa	sopFQ saAQ	500
+第六冊	teJE latKE tsheehFE	1000
+第六冊	teJE lotKE tsheehFE	1000
+tē-la̍k-tsheeh	teJE latKE tsheehFE	500
+tē-la̍k-tsheeh	teJE lotKE tsheehFE	500
+善變	siamJE pianDE	1000
+siān-piàn	siamJE pianDE	500
+單人匹馬	tanAE jimGW phitFQ maSR	1000
+tan-jîn phit-má	tanAE jimGW phitFQ maSR	500
+單片	tamAE phinnDE	1000
+tan-phìnn	tamAE phinnDE	500
+單簿	tuanmAE phooJE	1000
+tuann-phōo	tuanmAE phooJE	500
+嘜頭紙	batKE thauGE tsuaSR	1000
+嘜頭紙	botKE thauGE tsuaSR	1000
+ba̍k-thâu-tsuá	batKE thauGE tsuaSR	500
+ba̍k-thâu-tsuá	botKE thauGE tsuaSR	500
+四角長形	siDQ kotFQ tngGE hengGW	1000
+四角長形	siDQ katFQ tngGE hengGW	1000
+sì-kak-tn̂g-hêng	siDQ kotFQ tngGE hengGW	500
+sì-kak-tn̂g-hêng	siDQ katFQ tngGE hengGW	500
+囡仔戲	ginSQ naSQ hiDE	1000
+gín-á-hì	ginSQ naSQ hiDE	500
+團圓飯	thuanGE inmGE puinnJE	1000
+thuân-înn-puīnn	thuanGE inmGE puinnJE	500
+填飯	thimGE puinnJE	1000
+thîn-puīnn	thimGE puinnJE	500
+多多益善	toAE toAE epFQ sianJE	1000
+to-to-ek-siān	toAE toAE epFQ sianJE	500
+媾婣房	kauAE iamGE pangGW	1000
+交緣房	kauAE iamGE pangGW	250
+kau-iân-pâng	kauAE iamGE pangGW	500
+國栖局	kopFQ seAE kiokKQ	1000
+Kok-se-kio̍k	kopFQ seAE kiokKQ	500
+存否	tsumGE phainnSR	1000
+存歹	tsumGE phainnSR	250
+tsûn-pháinn	tsumGE phainnSR	500
+存否	tsumGE phaiSR	1000
+存歹	tsumGE phaiSR	250
+tsûn-phái	tsumGE phaiSR	200
+存否	tshumGE phainnSR	1000
+存歹	tshumGE phainnSR	250
+tshûn-pháinn	tshumGE phainnSR	150
+存否	tshumGE phaiSR	1000
+存歹	tshumGE phaiSR	250
+tshûn-phái	tshumGE phaiSR	80
+存本	tsumGE punSR	1000
+tsûn-pún	tsumGE punSR	500
+存本	tshumGE punSR	1000
+tshûn-pún	tshumGE punSR	200
+ha̍k-sū-í	hapKE suJE iSR	500
+安放	amAE pangDE	1000
+an-pàng	amAE pangDE	500
+安步	amAE pooJE	1000
+an-pōo	amAE pooJE	500
+定本	tianmJE punSR	1000
+tiānn-pún	tianmJE punSR	500
+所得栖	sooSQ tepFQ seAQ	1000
+sóo-tek-se	sooSQ tepFQ seAQ	500
+寶福社	poSQ hopFQ siaJE	1000
+pó-hok-siā	poSQ hopFQ siaJE	500
+山崩	suanmAE pangAQ	1000
+suann-pang	suanmAE pangAQ	500
+山崩地裂	suanmAE pangAQ teJE lihKQ	1000
+suann-pang tē-li̍h	suanmAE pangAQ teJE lihKQ	500
+山步	suanmAE pooJE	1000
+suann-pōo	suanmAE pooJE	500
+山芭	suanmAE paAQ	1000
+山巴	suanmAE paAQ	250
+山岜	suanmAE paAQ	200
+suann-pa	suanmAE paAQ	500
+山芭人	suanmAE paAE langGW	1000
+山巴人	suanmAE paAE langGW	250
+山岜人	suanmAE paAE langGW	200
+suann-pa-lâng	suanmAE paAE langGW	500
+山芭猴	suanmAE paAE kauGW	1000
+山巴猴	suanmAE paAE kauGW	250
+山岜猴	suanmAE paAE kauGW	200
+suann-pa-kâu	suanmAE paAE kauGW	500
+山芭番	suanmAE paAE huanAQ	1000
+山巴番	suanmAE paAE huanAQ	250
+山岜番	suanmAE paAE huanAQ	200
+suann-pa-huan	suanmAE paAE huanAQ	500
+建築師	kianDQ tiopFQ suAQ	1000
+kiàn-tiok-su	kianDQ tiopFQ suAQ	500
+張帆	tionmAE phangGW	1000
+tionn-phâng	tionmAE phangGW	500
+心肝寶貝	simAE kuanmAQ poSQ pueDE	1000
+sim-kuann pó-puè	simAE kuanmAQ poSQ pueDE	500
+倫巴真	lumGE paAE tsinAQ	1000
+lûn-pa-tsin	lumGE paAE tsinAQ	500
+成百	tsianmGE pahFE	1000
+tsiânn-pah	tsianmGE pahFE	500
+成百千	tsianmGE pahFQ tshengAQ	1000
+tsiânn-pah-tsheng	tsianmGE pahFQ tshengAQ	500
+成百萬	tsianmGE pahFQ banJE	1000
+tsiânn-pah-bān	tsianmGE pahFQ banJE	500
+日本仔囝	jitKE punSQ naSQ kiannSR	1000
+Ji̍t-pún-á-kiánn	jitKE punSQ naSQ kiannSR	500
+日本仔婆	jitKE punSQ naSQ poGW	1000
+Ji̍t-pún-á-pô	jitKE punSQ naSQ poGW	500
+所作所爲	sooSQ tsopFE sooSQ uiGW	1000
+所作所為	sooSQ tsopFE sooSQ uiGW	250
+sóo-tsok sóo-uî	sooSQ tsopFE sooSQ uiGW	500
+日本婆	jitKE pumSQ poGW	1000
+Ji̍t-pún-pô	jitKE pumSQ poGW	500
+扞飛機	huanmJE pueAE kiAQ	1000
+捍飛機	huanmJE pueAE kiAQ	250
+huānn-pue-ki	huanmJE pueAE kiAQ	500
+拍拖	phatFQ thooAQ	1000
+拍拖	photFQ thooAQ	1000
+phak-thoo	phatFQ thooAQ	200
+phak-thoo	photFQ thooAQ	200
+黃牌	uinmGE paiGW	1000
+uînn-pâi	uinmGE paiGW	500
+睏飽飽	khumDQ paSQ paSR	1000
+khùn-pá-pá	khumDQ paSQ paSR	500
+擴散	khopFQ suannDE	1000
+khok-suànn	khopFQ suannDE	500
+散炮	suanmSQ phauDE	1000
+散砲	suanmSQ phauDE	250
+suánn-phàu	suanmSQ phauDE	500
+新房	simAE pangGW	1000
+sin-pâng	simAE pangGW	500
+新派	simAE phaiDE	1000
+sin-phài	simAE phaiDE	500
+番仔食	huanAE naSQ tsiahKQ	1000
+huan-á-tsia̍h	huanAE naSQ tsiahKQ	500
+日本仔	jitKE punSQ naSR	1000
+Ji̍t-pún-á	jitKE punSQ naSR	500
+明仔載日	binGE naSQ tsaiDQ jitKQ	1000
+明仔哉日	binGE naSQ tsaiDQ jitKQ	250
+bîn-á-tsài-ji̍t	binGE naSQ tsaiDQ jitKQ	500
+明仔載暝	binGE naSQ tsaiDQ meeGW	1000
+明仔哉暝	binGE naSQ tsaiDQ meeGW	250
+bîn-á-tsài-mêe	binGE naSQ tsaiDQ meeGW	500
+春餅	tshumAE piannSR	1000
+tshun-piánn	tshumAE piannSR	500
+時辰八字	siGE simGW pehFQ jiJE	1000
+sî-sîn peh-jī	siGE simGW pehFQ jiJE	500
+曝焦	photKE taAQ	1000
+曝焦	phatKE taAQ	1000
+曝灱	photKE taAQ	250
+曝灱	phatKE taAQ	250
+pha̍k-ta	photKE taAQ	500
+pha̍k-ta	phatKE taAQ	500
+杏仁芳精	hengJE jimGE phangAE tsengAQ	1000
+hēng-jîn-phang-tseng	hengJE jimGE phangAE tsengAQ	500
+柑仔蜜	kamAE maSQ bitKQ	1000
+kam-á-bi̍t	kamAE maSQ bitKQ	500
+吉蘭丹	kaFQ lanGE tanAQ	1000
+kat-lân-tan	kaFQ lanGE tanAQ	500
+極樂世界	kekKE lopKE seDQ kaiDE	1000
+ke̍k-lo̍k-sè-kài	kekKE lopKE seDQ kaiDE	500
+極樂寺	kekKE lopKE siJE	1000
+ke̍k-lo̍k-sī	kekKE lopKE siJE	500
+樂善好施	lopKE sianJE hauDQ siAQ	1000
+lo̍k-siān hàu-si	lopKE sianJE hauDQ siAQ	500
+樂天派	lokKE thiamAE phaiDE	1000
+lo̍k-thian-phài	lokKE thiamAE phaiDE	500
+樂師	gapKE suAQ	1000
+ga̍k-su	gapKE suAQ	500
+樂極生悲	lokKE kepKE sengAE piAQ	1000
+lo̍k-ke̍k-seng-pi	lokKE kepKE sengAE piAQ	500
+正皮	tsianmDQ phueGW	1000
+tsiànn-phuê	tsianmDQ phueGW	500
+正筆	tsianmDQ pitFE	1000
+tsiànn-pit	tsianmDQ pitFE	500
+正筆字	tsianmDQ pitFQ jiJE	1000
+tsiànn-pit-jī	tsianmDQ pitFQ jiJE	500
+毋捌人	mJE baFQ langGW	1000
+m̄ bat-lâng	mJE baFQ langGW	500
+毒死	topKQ siSR	1000
+to̍k sí	topKQ siSR	500
+毯仔	thanSQ naSR	1000
+thán-á	thanSQ naSR	500
+水撰渤	tsuiSQ tsuamJE paihKQ	1000
+水轉渤	tsuiSQ tsuamJE paihKQ	250
+tsuí-tsuān-pa̍ih	tsuiSQ tsuamJE paihKQ	500
+泊車	potKE tshiaAQ	1000
+泊車	patKE tshiaAQ	1000
+淡汶餅	tamJE bumJE piannSR	1000
+tām-būn-piánn	tamJE bumJE piannSR	500
+漫步	bamJE pooJE	1000
+激死	kepFQ siSR	1000
+kek-sí	kepFQ siSR	500
+燭心	tsepFQ simAQ	1000
+tsek-sim	tsepFQ simAQ	500
+目珠花	botKE tsiuAE huaAQ	1000
+目珠花	batKE tsiuAE huaAQ	1000
+ba̍k-tsiu-hua	botKE tsiuAE huaAQ	500
+ba̍k-tsiu-hua	batKE tsiuAE huaAQ	500
+牆壁	tshionmGE piahFE	1000
+tshiônn-piah	tshionmGE piahFE	500
+牆板	tshionmGE panSR	1000
+tshiônn-pán	tshionmGE panSR	500
+牆枋	tshionmGE pangAQ	1000
+tshiônn-pang	tshionmGE pangAQ	500
+獨生女	topKE sengAE luSR	1000
+to̍k-seng-lú	topKE sengAE luSR	500
+即使	tsepFQ saiSR	1000
+tsek-sái	tsepFQ saiSR	500
+玉樹臨風	giopKE suJE limGE hongAQ	1000
+gio̍k-sū-lîm-hong	giopKE suJE limGE hongAQ	500
+生僻	tshenmAE phiahFE	1000
+tshenn-phiah	tshenmAE phiahFE	500
+田埔	tshamGE pooAQ	1000
+tshân-poo	tshamGE pooAQ	500
+番仔庵	huanAE naSQ amAQ	1000
+huan-á-am	huanAE naSQ amAQ	500
+番仔火	huanAE naSQ hueSR	1000
+huan-á-hué	huanAE naSQ hueSR	500
+益壽	epFQ siuJE	1000
+ek-siū	epFQ siuJE	500
+墨水筆	batKE tsuiSQ pitFE	1000
+墨水筆	botKE tsuiSQ pitFE	1000
+ba̍k-tsuí-pit	batKE tsuiSQ pitFE	500
+ba̍k-tsuí-pit	botKE tsuiSQ pitFE	500
+目線	bapKE suannDE	1000
+目綫	bapKE suannDE	250
+ba̍k-suànn	bapKE suannDE	500
+盾仔	tunSQ naSR	1000
+tún-á	tunSQ naSR	500
+看板	khamDQ panSR	1000
+khàn-pán	khamDQ panSR	500
+確信	khapFQ sinDE	1000
+khak-sìn	khapFQ sinDE	500
+福事	hopFQ suJE	1000
+hok-sū	hopFQ suJE	500
+福壽	hopFQ siuJE	1000
+hok-siū	hopFQ siuJE	500
+福建班	hokFQ kiamDQ panAQ	1000
+Hok-kiàn-pan	hokFQ kiamDQ panAQ	500
+福祿壽	hokFQ lopKE siuJE	1000
+hok-lo̍k-siū	hokFQ lopKE siuJE	500
+蟳仔	tsimGE maSR	1000
+tsîm-á	tsimGE maSR	500
+筍仔	sunSQ naSR	1000
+sún-á	sunSQ naSR	500
+算百	suinmDQ pahFE	1000
+suìnn-pah	suinmDQ pahFE	500
+算百千	suinmDQ pahFQ tshengAQ	1000
+suìnn-pah-tsheng	suinmDQ pahFQ tshengAQ	500
+算百萬	suinmDQ pahFQ banJE	1000
+suìnn-pah-bān	suinmDQ pahFQ banJE	500
+簡筆字	kamSQ pitFQ jiJE	1000
+kán-pit-jī	kamSQ pitFQ jiJE	500
+藤仔	tinGE naSR	1000
+籐仔	tinGE naSR	250
+tîn-á	tinGE naSR	500
+紅目珠	angGE botKE tsiuAQ	1000
+紅目珠	angGE batKE tsiuAQ	1000
+âng-ba̍k-tsiu	angGE botKE tsiuAQ	500
+âng-ba̍k-tsiu	angGE batKE tsiuAQ	500
+縮細	sopFQ seDE	1000
+sok-sè	sopFQ seDE	500
+羊皮	ionmGE phueGW	1000
+iônn-phuê	ionmGE phueGW	500
+老君房	loSQ kumAE pangGW	1000
+ló-kun-pâng	loSQ kumAE pangGW	500
+耳盤	hinmJE puannGW	1000
+hīnn-puânn	hinmJE puannGW	500
+樸素	phopFQ sooDE	1000
+phok-sòo	phopFQ sooDE	500
+𡳞脬子	lamJE phaAE tsiSR	1000
+膦脬子	lamJE phaAE tsiSR	250
+𡳞葩子	lamJE phaAE tsiSR	200
+膦葩子	lamJE phaAE tsiSR	150
+lān-pha-tsí	lamJE phaAE tsiSR	500
+舀飯	ionmSQ puinnJE	1000
+iónn-puīnn	ionmSQ puinnJE	200
+色相	sepFQ sionnDE	1000
+sek-siònn	sepFQ sionnDE	500
+色線	sepFQ suannDE	1000
+色綫	sepFQ suannDE	250
+sek-suànn	sepFQ suannDE	500
+菕班䒟	lumGE panAE nanSR	1000
+lûn-pan-nán	lumGE panAE nanSR	500
+菕班䒟	lumGE panAE danSR	1000
+lûn-pan-dán	lumGE panAE danSR	200
+菜店仔	tshaiDQ tiamDQ maSR	1000
+tshài-tiàm-á	tshaiDQ tiamDQ maSR	500
+薑餅	kionmAE piannSR	1000
+kionn-piánn	kionmAE piannSR	500
+薰盤	humAE puannGW	1000
+hun-puânn	humAE puannGW	500
+藍芠仔	lamGE bunGE naSR	1000
+lâm-bûn-á	lamGE bunGE naSR	500
+藤仔椅	tinGE naSQ iSR	1000
+tîn-á-í	tinGE naSQ iSR	500
+藤仔籃	tinGE naSQ naGW	1000
+tîn-á-nâ	tinGE naSQ naGW	500
+衫鑌	sanmAE pinAQ	1000
+sann-pin	sanmAE pinAQ	500
+裝腔作勢	tsongAE khiongAE tsopFQ seDE	1000
+tsong-khiong-tsok-sè	tsongAE khiongAE tsopFQ seDE	500
+角豆	kotFQ tauJE	1000
+角豆	katFQ tauJE	1000
+kak-tāu	kotFQ tauJE	500
+kak-tāu	katFQ tauJE	500
+贊作商	tsanDQ tsopFQ siongAQ	1000
+tsàn-tsok-siong	tsanDQ tsopFQ siongAQ	500
+贊作商	tsanDQ tsopFQ siangAQ	1000
+tsàn-tsok-siang	tsanDQ tsopFQ siangAQ	200
+巡笆	sumGE paAQ	1000
+sûn-pa	sumGE paAQ	500
+越南	uaKE lamGW	1000
+Ua̍t-lâm	uaKE lamGW	500
+越南	guaKE lamGW	1000
+Gua̍t-lâm	guaKE lamGW	200
+軟殼蟳	nuiSQ khatFQ tsimGW	1000
+軟殼蟳	nuiSQ khotFQ tsimGW	1000
+nuí-khak-tsîm	nuiSQ khatFQ tsimGW	500
+nuí-khak-tsîm	nuiSQ khotFQ tsimGW	500
+轉本	tuinmSQ punSR	1000
+tuínn-pún	tuinmSQ punSR	500
+鮮卑	siamAE piAQ	1000
+Sian-pi	siamAE piAQ	500
+掃㢨仔	sauDQ konDQ naSR	1000
+sàu-kòn-á	sauDQ konDQ naSR	500
+逐斗	tatKE tauSR	1000
+逐斗	totKE tauSR	1000
+逐陡	tatKE tauSR	250
+逐陡	totKE tauSR	250
+ta̍k-táu	tatKE tauSR	500
+ta̍k-táu	totKE tauSR	500
+逐逐	tatKE takKQ	1000
+逐逐	totKE takKQ	1000
+ta̍k-ta̍k	tatKE takKQ	500
+ta̍k-ta̍k	totKE takKQ	500
+逐逐人	tatKE takKE langGW	1000
+逐逐人	totKE takKE langGW	1000
+ta̍k-ta̍k-lâng	tatKE takKE langGW	500
+ta̍k-ta̍k-lâng	totKE takKE langGW	500
+逐逐年	tatKE takKE niGW	1000
+逐逐年	totKE takKE niGW	1000
+ta̍k-ta̍k-nî	tatKE takKE niGW	500
+ta̍k-ta̍k-nî	totKE takKE niGW	500
+逐逐斗	takKE totKE tauSR	1000
+逐逐斗	takKE tatKE tauSR	1000
+逐逐斗	tatKE takKE tauSR	1000
+逐逐斗	totKE takKE tauSR	1000
+逐逐陡	takKE totKE tauSR	250
+逐逐陡	takKE tatKE tauSR	250
+逐逐陡	tatKE takKE tauSR	250
+逐逐陡	totKE takKE tauSR	250
+ta̍k-ta̍k-táu	takKE totKE tauSR	500
+ta̍k-ta̍k-táu	takKE tatKE tauSR	500
+ta̍k-ta̍k-táu	tatKE takKE tauSR	500
+ta̍k-ta̍k-táu	totKE takKE tauSR	500
+逐逐擺	totKE takKE paiSR	1000
+逐逐擺	tatKE takKE paiSR	1000
+ta̍k-ta̍k-pái	totKE takKE paiSR	500
+ta̍k-ta̍k-pái	tatKE takKE paiSR	500
+逐逐暗	tatKE takKE amDE	1000
+逐逐暗	totKE takKE amDE	1000
+ta̍k-ta̍k-àm	tatKE takKE amDE	500
+ta̍k-ta̍k-àm	totKE takKE amDE	500
+進房	tsimDQ pangGW	1000
+tsìn-pâng	tsimDQ pangGW	500
+金熠熠	kimAE siapKE siakKQ	1000
+kim-sia̍k-sia̍k	kimAE siapKE siakKQ	500
+金銀紙	kimAE binGE tsuaSR	1000
+kim-gîn-tsuá	kimAE binGE tsuaSR	500
+鉛板	iamGE panSR	1000
+iân-pán	iamGE panSR	500
+鉛筆芯	iamGE pitFQ simAQ	1000
+鉛筆心	iamGE pitFQ simAQ	250
+iân-pit-sim	iamGE pitFQ simAQ	500
+銀盃	gimGE pueAQ	1000
+銀杯	gimGE pueAQ	250
+gîn-pue	gimGE pueAQ	500
+鏈仔	lianJE naSR	1000
+鍊仔	lianJE naSR	250
+liān-á	lianJE naSR	500
+鍾靈毓秀	tsongAE lengGW iopKE siuDE	1000
+tsong-lêng io̍k-siù	tsongAE lengGW iopKE siuDE	500
+開單簿	khuiAE tuanmAE phooJE	1000
+khui-tuann-phōo	khuiAE tuanmAE phooJE	500
+閩南語	banGE lamGE buSR	1000
+bân-lâm-gú	banGE lamGE buSR	500
+閩南語	binGE lamGE buSR	1000
+bîn-lâm-gú	binGE lamGE buSR	200
+閩南語	banGE lamGE biSR	1000
+bân-lâm-gí	banGE lamGE biSR	40
+閩南語	binGE lamGE biSR	1000
+bîn-lâm-gí	binGE lamGE biSR	20
+陳皮梅	tamGE phueGE bueGW	1000
+tân-phuê-buê	tamGE phueGE bueGW	500
+雪文沫	sapFQ bumGE phuehKQ	1000
+sap-bûn-phue̍h	sapFQ bumGE phuehKQ	500
+雪文沫	sahFQ bumGE phuehKQ	1000
+sah-bûn-phue̍h	sahFQ bumGE phuehKQ	200
+霜角水	sngAE katFQ tsuiSR	1000
+霜角水	sngAE kotFQ tsuiSR	1000
+sng-kak-tsuí	sngAE katFQ tsuiSR	500
+sng-kak-tsuí	sngAE kotFQ tsuiSR	500
+青標	tshenmAE phiauAQ	1000
+tshenn-phiau	tshenmAE phiauAQ	500
+青標	tshenmAE piauAQ	1000
+tshenn-piau	tshenmAE piauAQ	200
+青竹絲	tshennAE tepFQ siAQ	1000
+tshenn-tek-si	tshennAE tepFQ siAQ	500
+青蘋果	tshenmAE phengGE koSR	1000
+tshenn-phêng-kó	tshenmAE phengGE koSR	500
+飛船埔	pueAE tsumGE pooAQ	1000
+pue-tsûn-poo	pueAE tsumGE pooAQ	500
+香餅	hionmAE piannSR	1000
+hionn-piánn	hionmAE piannSR	500
+鴉片鋪	aAE phiamDQ phooAQ	1000
+a-phiàn-phoo	aAE phiamDQ phooAQ	500
+鹹煎餅	hamGE tsimSQ peengGW	1000
+hâm-tsín-pêeng	hamGE tsimSQ peengGW	500
+黃病	uinmGE pennJE	1000
+uînn-pēnn	uinmGE pennJE	500
+黃薑飯	uinnGE kionmAE puinnJE	1000
+uînn-kionn-puīnn	uinnGE kionmAE puinnJE	500
+六十	latKE tsapKQ	1000
+六十	lotKE tsapKQ	1000
+la̍k-tsa̍p	latKE tsapKQ	500
+la̍k-tsa̍p	lotKE tsapKQ	500
+六十	liopKE sipKQ	1000
+lio̍k-si̍p	liopKE sipKQ	200
+六十一	latKE tsapKE itFE	1000
+六十一	lotKE tsapKE itFE	1000
+la̍k-tsa̍p-it	latKE tsapKE itFE	500
+la̍k-tsa̍p-it	lotKE tsapKE itFE	500
+六十一	liopKE sipKE itFE	1000
+lio̍k-si̍p-it	liopKE sipKE itFE	200
+六十七	latKE tsapKE tshitFE	1000
+六十七	lotKE tsapKE tshitFE	1000
+la̍k-tsa̍p-tshit	latKE tsapKE tshitFE	500
+la̍k-tsa̍p-tshit	lotKE tsapKE tshitFE	500
+六十七	liopKE sipKE tshitFE	1000
+lio̍k-si̍p-tshit	liopKE sipKE tshitFE	200
+六十七	latKE tsapKE tshytFE	1000
+六十七	lotKE tsapKE tshytFE	1000
+la̍k-tsa̍p-tshyt	latKE tsapKE tshytFE	150
+la̍k-tsa̍p-tshyt	lotKE tsapKE tshytFE	150
+六十七	liopKE sipKE tshytFE	1000
+lio̍k-si̍p-tshyt	liopKE sipKE tshytFE	80
+六十三	lotKE tsapKE sannAQ	1000
+六十三	latKE tsapKE sannAQ	1000
+la̍k-tsa̍p-sann	lotKE tsapKE sannAQ	500
+la̍k-tsa̍p-sann	latKE tsapKE sannAQ	500
+六十三	liopKE sipKE samAQ	1000
+lio̍k-si̍p-sam	liopKE sipKE samAQ	200
+六十九	latKE tsapKE kauSR	1000
+六十九	lotKE tsapKE kauSR	1000
+la̍k-tsa̍p-káu	latKE tsapKE kauSR	500
+la̍k-tsa̍p-káu	lotKE tsapKE kauSR	500
+六十九	liopKE sipKE kiuSR	1000
+lio̍k-si̍p-kiú	liopKE sipKE kiuSR	200
+六十二	lotKE tsapKE jiJE	1000
+六十二	latKE tsapKE jiJE	1000
+la̍k-tsa̍p-jī	lotKE tsapKE jiJE	500
+la̍k-tsa̍p-jī	latKE tsapKE jiJE	500
+六十二	liopKE sipKE jiJE	1000
+lio̍k-si̍p-jī	liopKE sipKE jiJE	200
+六十五	lotKE tsapKE gooJE	1000
+六十五	latKE tsapKE gooJE	1000
+la̍k-tsa̍p-gōo	lotKE tsapKE gooJE	500
+la̍k-tsa̍p-gōo	latKE tsapKE gooJE	500
+六十五	liopKE sipKE ngooSR	1000
+lio̍k-si̍p-ngóo	liopKE sipKE ngooSR	200
+六十八	latKE tsapKE pehFE	1000
+六十八	lotKE tsapKE pehFE	1000
+la̍k-tsa̍p-peh	latKE tsapKE pehFE	500
+la̍k-tsa̍p-peh	lotKE tsapKE pehFE	500
+六十八	liopKE sipKE patFE	1000
+lio̍k-si̍p-pat	liopKE sipKE patFE	200
+六十六	latKE tsapKE lakKQ	1000
+六十六	lotKE tsapKE lakKQ	1000
+la̍k-tsa̍p-la̍k	latKE tsapKE lakKQ	500
+la̍k-tsa̍p-la̍k	lotKE tsapKE lakKQ	500
+六十六	liopKE sipKE liokKQ	1000
+lio̍k-si̍p-lio̍k	liopKE sipKE liokKQ	200
+六十四	lotKE tsapKE siDE	1000
+六十四	latKE tsapKE siDE	1000
+la̍k-tsa̍p-sì	lotKE tsapKE siDE	500
+la̍k-tsa̍p-sì	latKE tsapKE siDE	500
+六十四	liopKE sipKE suDE	1000
+lio̍k-si̍p-sù	liopKE sipKE suDE	200
+六成	lapKE siannGW	1000
+la̍k-siânn	lapKE siannGW	500
+六成	lapKE sengGW	1000
+la̍k-sêng	lapKE sengGW	200
+卅五	samAE booJE	1000
+sam-gōo	samAE booJE	500
+啱啱	gamAE bamAQ	1000
+gam-gam	gamAE bamAQ	200
+大吉利是	taiJE kaFQ laiJE siJE	1000
+tāi-kat-lāi-sī	taiJE kaFQ laiJE siJE	500
+大學生	tuaJE hapKE sengAQ	1000
+tuā-ha̍k-seng	tuaJE hapKE sengAQ	500
+晚報	buamSQ poDE	1000
+buán-pò	buamSQ poDE	500
+無得頂	mouGW totKQ tengGW	1000
+無得頂	mouGW tatKQ tengGW	1000
+môu ta̍k têng	mouGW totKQ tengGW	500
+môu ta̍k têng	mouGW tatKQ tengGW	500
+無得頂	mouGW totLR tengGW	1000
+無得頂	mouGW tatLR tengGW	1000
+môu ta̋k têng	mouGW totLR tengGW	200
+môu ta̋k têng	mouGW tatLR tengGW	200
+纔仔	tsamGE maSR	1000
+tsâm-á	tsamGE maSR	500
+錢包	tsinmGE pauAQ	1000
+tsînn-pau	tsinmGE pauAQ	500
+平平蹛	penmGE pennGE tuaDE	1000
+pênn-pênn-tuà	penmGE pennGE tuaDE	500
+逐逐暝	totKE takKE meeGW	1000
+逐逐暝	tatKE takKE meeGW	1000
+ta̍k-ta̍k-mêe	totKE takKE meeGW	500
+ta̍k-ta̍k-mêe	tatKE takKE meeGW	500
+逐逐項	tatKE takKE hangJE	1000
+逐逐項	totKE takKE hangJE	1000
+ta̍k-ta̍k-hāng	tatKE takKE hangJE	500
+ta̍k-ta̍k-hāng	totKE takKE hangJE	500
+ha̍k-seng-kiánn	hapKE sengAE kiannSR	500
+ha̍k-seng-tshia	hapKE sengAE tshiaAQ	500
+六七个	lotKE tshitFQ leGW	1000
+六七个	latKE tshitFQ leGW	1000
+la̍k-tshit-lê	lotKE tshitFQ leGW	500
+la̍k-tshit-lê	latKE tshitFQ leGW	500
+六七个	lotKE tshitFQ eGW	1000
+六七个	latKE tshitFQ eGW	1000
+la̍k-tshit-ê	lotKE tshitFQ eGW	200
+la̍k-tshit-ê	latKE tshitFQ eGW	200
+六七个	lotKE tshytFQ leGW	1000
+六七个	latKE tshytFQ leGW	1000
+la̍k-tshyt-lê	lotKE tshytFQ leGW	150
+la̍k-tshyt-lê	latKE tshytFQ leGW	150
+六七个	lotKE tshytFQ eGW	1000
+六七个	latKE tshytFQ eGW	1000
+la̍k-tshyt-ê	lotKE tshytFQ eGW	80
+la̍k-tshyt-ê	latKE tshytFQ eGW	80
+順便	sumJE pianJE	1000
+sūn-piān	sumJE pianJE	500
+做便便	tsoDQ piamJE pianJE	1000
+tsò-piān-piān	tsoDQ piamJE pianJE	500
+以色列人	iSQ sekFQ liaFQ langGW	1000
+Í-sek-liat-lâng	iSQ sekFQ liaFQ langGW	500
+越南人	uaKE lamGE langGW	1000
+Ua̍t-lâm-lâng	uaKE lamGE langGW	500
+越南人	guaKE lamGE langGW	1000
+Gua̍t-lâm-lâng	guaKE lamGE langGW	200
+越南話	uaKE lamGE uaJE	1000
+Ua̍t-lâm-uā	uaKE lamGE uaJE	500
+越南話	guaKE lamGE uaJE	1000
+Gua̍t-lâm-uā	guaKE lamGE uaJE	200
+越南文	uaKE lamGE bunGW	1000
+Ua̍t-lâm-bûn	uaKE lamGE bunGW	500
+越南文	guaKE lamGE bunGW	1000
+Gua̍t-lâm-bûn	guaKE lamGE bunGW	200
+姓白	senmDQ peehKQ	1000
+sènn-pe̍eh	senmDQ peehKQ	500
+姓傅	senmDQ pooDE	1000
+sènn-pòo	senmDQ pooDE	500
+姓馮	senmDQ pangGW	1000
+sènn-pâng	senmDQ pangGW	500
+姓彭	senmDQ phennGW	1000
+sènn-phênn	senmDQ phennGW	500
+姓潘	senmDQ phuannAQ	1000
+sènn-phuann	senmDQ phuannAQ	500
+姓方	senmDQ puinnAQ	1000
+sènn-puinn	senmDQ puinnAQ	500
+姓方	senmDQ pngAQ	1000
+sènn-png	senmDQ pngAQ	200
+姓包	senmDQ pauAQ	1000
+sènn-pau	senmDQ pauAQ	500
+姓白公司	senmDQ peehKE kongAE siAQ	1000
+sènn-pe̍eh-kong-sI	senmDQ peehKE kongAE siAQ	500
+姓傅公司	senmDQ pooDQ kongAE siAQ	1000
+sènn-pòo-kong-sI	senmDQ pooDQ kongAE siAQ	500
+姓馮公司	senmDQ pangGE kongAE siAQ	1000
+sènn-pâng-kong-sI	senmDQ pangGE kongAE siAQ	500
+姓彭公司	senmDQ phennGE kongAE siAQ	1000
+sènn-phênn-kong-sI	senmDQ phennGE kongAE siAQ	500
+姓潘公司	senmDQ phuannAE kongAE siAQ	1000
+sènn-phuann-kong-sI	senmDQ phuannAE kongAE siAQ	500
+姓方公司	senmDQ puinnAE kongAE siAQ	1000
+sènn-puinn-kong-sI	senmDQ puinnAE kongAE siAQ	500
+姓方公司	senmDQ pngAE kongAE siAQ	1000
+sènn-png-kong-sI	senmDQ pngAE kongAE siAQ	200
+姓包公司	senmDQ pauAE kongAE siAQ	1000
+sènn-pau-kong-sI	senmDQ pauAE kongAE siAQ	500
+扞飛船	huanmJE pueAE tsunGW	1000
+huānn-pue-tsûn	huanmJE pueAE tsunGW	500
+申辦	simAE panJE	1000
+sin-pán	simAE panSR	500
+無甘願	boGE kamAE buanJE	1000
+bô-kam-guān	boGE kamAE buanJE	500
+食傷飽	tsiahKQ sionmAE paSR	1000
+tsia̍h sionn-pá	tsiahKQ sionmAE paSR	500
+腹肚疼	patFQ tooSQ thiannDE	1000
+腹肚疼	potFQ tooSQ thiannDE	1000
+pak-tóo-thiànn	patFQ tooSQ thiannDE	500
+pak-tóo-thiànn	potFQ tooSQ thiannDE	500
+儖儳阿解	laGE samGE maAE kaiSR	1000
+儖儳雅解	laGE samGE maAE kaiSR	250
+lâ-sâm-a-kái	laGE samGE maAE kaiSR	500
+三鈸	sanmAE puatKQ	1000
+sann-pua̍t	sanmAE puatKQ	500
+六蛇	latKE tsuaGW	1000
+六蛇	lotKE tsuaGW	1000
+la̍k-tsuâ	latKE tsuaGW	500
+la̍k-tsuâ	lotKE tsuaGW	500
+讀唐人冊	thotKQ tngGE langGE tsheehFE	1000
+讀唐人冊	thatKQ tngGE langGE tsheehFE	1000
+tha̍k tn̂g-lâng-tsheeh	thotKQ tngGE langGE tsheehFE	500
+tha̍k tn̂g-lâng-tsheeh	thatKQ tngGE langGE tsheehFE	500
+讀番仔冊	thakKQ huanAE naSQ tsheehFE	1000
+tha̍k huan-á-tsheeh	thakKQ huanAE naSQ tsheehFE	500
+番仔學堂	huanAE naSQ ohKE tngGW	1000
+huan-á-o̍h-tn̂g	huanAE naSQ ohKE tngGW	500
+番仔學	huanAE naSQ ohKQ	1000
+huan-á-o̍h	huanAE naSQ ohKQ	500
+分批	pumAE pheAQ	1000
+pun-phe	pumAE pheAQ	500
+分批	pumAE phueAQ	1000
+pun-phue	pumAE phueAQ	200
+飛船票	pueAE tsumGE phioDE	1000
+pue-tsûn-phiò	pueAE tsumGE phioDE	500
+黏牙	liamGE beeGW	1000
+liâm-gêe	liamGE beeGW	500
+三標	sanmAE pioAQ	1000
+sann-pio	sanmAE pioAQ	500
+著三標	tiohKE sanmAE pioAQ	1000
+tio̍h-sann-pio	tiohKE sanmAE pioAQ	500
+耽仔	tamAE maSR	1000
+tam-á	tamAE maSR	500
+無𡳞脬	boGE lamJE phaAQ	1000
+無膦脬	boGE lamJE phaAQ	250
+無𡳞葩	boGE lamJE phaAQ	200
+無膦葩	boGE lamJE phaAQ	150
+bô-lān-pha	boGE lamJE phaAQ	500
+有𡳞脬	uJE lamJE phaAQ	1000
+有膦脬	uJE lamJE phaAQ	250
+有𡳞葩	uJE lamJE phaAQ	200
+有膦葩	uJE lamJE phaAQ	150
+ū-lān-pha	uJE lamJE phaAQ	500
+蠍仔	giatFQ laSR	1000
+giat-á	giatFQ laSR	500
+六叉路	lotKE tsheAE looJE	1000
+六叉路	latKE tsheAE looJE	1000
+La̍k-tshe-lōo	lotKE tsheAE looJE	500
+La̍k-tshe-lōo	latKE tsheAE looJE	500
+六條路	lotKE tiauGE looJE	1000
+六條路	latKE tiauGE looJE	1000
+La̍k-tiâu-lōo	lotKE tiauGE looJE	500
+La̍k-tiâu-lōo	latKE tiauGE looJE	500
+四角井	siDQ kotFQ tsennSR	1000
+四角井	siDQ katFQ tsennSR	1000
+Sì-kak-tsénn	siDQ kotFQ tsennSR	500
+Sì-kak-tsénn	siDQ katFQ tsennSR	500
+德順厝邊街	tepFQ sunJE tshuDQ pinnAE keAQ	1000
+德順茨邊街	tepFQ sunJE tshuDQ pinnAE keAQ	250
+Tek-sūn-tshù-pinn-ke	tepFQ sunJE tshuDQ pinnAE keAQ	500
+德順路	tepFQ sunJE looJE	1000
+Tek-sūn lōo	tepFQ sunJE looJE	500
+惹蘭亞丁	jiaSQ lanGE naAE tengAQ	1000
+Jiá-lân-a-teng	jiaSQ lanGE naAE tengAQ	500
+新關仔角	sinAE kuanAE naSQ kakFE	1000
+Sin-kuan-á-kak	sinAE kuanAE naSQ kakFE	500
+柑仔園	kamAE maSQ huinnGW	1000
+Kam-á-huînn	kamAE maSQ huinnGW	500
+畓田仔	lamDQ tshanGE naSR	1000
+Làm-tshân-á	lamDQ tshanGE naSR	500
+番仔塚	huanAE naSQ thiongSR	1000
+Huan-á-thióng	huanAE naSQ thiongSR	500
+番仔戲園街	huanAE naSQ hiDQ huinnGE keAQ	1000
+Huan-á-hì-huînn-ke	huanAE naSQ hiDQ huinnGE keAQ	500
+緞巴尼	tuamJE paSQ liSR	1000
+Tuān-pá-lí	tuamJE paSQ liSR	500
+舊關仔角	kuJE kuanAE naSQ kakFE	1000
+Kū-kuan-á-kak	kuJE kuanAE naSQ kakFE	500
+夜蘭亞珍	iaJE lanGE naAE tinAQ	1000
+iā-lân-a-tin	iaJE lanGE naAE tinAQ	500
+番仔薑	huanAE naSQ kionnAQ	1000
+huan-á-kionn	huanAE naSQ kionnAQ	500
+檳城新報	pengAE siannGE simAE poDE	1000
+peng-siânn-sin-pò	pengAE siannGE simAE poDE	500
+檳城新報	pinAE siannGE simAE poDE	1000
+pin-siânn-sin-pò	pinAE siannGE simAE poDE	200
+一慢仔	tsitKE banJE naSR	1000
+tsi̍t-bān-á	tsitKE banJE naSR	500
+番仔戲	huanAE naSQ hiDE	1000
+huan-á-hì	huanAE naSQ hiDE	500
+全平香	tsuamGE pengGE hiangAQ	1000
+Tsuân-pêng-hiang	tsuamGE pengGE hiangAQ	500
+誠否	tsianmGW phainnSR	1000
+誠歹	tsianmGW phainnSR	250
+tsiânn pháinn	tsianmGW phainnSR	500
+誠否	tsianmGW phaiSR	1000
+誠歹	tsianmGW phaiSR	250
+tsiânn phái	tsianmGW phaiSR	200
+六點	lotKE tiamSR	1000
+六點	latKE tiamSR	1000
+la̍k-tiám	lotKE tiamSR	500
+la̍k-tiám	latKE tiamSR	500
+六點半	lotKE tiamSQ puannDE	1000
+六點半	latKE tiamSQ puannDE	1000
+la̍k-tiám-puànn	lotKE tiamSQ puannDE	500
+la̍k-tiám-puànn	latKE tiamSQ puannDE	500
+𠢕反變	gauGE huamSQ pianDE	1000
+gâu-huán-piàn	gauGE huamSQ pianDE	500
+祖先牌	tsooSQ siamAE paiGW	1000
+tsóo-sian-pâi	tsooSQ siamAE paiGW	500
+踲幫	tumJE pangAQ	1000
+tūn-pang	tumJE pangAQ	500
+目珠子	botKE tsiuAE tsiSR	1000
+目珠子	batKE tsiuAE tsiSR	1000
+ba̍k-tsiu-tsí	botKE tsiuAE tsiSR	500
+ba̍k-tsiu-tsí	batKE tsiuAE tsiSR	500
+親囡仔	tshinAE ginSQ naSR	1000
+tshin-gín-á	tshinAE ginSQ naSR	500
+現放	hiamJE pangDE	1000
+hiān-pàng	hiamJE pangDE	500
+巡班	sumGE panAQ	1000
+sûn-pan	sumGE panAQ	500
+番批	huamAE pheAQ	1000
+huan-phe	huamAE pheAQ	500
+番批	huamAE phueAQ	1000
+huan-phue	huamAE phueAQ	200
+明仔載時	binGE naSQ tsaiDQ siGW	1000
+明仔哉時	binGE naSQ tsaiDQ siGW	250
+bîn-á-tsài-sî	binGE naSQ tsaiDQ siGW	500
+做囡仔	tsoDQ ginSQ naSR	1000
+tsò-gín-á	tsoDQ ginSQ naSR	500
+補目珠	pooSQ batKE tsiuAQ	1000
+補目珠	pooSQ botKE tsiuAQ	1000
+póo-ba̍k-tsiu	pooSQ batKE tsiuAQ	500
+póo-ba̍k-tsiu	pooSQ botKE tsiuAQ	500
+越南囝	uaKE lamGE kiannSR	1000
+Ua̍t-lâm-kiánn	uaKE lamGE kiannSR	500
+越南囝	guaKE lamGE kiannSR	1000
+Gua̍t-lâm-kiánn	guaKE lamGE kiannSR	200
+唐山婆	tngGE suanmAE poGW	1000
+tn̂g-suann-pô	tngGE suanmAE poGW	500
+臺灣婆	taiGE uamAE poGW	1000
+台灣婆	taiGE uamAE poGW	250
+Tâi-uan-pô	taiGE uamAE poGW	500
+臺灣婆	taiGE uamGE poGW	1000
+台灣婆	taiGE uamGE poGW	250
+Tâi-uân-pô	taiGE uamGE poGW	200
+越南婆	uaKE lamGE poGW	1000
+Ua̍t-lâm-pô	uaKE lamGE poGW	500
+越南婆	guaKE lamGE poGW	1000
+Gua̍t-lâm-pô	guaKE lamGE poGW	200
+拍囡仔	phahFQ ginSQ naSR	1000
+phah-gín-á	phahFQ ginSQ naSR	500
+天平	thiamAE pengGW	1000
+thian-pêng	thiamAE pengGW	500
+番仔婆	huanAE naSQ poGW	1000
+huan-á-pô	huanAE naSQ poGW	500
+韌皮	jumJE phueGW	1000
+jūn-phuê	jumJE phueGW	500
+電飯鍋	tiamJE puinnJE ueAQ	1000
+tiān-puīnn-ue	tiamJE puinnJE ueAQ	500
+撜𡳞脬	tennJE lamJE phaAQ	1000
+撜膦脬	tennJE lamJE phaAQ	250
+撜𡳞葩	tennJE lamJE phaAQ	200
+撜膦葩	tennJE lamJE phaAQ	150
+tēnn-lān-pha	tennJE lamJE phaAQ	500
+噴芳	phumDQ phangAQ	1000
+phùn-phang	phumDQ phangAQ	500
+無確切	boGE khotFQ tshiatFE	1000
+無確切	boGE khatFQ tshiatFE	1000
+bô-khak-tshiat	boGE khotFQ tshiatFE	500
+bô-khak-tshiat	boGE khatFQ tshiatFE	500
+慢仔久	banJE naSQ kuSR	1000
+bān-á-kú	banJE naSQ kuSR	500
+平安批	pengGE amAE pheAQ	1000
+pêng-an-phe	pengGE amAE pheAQ	500
+平安批	pengGE amAE phueAQ	1000
+pêng-an-phue	pengGE amAE phueAQ	200
+越南鐳	uaKE lamGE luiAQ	1000
+Ua̍t-lâm-lui	uaKE lamGE luiAQ	500
+越南鐳	guaKE lamGE luiAQ	1000
+Gua̍t-lâm-lui	guaKE lamGE luiAQ	200
+落囡仔	lohKE ginSQ naSR	1000
+lo̍h-gín-á	lohKE ginSQ naSR	500
+𡳞脬囊	lamJE phaAE longGW	1000
+膦脬囊	lamJE phaAE longGW	250
+𡳞葩囊	lamJE phaAE longGW	200
+膦葩囊	lamJE phaAE longGW	150
+lān-pha-lông	lamJE phaAE longGW	500
+生白蟻	senmAE peehKE hiaJE	1000
+senn-pe̍eh-hiā	senmAE peehKE hiaJE	500
+飼囡仔	tshiJE ginSQ naSR	1000
+tshī-gín-á	tshiJE ginSQ naSR	500
+囡仔聲	ginSQ naSQ siannAQ	1000
+gín-á-siann	ginSQ naSQ siannAQ	500
+𡳞脬脬𡳞	lamJE phaAQ phaAE lanJE	1000
+膦脬脬膦	lamJE phaAQ phaAE lanJE	250
+𡳞葩葩𡳞	lamJE phaAQ phaAE lanJE	200
+膦葩葩膦	lamJE phaAQ phaAE lanJE	150
+lān-pha pha-lān	lamJE phaAQ phaAE lanJE	500
+濺芳水	tsuanmJE phangAE tsuiSR	1000
+湔芳水	tsuanmJE phangAE tsuiSR	200
+tsuānn-phang-tsuí	tsuanmJE phangAE tsuiSR	500
+文旁	bumGE pengGW	1000
+文爿	bumGE pengGW	250
+雜唸仔	tsapKE liamJE maSR	1000
+雜念仔	tsapKE liamJE maSR	250
+tsa̍p-liām-á	tsapKE liamJE maSR	500
+乘囡仔	sengJE ginSQ naSR	1000
+sēng-gín-á	sengJE ginSQ naSR	500
+包便便	pauAE piamJE pianJE	1000
+pau-piān-piān	pauAE piamJE pianJE	500
+下便便	heeJE piamJE pianJE	1000
+hēe-piān-piān	heeJE piamJE pianJE	500
+寫便便	siaSQ piamJE pianJE	1000
+siá-piān-piān	siaSQ piamJE pianJE	500
+日本佛	jitKE pumSQ putKQ	1000
+Ji̍t-pún-pu̍t	jitKE pumSQ putKQ	200
+看辦	khuanmDQ panJE	1000
+khuànn-pān	khuanmDQ panJE	500
+洗面盆	seSQ bimJE phunGW	1000
+sé-bīn-phûn	seSQ bimJE phunGW	500
+大聲屁	tuaJE sianmAE phuiDE	1000
+tuā-siann-phuì	tuaJE sianmAE phuiDE	500
+無聲屁	boGE sianmAE phuiDE	1000
+bô-siann-phuì	boGE sianmAE phuiDE	500
+六丈	latKE tionnJE	1000
+六丈	lotKE tionnJE	1000
+la̍k-tiōnn	latKE tionnJE	500
+la̍k-tiōnn	lotKE tionnJE	500
+叻沙花	lapFQ saSQ huaAQ	1000
+lak-sá-hua	lapFQ saSQ huaAQ	500
+越南味	uaKE lamGE biJE	1000
+Ua̍t-lâm-bī	uaKE lamGE biJE	500
+越南味	guaKE lamGE biJE	1000
+Gua̍t-lâm-bī	guaKE lamGE biJE	200
+諍辨	tsenmDQ pianJE	1000
+tsènn-piān	tsenmDQ pianJE	500
+監房	kanmAE pangGW	1000
+kann-pâng	kanmAE pangGW	200
+淋湡淶	lamGE buGE laiSR	1000
+lâm-gû-lái	lamGE buGE laiSR	500
+換旁	uanmJE pengGW	1000
+換爿	uanmJE pengGW	250
+uānn-pêng	uanmJE pengGW	500
+甜芳	tinmAE phangAQ	1000
+tinn-phang	tinmAE phangAQ	500
+甜芳味	tinmAE phangAE biJE	1000
+tinn-phang-bī	tinmAE phangAE biJE	500
+酸芳	suinmAE phangAQ	1000
+suinn-phang	suinmAE phangAQ	500
+酸芳味	suinmAE phangAE biJE	1000
+suinn-phang-bī	suinmAE phangAE biJE	500
+德性	tepFQ sengDE	1000
+tek-sèng	tepFQ sengDE	500
+囡仔飯	ginSQ naSQ puinnJE	1000
+gín-á-puīnn	ginSQ naSQ puinnJE	500
+雲吞皮	uanGE thamAE phueGW	1000
+uân-than-phuê	uanGE thamAE phueGW	500
+雲吞皮	wanGE thamAE phueGW	1000
+wân-than-phuê	wanGE thamAE phueGW	200
+薄餅皮	pohKE pianmSQ phueGW	1000
+po̍h-piánn-phuê	pohKE pianmSQ phueGW	500
+喙講𡳞脬爽	tshuiDE kongSR lamJE phaAQ songSR	1000
+喙講膦脬爽	tshuiDE kongSR lamJE phaAQ songSR	250
+嘴講𡳞脬爽	tshuiDE kongSR lamJE phaAQ songSR	200
+嘴講膦脬爽	tshuiDE kongSR lamJE phaAQ songSR	150
+喙講𡳞葩爽	tshuiDE kongSR lamJE phaAQ songSR	100
+tshuì kóng lān-pha sóng	tshuiDE kongSR lamJE phaAQ songSR	500
+頭耽仔	thauGE tamAE maSR	1000
+thâu-tam-á	thauGE tamAE maSR	500
+頭纔仔	thauGE tsamGE maSR	1000
+thâu-tsâm-á	thauGE tsamGE maSR	500
+驚否人	kianmAE phainnSQ langGW	1000
+驚歹人	kianmAE phainnSQ langGW	250
+kiann-pháinn-lâng	kianmAE phainnSQ langGW	500
+驚否人	kianmAE phaiSQ langGW	1000
+驚歹人	kianmAE phaiSQ langGW	250
+kiann-phái-lâng	kianmAE phaiSQ langGW	200
+驚否勢	kianmAE phainnSQ seDE	1000
+驚歹勢	kianmAE phainnSQ seDE	250
+kiann-pháinn-sè	kianmAE phainnSQ seDE	500
+驚否勢	kianmAE phaiSQ seDE	1000
+驚歹勢	kianmAE phaiSQ seDE	250
+kiann-phái-sè	kianmAE phaiSQ seDE	200
+生囝房	sennAE kianmSQ pangGW	1000
+senn-kiánn-pâng	sennAE kianmSQ pangGW	500
+目吐癗	botKE thooSQ luiGW	1000
+目吐癗	batKE thooSQ luiGW	1000
+ba̍k-thóo-luî	botKE thooSQ luiGW	500
+ba̍k-thóo-luî	batKE thooSQ luiGW	500
+贏票	ianmGE phioDE	1000
+iânn-phiò	ianmGE phioDE	500
+縛頭毛	potKE thauGE mooGW	1000
+縛頭毛	patKE thauGE mooGW	1000
+pa̍k-thâu-môo	potKE thauGE mooGW	500
+pa̍k-thâu-môo	patKE thauGE mooGW	500
+顧囡仔	kooDQ ginSQ naSR	1000
+kòo-gín-á	kooDQ ginSQ naSR	500
+日本仔厝	jitKE punSQ naSQ tshuDE	1000
+日本仔茨	jitKE punSQ naSQ tshuDE	250
+ji̍t-pún-á-tshù	jitKE punSQ naSQ tshuDE	500
+縛死結	papKE siSQ katFE	1000
+pa̍k-sí-kat	papKE siSQ katFE	500
+縛腹肚	pakKE patFQ tooSR	1000
+縛腹肚	pakKE potFQ tooSR	1000
+pa̍k-pak-tóo	pakKE patFQ tooSR	500
+pa̍k-pak-tóo	pakKE potFQ tooSR	500
+食盤邊	tsiahKE puanmGE pinnAQ	1000
+tsia̍h-puânn-pinn	tsiahKE puanmGE pinnAQ	500
+盤邊	puanmGE pinnAQ	1000
+puânn-pinn	puanmGE pinnAQ	500
+讀冊聲	thotKE tsheehFQ siannAQ	1000
+讀冊聲	thatKE tsheehFQ siannAQ	1000
+tha̍k-tsheeh-siann	thotKE tsheehFQ siannAQ	500
+tha̍k-tsheeh-siann	thatKE tsheehFQ siannAQ	500
+眽牢	matKQ tiauGW	1000
+眽牢	motKQ tiauGW	1000
+㧅牢	matKQ tiauGW	250
+㧅牢	motKQ tiauGW	250
+ma̍k--tiâu	matKQ tiauGW	500
+ma̍k--tiâu	motKQ tiauGW	500
+眽死	mapKQ siSR	1000
+㧅死	mapKQ siSR	250
+ma̍k--sí	mapKQ siSR	500
+臭嘜頭	tshauDQ botKE thauGW	1000
+臭嘜頭	tshauDQ batKE thauGW	1000
+tshàu-ba̍k-thâu	tshauDQ botKE thauGW	500
+tshàu-ba̍k-thâu	tshauDQ batKE thauGW	500
+逐逐間	totKE takKE kengAQ	1000
+逐逐間	tatKE takKE kengAQ	1000
+ta̍k-ta̍k-keng	totKE takKE kengAQ	500
+ta̍k-ta̍k-keng	tatKE takKE kengAQ	500
+逐逐位	tatKE takKE uiJE	1000
+逐逐位	totKE takKE uiJE	1000
+ta̍k-ta̍k-uī	tatKE takKE uiJE	500
+ta̍k-ta̍k-uī	totKE takKE uiJE	500
+逐逐俔	tatKE takKE khianSR	1000
+逐逐俔	totKE takKE khianSR	1000
+ta̍k-ta̍k-khián	tatKE takKE khianSR	500
+ta̍k-ta̍k-khián	totKE takKE khianSR	500
+逐逐隻	takKE tatKE tsiahFE	1000
+逐逐隻	totKE takKE tsiahFE	1000
+逐逐隻	tatKE takKE tsiahFE	1000
+逐逐隻	takKE totKE tsiahFE	1000
+ta̍k-ta̍k-tsiah	takKE tatKE tsiahFE	500
+ta̍k-ta̍k-tsiah	totKE takKE tsiahFE	500
+ta̍k-ta̍k-tsiah	tatKE takKE tsiahFE	500
+ta̍k-ta̍k-tsiah	takKE totKE tsiahFE	500
+逐隻	tatKE tsiahFE	1000
+逐隻	totKE tsiahFE	1000
+ta̍k-tsiah	tatKE tsiahFE	500
+ta̍k-tsiah	totKE tsiahFE	500
+逐早	tatKE tsaSR	1000
+逐早	totKE tsaSR	1000
+ta̍k-tsá	tatKE tsaSR	500
+ta̍k-tsá	totKE tsaSR	500
+逐晝	totKE tauDE	1000
+逐晝	tatKE tauDE	1000
+ta̍k-tàu	totKE tauDE	500
+ta̍k-tàu	tatKE tauDE	500
+逐逐早	totKE takKE tsaSR	1000
+逐逐早	takKE tatKE tsaSR	1000
+逐逐早	takKE totKE tsaSR	1000
+逐逐早	tatKE takKE tsaSR	1000
+ta̍k-ta̍k-tsá	totKE takKE tsaSR	500
+ta̍k-ta̍k-tsá	takKE tatKE tsaSR	500
+ta̍k-ta̍k-tsá	takKE totKE tsaSR	500
+ta̍k-ta̍k-tsá	tatKE takKE tsaSR	500
+逐逐早	tahKE tatKE tsaSR	1000
+逐逐早	tahKE totKE tsaSR	1000
+ta̍h-ta̍k-tsá	tahKE tatKE tsaSR	200
+ta̍h-ta̍k-tsá	tahKE totKE tsaSR	200
+逐逐晝	takKE totKE tauDE	1000
+逐逐晝	takKE tatKE tauDE	1000
+逐逐晝	tatKE takKE tauDE	1000
+逐逐晝	totKE takKE tauDE	1000
+ta̍k-ta̍k-tàu	takKE totKE tauDE	500
+ta̍k-ta̍k-tàu	takKE tatKE tauDE	500
+ta̍k-ta̍k-tàu	tatKE takKE tauDE	500
+ta̍k-ta̍k-tàu	totKE takKE tauDE	500
+逐逐晝	tahKE tatKE tauDE	1000
+逐逐晝	tahKE totKE tauDE	1000
+ta̍h-ta̍k-tàu	tahKE tatKE tauDE	200
+ta̍h-ta̍k-tàu	tahKE totKE tauDE	200
+摔錢	siotFQ tsinnGW	1000
+摔錢	siatFQ tsinnGW	1000
+siak-tsînn	siotFQ tsinnGW	500
+siak-tsînn	siatFQ tsinnGW	500
+傷否	sionmAE phainnSR	1000
+傷歹	sionmAE phainnSR	250
+sionn-pháinn	sionmAE phainnSR	500
+傷否	sionmAE phaiSR	1000
+傷歹	sionmAE phaiSR	250
+sionn-phái	sionmAE phaiSR	200
+青皮冊	tshenmAE phueGE tsheehFE	1000
+tshenn-phuê-tsheeh	tshenmAE phueGE tsheehFE	500
+黃皮冊	uinmGE phueGE tsheehFE	1000
+uînn-phuê-tsheeh	uinmGE phueGE tsheehFE	500
+含我	kamGW buaSR	1000
+kâm guá	kamGW buaSR	200
+罕薄	hamSQ pohKQ	1000
+hán-po̍h	hamSQ pohKQ	500
+洓喙	tshiotKE tshuiDE	1000
+洓喙	tshiatKE tshuiDE	1000
+tshia̍k-tshuì	tshiotKE tshuiDE	500
+tshia̍k-tshuì	tshiatKE tshuiDE	500
+變胚	piamDQ phueAQ	1000
+piàn-phue	piamDQ phueAQ	500
+轉胚	tuinmSQ phueAQ	1000
+tuínn-phue	tuinmSQ phueAQ	500
+餐牌	tshamAE paiGW	1000
+tshan-pâi	tshamAE paiGW	500
+平平樣	penmGE pennGE ionnJE	1000
+pênn-pênn-iōnn	penmGE pennGE ionnJE	500
+目睭拍鳥	botKE tsiuAQ phahFQ tsiauSR	1000
+目睭拍鳥	batKE tsiuAQ phahFQ tsiauSR	1000
+ba̍k-tsiu phah-tsiáu	botKE tsiuAQ phahFQ tsiauSR	500
+ba̍k-tsiu phah-tsiáu	batKE tsiuAQ phahFQ tsiauSR	500
+食飯房	tsiahKE puinmJE pangGW	1000
+tsia̍h-puīnn-pâng	tsiahKE puinmJE pangGW	500
+正版	tsianmDQ panSR	1000
+tsiànn-pán	tsianmDQ panSR	500
+轉盤	tsuamSQ puannGW	1000
+tsuán-puânn	tsuamSQ puannGW	500
+蚶殼草	hamAE khatFQ tshauSR	1000
+蚶殼草	hamAE khotFQ tshauSR	1000
+ham-khak-tsháu	hamAE khatFQ tshauSR	500
+ham-khak-tsháu	hamAE khotFQ tshauSR	500
+國姓爺	kopFQ sengDQ iaGW	1000
+Kok-sèng-iâ	kopFQ sengDQ iaGW	500
+贌菜	patKE tshaiDE	1000
+贌菜	potKE tshaiDE	1000
+pa̍k-tshài	patKE tshaiDE	500
+pa̍k-tshài	potKE tshaiDE	500
+縛死	papKQ siSR	1000
+pa̍k--sí	papKQ siSR	500
+否掰	phainmSQ pueSR	1000
+歹掰	phainmSQ pueSR	250
+pháinn-pué	phainmSQ pueSR	500
+讀冊館	thatKE tsheehFQ kuanSR	1000
+讀冊館	thotKE tsheehFQ kuanSR	1000
+tha̍k-tsheeh-kuán	thatKE tsheehFQ kuanSR	500
+tha̍k-tsheeh-kuán	thotKE tsheehFQ kuanSR	500
+天父	thinmAE peeJE	1000
+thinn-pēe	thinmAE peeJE	500
+無正派	boGE tsianmDQ phaiDE	1000
+bô-tsiànn-phài	boGE tsianmDQ phaiDE	500
+對面旁	tuiDQ bimJE pengGW	1000
+對面爿	tuiDQ bimJE pengGW	250
+tuì-bīn-pêng	tuiDQ bimJE pengGW	500
+刻像	khepFQ siongJE	1000
+khek-siōng	khepFQ siongJE	500
+扇貝	siamDQ pueDE	1000
+siàn-puè	siamDQ pueDE	500
+愛國心	aiDQ kopFQ simAQ	1000
+ài-kok-sim	aiDQ kopFQ simAQ	500
+亞鉛板	aAE iamGE panSR	1000
+a-iân-pán	aAE iamGE panSR	500
+按怎辦	anSQ tsuanmSQ panJE	1000
+安怎辦	anSQ tsuanmSQ panJE	250
+焉怎辦	anSQ tsuanmSQ panJE	200
+án-tsuánn-pān	anSQ tsuanmSQ panJE	500
+紅目鳥	angGE batKE tsiauSR	1000
+紅目鳥	angGE botKE tsiauSR	1000
+âng-ba̍k-tsiáu	angGE batKE tsiauSR	500
+âng-ba̍k-tsiáu	angGE botKE tsiauSR	500
+安樂死	anAE lopKE siSR	1000
+an-lo̍k-sí	anAE lopKE siSR	500
+目睫皮	batKE tsiahFQ phueGW	1000
+目睫皮	botKE tsiahFQ phueGW	1000
+ba̍k-tsiah-phuê	batKE tsiahFQ phueGW	500
+ba̍k-tsiah-phuê	botKE tsiahFQ phueGW	500
+目睫皮	batKE tsiapFQ phueGW	1000
+目睫皮	botKE tsiapFQ phueGW	1000
+ba̍k-tsiap-phuê	batKE tsiapFQ phueGW	200
+ba̍k-tsiap-phuê	botKE tsiapFQ phueGW	200
+目珠尾	batKE tsiuAE bueSR	1000
+目珠尾	botKE tsiuAE bueSR	1000
+ba̍k-tsiu-bué	batKE tsiuAE bueSR	500
+ba̍k-tsiu-bué	botKE tsiuAE bueSR	500
+目珠前	botKE tsiuAQ tsengGW	1000
+目珠前	batKE tsiuAQ tsengGW	1000
+ba̍k-tsiu tsêng	botKE tsiuAQ tsengGW	500
+ba̍k-tsiu tsêng	batKE tsiuAQ tsengGW	500
+目珠赤	batKE tsiuAQ tshiahFE	1000
+目珠赤	botKE tsiuAQ tshiahFE	1000
+ba̍k-tsiu tshiah	batKE tsiuAQ tshiahFE	500
+ba̍k-tsiu tshiah	botKE tsiuAQ tshiahFE	500
+目珠空	batKE tsiuAE khongSR	1000
+目珠空	botKE tsiuAE khongSR	1000
+ba̍k-tsiu-khóng	batKE tsiuAE khongSR	500
+ba̍k-tsiu-khóng	botKE tsiuAE khongSR	500
+目珠箍	botKE tsiuAE khooAQ	1000
+目珠箍	batKE tsiuAE khooAQ	1000
+ba̍k-tsiu-khoo	botKE tsiuAE khooAQ	500
+ba̍k-tsiu-khoo	batKE tsiuAE khooAQ	500
+目珠臼	botKE tsiuAE khuJE	1000
+目珠臼	batKE tsiuAE khuJE	1000
+ba̍k-tsiu-khū	botKE tsiuAE khuJE	500
+ba̍k-tsiu-khū	batKE tsiuAE khuJE	500
+目珠金	batKE tsiuAQ kimAQ	1000
+目珠金	botKE tsiuAQ kimAQ	1000
+ba̍k-tsiu kim	batKE tsiuAQ kimAQ	500
+ba̍k-tsiu kim	botKE tsiuAQ kimAQ	500
+目珠墘	botKE tsiuAE kinnGW	1000
+目珠墘	batKE tsiuAE kinnGW	1000
+ba̍k-tsiu-kînn	botKE tsiuAE kinnGW	500
+ba̍k-tsiu-kînn	batKE tsiuAE kinnGW	500
+目珠利	botKE tsiuAQ laiJE	1000
+目珠利	batKE tsiuAQ laiJE	1000
+ba̍k-tsiu lāi	botKE tsiuAQ laiJE	500
+ba̍k-tsiu lāi	batKE tsiuAQ laiJE	500
+目珠碗	botKE tsiuAE uannSR	1000
+目珠碗	batKE tsiuAE uannSR	1000
+ba̍k-tsiu-uánn	botKE tsiuAE uannSR	500
+ba̍k-tsiu-uánn	batKE tsiuAE uannSR	500
+目珠神	batKE tsiuAE sinGW	1000
+目珠神	botKE tsiuAE sinGW	1000
+ba̍k-tsiu-sîn	batKE tsiuAE sinGW	500
+ba̍k-tsiu-sîn	botKE tsiuAE sinGW	500
+目珠巡	botKE tsiuAE sunGW	1000
+目珠巡	batKE tsiuAE sunGW	1000
+目珠皴	botKE tsiuAE sunGW	250
+目珠皴	batKE tsiuAE sunGW	250
+ba̍k-tsiu-sûn	botKE tsiuAE sunGW	500
+ba̍k-tsiu-sûn	batKE tsiuAE sunGW	500
+目珠疼	botKE tsiuAE thiannDE	1000
+目珠疼	batKE tsiuAE thiannDE	1000
+ba̍k-tsiu-thiànn	botKE tsiuAE thiannDE	500
+ba̍k-tsiu-thiànn	batKE tsiuAE thiannDE	500
+目珠唇	botKE tsiuAE tunGW	1000
+目珠唇	batKE tsiuAE tunGW	1000
+目珠脣	botKE tsiuAE tunGW	200
+目珠脣	batKE tsiuAE tunGW	200
+ba̍k-tsiu-tûn	botKE tsiuAE tunGW	500
+ba̍k-tsiu-tûn	batKE tsiuAE tunGW	500
+目珠鈍	botKE tsiuAQ tunJE	1000
+目珠鈍	batKE tsiuAQ tunJE	1000
+ba̍k-tsiu tūn	botKE tsiuAQ tunJE	500
+ba̍k-tsiu tūn	batKE tsiuAQ tunJE	500
+目屎流	bapKE saiSQ lauGW	1000
+ba̍k-sái-lâu	bapKE saiSQ lauGW	500
+木虱草	bapKE satFQ tshauSR	1000
+木蝨草	bapKE satFQ tshauSR	250
+ba̍k-sat-tsháu	bapKE satFQ tshauSR	500
+目色利	bapKE sekFE laiJE	1000
+ba̍k-sek lāi	bapKE sekFE laiJE	500
+墨斗魚	batKE tauSQ huGW	1000
+墨斗魚	botKE tauSQ huGW	1000
+ba̍k-táu-hû	batKE tauSQ huGW	500
+ba̍k-táu-hû	botKE tauSQ huGW	500
+目地無	batKE teJE boGW	1000
+目地無	botKE teJE boGW	1000
+ba̍k-tē-bô	batKE teJE boGW	500
+ba̍k-tē-bô	botKE teJE boGW	500
+目頭金	batKE thauGE kimAQ	1000
+目頭金	botKE thauGE kimAQ	1000
+ba̍k-thâu-kim	batKE thauGE kimAQ	500
+ba̍k-thâu-kim	botKE thauGE kimAQ	500
+蠻皮病	bamGE phueGE pennJE	1000
+bân-phuê-pēnn	bamGE phueGE pennJE	500
+屘仔囝	banAE naSQ kiannSR	1000
+ban-á-kiánn	banAE naSQ kiannSR	500
+明信片	bengGE simDQ phianDE	1000
+bêng-sìn-phiàn	bengGE simDQ phianDE	500
+明信片	bengGE simDQ phinnDE	1000
+bêng-sìn-phìnn	bengGE simDQ phinnDE	200
+面反青	bimJE pengSQ tshennAQ	1000
+bīn-péng-tshenn	bimJE pengSQ tshennAQ	200
+無目地	boGE batKE teJE	1000
+無目地	boGE botKE teJE	1000
+bô-ba̍k-tē	boGE batKE teJE	500
+bô-ba̍k-tē	boGE botKE teJE	500
+井邊	tsenmSQ pinnAQ	1000
+tsénn-pinn	tsenmSQ pinnAQ	500
+正確性	tsengDQ khapFQ sengDE	1000
+tsèng-khak-sèng	tsengDQ khapFQ sengDE	500
+爭霸	tsenmAE paDE	1000
+tsenn-pà	tsenmAE paDE	200
+飼囝飯	tshiJE kianmSQ puinnJE	1000
+tshī-kiánn-puīnn	tshiJE kianmSQ puinnJE	500
+食目珠	tsiahKE botKE tsiuAQ	1000
+食目珠	tsiahKE batKE tsiuAQ	1000
+tsia̍h-ba̍k-tsiu	tsiahKE botKE tsiuAQ	500
+tsia̍h-ba̍k-tsiu	tsiahKE batKE tsiuAQ	500
+餞別	tsiamDQ piatKQ	1000
+tsiàn-pia̍t	tsiamDQ piatKQ	500
+齷齪火	otFQ tsakFQ hueSR	1000
+齷齪火	atFQ tsakFQ hueSR	1000
+ak-tsak-hué	otFQ tsakFQ hueSR	500
+ak-tsak-hué	atFQ tsakFQ hueSR	500
+全盤	tsuamGE puannGW	1000
+tsuân-puânn	tsuamGE puannGW	500
+玉璽	giopKE suSR	1000
+gio̍k-sú	giopKE suSR	500
+玉璽	gepKE suSR	1000
+ge̍k-sú	gepKE suSR	200
+戇囡仔	gongJE ginSQ naSR	1000
+gōng-gín-á	gongJE ginSQ naSR	500
+學術界	hapKE sutKE kaiDE	1000
+ha̍k-su̍t-kài	hapKE sutKE kaiDE	500
+學術性	hapKE sutKE sengDE	1000
+ha̍k-su̍t-sèng	hapKE sutKE sengDE	500
+顯本事	hiamSQ punSQ suJE	1000
+hián-pún-sū	hiamSQ punSQ suJE	500
+香包	hionmAE pauAQ	1000
+hionn-pau	hionmAE pauAQ	500
+橫霸	huainmGE paDE	1000
+huâinn-pà	huainmGE paDE	500
+番仔菜	huanAE naSQ tshaiDE	1000
+huan-á-tshài	huanAE naSQ tshaiDE	500
+番仔字	huanAE naSQ jiJE	1000
+huan-á-jī	huanAE naSQ jiJE	500
+番仔鬼	huanAE naSQ kuiSR	1000
+huan-á-kuí	huanAE naSQ kuiSR	500
+番仔衫	huanAE naSQ sannAQ	1000
+huan-á-sann	huanAE naSQ sannAQ	500
+音唱盤	imAE tshionmDQ puannGW	1000
+im-tshiònn-puânn	imAE tshionmDQ puannGW	500
+音樂系	imAE bakKE heJE	1000
+im-ga̍k-hē	imAE bakKE heJE	500
+音樂會	imAE bakKE hueJE	1000
+im-ga̍k-huē	imAE bakKE hueJE	500
+音樂家	imAE bakKE kaAQ	1000
+im-ga̍k-ka	imAE bakKE kaAQ	500
+音樂家	imAE bakKE keeAQ	1000
+im-ga̍k-kee	imAE bakKE keeAQ	200
+音樂界	imAE bakKE kaiDE	1000
+im-ga̍k-kài	imAE bakKE kaiDE	500
+音樂劇	imAE bakKE kiokKQ	1000
+im-ga̍k-kio̍k	imAE bakKE kiokKQ	500
+音樂台	imAE gatKE taiGW	1000
+音樂台	imAE gotKE taiGW	1000
+音樂台	imAE bakKE taiGW	1000
+im-ga̍k-tâi	imAE gatKE taiGW	500
+im-ga̍k-tâi	imAE gotKE taiGW	500
+im-ga̍k-tâi	imAE bakKE taiGW	500
+音樂廳	imAE gotKE thiannAQ	1000
+音樂廳	imAE gatKE thiannAQ	1000
+音樂廳	imAE bakKE thiannAQ	1000
+im-ga̍k-thiann	imAE gotKE thiannAQ	500
+im-ga̍k-thiann	imAE gatKE thiannAQ	500
+im-ga̍k-thiann	imAE bakKE thiannAQ	500
+戒毒所	kaiDQ topKE sooSR	1000
+kài-to̍k-sóo	kaiDQ topKE sooSR	500
+空腹肚	khangAE potFQ tooSR	1000
+空腹肚	khangAE patFQ tooSR	1000
+khang-pak-tóo	khangAE potFQ tooSR	500
+khang-pak-tóo	khangAE patFQ tooSR	500
+剋星	khepFQ sengAQ	1000
+khek-seng	khepFQ sengAQ	500
+看目色	khuannDQ bapKE sekFE	1000
+khuànn-ba̍k-sek	khuannDQ bapKE sekFE	500
+看病人	khuanmDQ pennJE langGW	1000
+khuànn-pēnn-lâng	khuanmDQ pennJE langGW	500
+鹹牛奶	kiamGE buGE lengAQ	1000
+kiâm-gû-leng	kiamGE buGE lengAQ	500
+鹹牛奶	kiamGE buGE niAQ	1000
+kiâm-gû-ni	kiamGE buGE niAQ	200
+歷史學	lepKE suSQ hakKQ	1000
+le̍k-sú-ha̍k	lepKE suSQ hakKQ	500
+歷史家	lepKE suSQ kaAQ	1000
+le̍k-sú-ka	lepKE suSQ kaAQ	500
+歷史家	lepKE suSQ keeAQ	1000
+le̍k-sú-kee	lepKE suSQ keeAQ	200
+歷史性	lepKE suSQ sengDE	1000
+le̍k-sú-sèng	lepKE suSQ sengDE	500
+亂變	luamJE pianDE	1000
+luān-piàn	luamJE pianDE	500
+亂變	luamJE pinnDE	1000
+luān-pìnn	luamJE pinnDE	200
+馬克思	maSQ khepFQ suAQ	1000
+Má-khek-su	maSQ khepFQ suAQ	500
+縛身	papKE sinAQ	1000
+pa̍k-sin	papKE sinAQ	500
+騙步	phiamDQ pooJE	1000
+phiàn-pōo	phiamDQ pooJE	500
+三斑	sanmAE panAQ	1000
+sann-pan	sanmAE panAQ	500
+三白	sanmAE peehKQ	1000
+sann-pe̍eh	sanmAE peehKQ	500
+山邊	suanmAE pinnAQ	1000
+suann-pinn	suanmAE pinnAQ	500
+蛋白質	tamJE peehKE tsitFE	1000
+tān-pe̍eh-tsit	tamJE peehKE tsitFE	500
+蛋白質	tamJE pekKE tsitFE	1000
+tān-pe̍k-tsit	tamJE pekKE tsitFE	200
+頂半晡	tengSQ puanmDQ pooAQ	1000
+téng-puànn-poo	tengSQ puanmDQ pooAQ	500
+頭殼心	thauGE khapFQ simAQ	1000
+thâu-khak-sim	thauGE khapFQ simAQ	500
+頭殼頂	thauGE khatFQ tengSR	1000
+頭殼頂	thauGE khotFQ tengSR	1000
+thâu-khak-téng	thauGE khatFQ tengSR	500
+thâu-khak-téng	thauGE khotFQ tengSR	500
+頭殼碇	thauGE khatFQ tiannJE	1000
+頭殼碇	thauGE khotFQ tiannJE	1000
+thâu-khak-tiānn	thauGE khatFQ tiannJE	500
+thâu-khak-tiānn	thauGE khotFQ tiannJE	500
+填補	thiamGE pooSR	1000
+thiân-póo	thiamGE pooSR	500
+通訊兵	thongAE simDQ pengAQ	1000
+thong-sìn-peng	thongAE simDQ pengAQ	500
+特殊囡仔	tekKE suGE ginSQ naSR	1000
+特殊囡仔	tepKE suGE ginSQ aSR	1000
+te̍k-sû-gín-á	tekKE suGE ginSQ naSR	500
+te̍k-sû-gín-á	tepKE suGE ginSQ aSR	500
+特殊囡仔	tiatKE suGE ginSQ naSR	1000
+tia̍t-sû-gín-á	tiatKE suGE ginSQ naSR	200
+特殊囡仔	tapKE suGE ginSQ aSR	1000
+特殊囡仔	takKE suGE ginSQ naSR	1000
+ta̍k-sû-gín-á	tapKE suGE ginSQ aSR	150
+ta̍k-sû-gín-á	takKE suGE ginSQ naSR	150
+無確定性	boGE khatFQ tengJE sengDE	1000
+無確定性	boGE khotFQ tengJE sengDE	1000
+bô-khak-tēng-sèng	boGE khatFQ tengJE sengDE	500
+bô-khak-tēng-sèng	boGE khotFQ tengJE sengDE	500
+無確定性	boGE khatFQ tiannJE sengDE	1000
+無確定性	boGE khotFQ tiannJE sengDE	1000
+bô-khak-tiānn-sèng	boGE khatFQ tiannJE sengDE	200
+bô-khak-tiānn-sèng	boGE khotFQ tiannJE sengDE	200
+會讀性	eJE thapKE sengDE	1000
+ē-tha̍k-sèng	eJE thapKE sengDE	500
+袂讀性	beJE thapKE sengDE	1000
+昧讀性	beJE thapKE sengDE	250
+𣍐讀性	beJE thapKE sengDE	200
+bē-tha̍k-sèng	beJE thapKE sengDE	500
+會讀度	eJE thotKE tooJE	1000
+會讀度	eJE thatKE tooJE	1000
+ē-tha̍k-tōo	eJE thotKE tooJE	500
+ē-tha̍k-tōo	eJE thatKE tooJE	500
+袂讀度	beJE thatKE tooJE	1000
+袂讀度	beJE thotKE tooJE	1000
+昧讀度	beJE thatKE tooJE	250
+昧讀度	beJE thotKE tooJE	250
+𣍐讀度	beJE thatKE tooJE	200
+𣍐讀度	beJE thotKE tooJE	200
+bē-tha̍k-tōo	beJE thatKE tooJE	500
+bē-tha̍k-tōo	beJE thotKE tooJE	500
+金牛星	kimAE buGE tshennAQ	1000
+kim-gû-tshenn	kimAE buGE tshennAQ	500
+蟳仔星	tsimGE maSQ tshennAQ	1000
+tsîm-á-tshenn	tsimGE maSQ tshennAQ	500
+秤仔星	tshinDQ naSQ tshennAQ	1000
+稱仔座	tshinDQ naSQ tshennAQ	250
+tshìn-á-tshenn	tshinDQ naSQ tshennAQ	500
+天平星	thiamAE pengGE tshennAQ	1000
+thian-pêng-tshenn	thiamAE pengGE tshennAQ	500
+蠍仔星	giatFQ laSQ tshennAQ	1000
+giat-á-tshenn	giatFQ laSQ tshennAQ	500
+約參峇	iopFQ samAE baiAQ	1000
+iok-sam-bai	iopFQ samAE baiAQ	200
+鉸影片	kaAE ianmSQ phinnDE	1000
+ka-iánn-phìnn	kaAE ianmSQ phinnDE	500
+轉旁	tsuamSQ pengGW	1000
+轉爿	tsuamSQ pengGW	250
+tsuán-pêng	tsuamSQ pengGW	500
+刻聲	khepFQ siannAQ	1000
+khek-siann	khepFQ siannAQ	500
+囡仔星	ginSQ naSQ tshennAQ	1000
+gín-á-tshenn	ginSQ naSQ tshennAQ	500
+囡仔星	ginSQ naSQ sengAQ	1000
+gín-á-seng	ginSQ naSQ sengAQ	150
+囡仔星	ginSQ naSQ sanAQ	1000
+gín-á-san	ginSQ naSQ sanAQ	40
+黃膽病	uinnGE tanmSQ pennJE	1000
+uînn-tánn-pēnn	uinnGE tanmSQ pennJE	500
+黃膽病	ngGE tanmSQ pennJE	1000
+n̂g-tánn-pēnn	ngGE tanmSQ pennJE	200
+一慢仔久	tsitKE banJE naSQ kuSR	1000
+tsi̍t-bān-á-kú	tsitKE banJE naSQ kuSR	500
+秤盤	tshimDQ puannGW	1000
+tshìn-puânn	tshimDQ puannGW	500
+俗衫	siopKE sannAQ	1000
+sio̍k-sann	siopKE sannAQ	500
+孫逸仙	sunAE epKE sianAQ	1000
+Sun-e̍k-sian	sunAE epKE sianAQ	500
+熟悉	siopKE sekFE	1000
+sio̍k-sek	siopKE sekFE	500
+番旁新婦	huanAE pengGE simAE puJE	1000
+番旁新婦	huamAE pengGE sinAE puJE	1000
+番爿新婦	huanAE pengGE simAE puJE	250
+番爿新婦	huamAE pengGE sinAE puJE	250
+番平新婦	huanAE pengGE simAE puJE	200
+番平新婦	huamAE pengGE sinAE puJE	200
+huan-pêng-sin-pū	huanAE pengGE simAE puJE	500
+huan-pêng-sin-pū	huamAE pengGE sinAE puJE	500
+番旁囝	huamAE pengGE kiannSR	1000
+番爿囝	huamAE pengGE kiannSR	250
+番平囝	huamAE pengGE kiannSR	200
+huan-pêng-kiánn	huamAE pengGE kiannSR	500
+新正團拜	sinAE tsiannAQ thuamGE paiDE	1000
+sin-tsiann thuân-pài	sinAE tsiannAQ thuamGE paiDE	500
+歌唱片	kuaAE tshionmDQ phinnDE	1000
+kua-tshiònn-phìnn	kuaAE tshionmDQ phinnDE	500
+番旁腔	huamAE pengGE khionnAQ	1000
+番爿腔	huamAE pengGE khionnAQ	250
+番平腔	huamAE pengGE khionnAQ	200
+huan-pêng-khionn	huamAE pengGE khionnAQ	500
+番仔音	huanAE naSQ imAQ	1000
+huan-á-im	huanAE naSQ imAQ	500
+三簿	sanmAE phooJE	1000
+sann-phōo	sanmAE phooJE	500
+真否	tsimAE phainnSR	1000
+真歹	tsimAE phainnSR	250
+tsin-pháinn	tsimAE phainnSR	500
+真否	tsimAE phaiSR	1000
+真歹	tsimAE phaiSR	250
+tsin-phái	tsimAE phaiSR	200
+陣陣仔疼	tsunJE tsunJE naSR thiannDE	1000
+tsūn-tsūn-á thiànn	tsunJE tsunJE naSR thiannDE	500
+破衫破褲	phuaDQ sanmAE phuaDQ khooDE	1000
+phuà-sann-phuà-khòo	phuaDQ sanmAE phuaDQ khooDE	500
+# redirects-v1
+# redirect	matsai	miatsai	miaatsai	binatsai
+# redirect	bola	bota
+# redirect	abuden	abolian
+# redirect	korea	hankok
+# redirect	penang	pineeng
+# redirect	malaysia	malaisea
+# redirect	buaya	buaia
+# redirect	passport	hootsiau
+# redirect	durian	liulian
+# redirect	hello	luho
+# redirect	parking	paktshia
+# redirect	buffet	tsutsootshan
+# redirect	japan	jitpun
+# redirect	datuk	natoh	latoh
+# redirect	tansri	tansuli
+# redirect	tanseri	tansuli
+# redirect	datin	nateng	lateng

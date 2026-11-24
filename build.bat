@@ -294,6 +294,8 @@ rem ---------------------------------------------------------------------------
   set WSLENV=plum_dir:rime_dir
   bash plum/rime-install %WEASEL_BUNDLED_RECIPES%
   if errorlevel 1 goto error
+  powershell -NoProfile -ExecutionPolicy Bypass -File "%WEASEL_ROOT%\penang\apply-penang-data.ps1"
+  if errorlevel 1 goto error
   exit /b
 
 rem ---------------------------------------------------------------------------

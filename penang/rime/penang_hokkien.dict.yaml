@@ -1,0 +1,13 @@
+---
+name: penang_hokkien
+version: "1.0"
+sort: by_weight
+import_tables:
+  - penang_hokkien_full
+  - penang_hokkien_abbr
+  - penang_hokkien_single
+  - penang_hokkien_emoji
+  - penang_hokkien_alias
+  - penang_hokkien_letters
+  - penang_hokkien_variant
+...
