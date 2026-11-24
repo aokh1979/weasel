@@ -302,13 +302,10 @@ program_files:
 
   SetOutPath $INSTDIR
 
-  ; test /T flag for zh_TW locale
-  StrCpy $R2 "/i"
+  ; Penang Hokkien Keyboard: always Chinese (Traditional, Taiwan)
+  StrCpy $R2 "/t"
   ${GetParameters} $R0
   ClearErrors
-  ${GetOptions} $R0 "/S" $R1
-  IfErrors +2 0
-  StrCpy $R2 "/s"
   ${GetOptions} $R0 "/T" $R1
   IfErrors +2 0
   StrCpy $R2 "/t"
