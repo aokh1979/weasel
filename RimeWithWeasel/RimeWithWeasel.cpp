@@ -1536,8 +1536,10 @@ void RimeWithWeaselHandler::_PenangSync(RimeSessionId session_id) {
   if (m_penang_dirty.exchange(false)) {
     m_penang = penang::Load();
     _PenangApplyStyle(m_base_style);
-    for (auto& pair : m_session_status_map)
+    for (auto& pair : m_session_status_map) {
       _PenangApplyStyle(pair.second.style);
+      pair.second.__synced = false;  // resend the style to the client
+    }
     if (m_ui)
       _PenangApplyStyle(m_ui->style());
   }

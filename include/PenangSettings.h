@@ -112,6 +112,7 @@ inline HMENU BuildMenu() {
   add(ID_POJ, L"Use POJ Romanisation", s.poj);
   separator();
   add(ID_ALT_CHINESE, L"Rare Chinese Alternatives", s.alt_chinese);
+  separator();
   add(ID_FULL_MATCH, L"Full-Match Romanisations", s.full_match);
   add(ID_PARTIAL_MATCH, L"Partial-Match Romanisations", s.partial_match);
   separator();
