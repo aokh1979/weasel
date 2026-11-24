@@ -46,6 +46,14 @@ RequestExecutionLevel admin
 
 ; Pages
 
+!define MUI_WELCOMEPAGE_TITLE "Penang Hokkien Keyboard"
+!define MUI_WELCOMEPAGE_TEXT "Kám-siā you for installing Penang Hokkien Keyboard.$\r$\n$\r$\n\
+Built on the open-source Rime and Weasel projects, this input method aims to \
+promote Chinese characters alongside a standardised Penang Hokkien romanisation, \
+adapted from Tailo to better reflect local pronunciation. Fuzzy spelling allows \
+users familiar with Bahasa Melayu or Hanyu Pinyin to start typing naturally, \
+without prior knowledge of Tailo."
+!insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "LICENSE.txt"
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES

@@ -132,6 +132,7 @@ void RimeWithWeaselHandler::Initialize() {
         }
       }
       m_base_style = m_ui->style();
+      _PenangInitStyle();
       // Warm up UI resources with finalized style to avoid first-show latency.
       m_ui->Refresh();
       m_ui->Hide();
@@ -245,6 +246,7 @@ void RimeWithWeaselHandler::UpdateColorTheme(BOOL darkMode) {
         }
       }
       m_base_style = m_ui->style();
+      _PenangInitStyle();
     }
     rime_api->config_close(&config);
   }
@@ -271,6 +273,7 @@ BOOL RimeWithWeaselHandler::ProcessKeyEvent(KeyEvent keyEvent,
   if (m_disabled)
     return FALSE;
   RimeSessionId session_id = to_session_id(ipc_id);
+  _PenangSync(session_id);
   Bool handled = rime_api->process_key(session_id, keyEvent.keycode,
                                        expand_ibus_modifier(keyEvent.mask));
   // vim_mode when keydown only
@@ -458,7 +461,7 @@ void RimeWithWeaselHandler::_GetCandidateInfo(CandidateInfo& cinfo,
   cinfo.labels.resize(ctx.menu.num_candidates);
   for (int i = 0; i < ctx.menu.num_candidates; ++i) {
     cinfo.candies[i].str = escape_string(u8tow(ctx.menu.candidates[i].text));
-    if (ctx.menu.candidates[i].comment) {
+    if (m_penang.hints && ctx.menu.candidates[i].comment) {
       cinfo.comments[i].str =
           escape_string(u8tow(ctx.menu.candidates[i].comment));
     }
@@ -488,6 +491,8 @@ void RimeWithWeaselHandler::EndMaintenance() {
     _UpdateUI(0);
   }
   m_session_status_map.clear();
+  m_penang_page.clear();
+  m_penang_dirty = true;
 }
 
 void RimeWithWeaselHandler::SetOption(WeaselSessionId ipc_id,
@@ -571,6 +576,7 @@ void RimeWithWeaselHandler::_LoadSchemaSpecificSettings(
   m_ui->style() = m_base_style;
   _UpdateUIStyle(&config, m_ui, false);
   SessionStatus& session_status = get_session_status(ipc_id);
+  _PenangApplyStyle(m_ui->style());
   session_status.style = m_ui->style();
   UIStyle& style = session_status.style;
   // load schema color style config
@@ -1506,4 +1512,79 @@ void RimeWithWeaselHandler::_UpdateInlinePreeditStatus(WeaselSessionId ipc_id) {
   rime_api->set_option(session_id, "inline_preedit", Bool(inline_preedit));
   // show soft cursor on weasel panel but not inline
   rime_api->set_option(session_id, "soft_cursor", Bool(!inline_preedit));
+}
+
+// Penang Hokkien Keyboard: apply the menu options (see PenangSettings.h).
+void RimeWithWeaselHandler::_PenangApplyStyle(UIStyle& style) {
+  style.layout_type =
+      m_penang.vertical ? UIStyle::LAYOUT_VERTICAL : UIStyle::LAYOUT_HORIZONTAL;
+  int base = m_penang_base_font > 0 ? m_penang_base_font : 12;
+  style.font_point = m_penang.text_size == 2   ? base * 3 / 2
+                     : m_penang.text_size == 1 ? base * 5 / 4
+                                               : base;
+}
+
+void RimeWithWeaselHandler::_PenangInitStyle() {
+  m_penang = penang::Load();
+  m_penang_base_font = m_base_style.font_point;
+  _PenangApplyStyle(m_base_style);
+  if (m_ui)
+    _PenangApplyStyle(m_ui->style());
+}
+
+void RimeWithWeaselHandler::_PenangSync(RimeSessionId session_id) {
+  if (m_penang_dirty.exchange(false)) {
+    m_penang = penang::Load();
+    _PenangApplyStyle(m_base_style);
+    for (auto& pair : m_session_status_map)
+      _PenangApplyStyle(pair.second.style);
+    if (m_ui)
+      _PenangApplyStyle(m_ui->style());
+  }
+  _PenangPageSize(session_id);
+  const char* names[] = {"use_poj_romanisation", "show_alternative_chinese",
+                         "show_matching_romanisations",
+                         "show_partial_romanisations"};
+  bool values[] = {m_penang.poj, m_penang.alt_chinese, m_penang.full_match,
+                   m_penang.partial_match};
+  for (int i = 0; i < 4; ++i) {
+    if (!!rime_api->get_option(session_id, names[i]) != values[i])
+      rime_api->set_option(session_id, names[i], values[i]);
+  }
+}
+
+void RimeWithWeaselHandler::_PenangPageSize(RimeSessionId session_id) {
+  const int wanted = m_penang.page_size;
+  auto it = m_penang_page.find(session_id);
+  if (it != m_penang_page.end() && it->second == wanted)
+    return;
+  RIME_STRUCT(RimeStatus, status);
+  if (!rime_api->get_status(session_id, &status))
+    return;
+  bool ready = status.schema_id &&
+               std::string(status.schema_id) == "penang_hokkien" &&
+               !status.is_composing;
+  rime_api->free_status(&status);
+  if (!ready)
+    return;
+  RimeConfig config = {NULL};
+  if (!rime_api->schema_open("penang_hokkien", &config))
+    return;
+  int current = 0;
+  rime_api->config_get_int(&config, "menu/page_size", &current);
+  if (current != wanted)
+    rime_api->config_set_int(&config, "menu/page_size", wanted);
+  if (current != wanted || it != m_penang_page.end()) {
+    // Reload the schema so this session picks up the new page size,
+    // keeping the switches the user has set.
+    const char* keep[] = {"ascii_mode", "full_shape", "ascii_punct"};
+    bool saved[3];
+    for (int i = 0; i < 3; ++i)
+      saved[i] = !!rime_api->get_option(session_id, keep[i]);
+    rime_api->select_schema(session_id, "penang_hokkien");
+    for (int i = 0; i < 3; ++i)
+      rime_api->set_option(session_id, keep[i], saved[i]);
+  }
+  rime_api->config_close(&config);
+  m_penang_page[session_id] = wanted;
 }

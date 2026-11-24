@@ -93,4 +93,13 @@ void WeaselServerApp::SetupMenuHandlers() {
                           std::bind(explore, WeaselUserDataPath()));
   m_server.AddMenuHandler(ID_WEASELTRAY_LOGDIR,
                           std::bind(explore, WeaselLogPath()));
+  // Penang Hokkien Keyboard menu options.
+  for (UINT id = penang::ID_FIRST; id <= penang::ID_LAST; ++id) {
+    m_server.AddMenuHandler(id, [this, id] {
+      penang::Toggle(id);
+      if (m_handler)
+        m_handler->PenangSettingsChanged();
+      return true;
+    });
+  }
 }

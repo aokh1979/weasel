@@ -4,6 +4,8 @@
 #include <map>
 #include <string>
 #include <mutex>
+#include <atomic>
+#include <PenangSettings.h>
 
 #include <rime_api.h>
 
@@ -64,6 +66,7 @@ class RimeWithWeaselHandler : public weasel::RequestHandler {
   virtual void UpdateInputPosition(RECT const& rc, WeaselSessionId ipc_id);
   virtual void StartMaintenance();
   virtual void EndMaintenance();
+  void PenangSettingsChanged() { m_penang_dirty = true; }
   virtual void SetOption(WeaselSessionId ipc_id,
                          const std::string& opt,
                          bool val);
@@ -108,6 +111,15 @@ class RimeWithWeaselHandler : public weasel::RequestHandler {
   std::string m_last_schema_id;
   std::string m_last_app_name;
   weasel::UIStyle m_base_style;
+  // Penang Hokkien Keyboard menu options.
+  void _PenangSync(RimeSessionId session_id);
+  void _PenangPageSize(RimeSessionId session_id);
+  void _PenangApplyStyle(weasel::UIStyle& style);
+  void _PenangInitStyle();
+  std::atomic<bool> m_penang_dirty{true};
+  penang::Settings m_penang;
+  int m_penang_base_font = 0;
+  std::map<RimeSessionId, int> m_penang_page;
   std::map<std::string, bool> m_show_notifications;
   std::map<std::string, bool> m_show_notifications_base;
   std::function<void()> _UpdateUICallback;

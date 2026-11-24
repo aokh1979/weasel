@@ -6,6 +6,7 @@
 #include "LanguageBar.h"
 #include "CandidateList.h"
 #include <WeaselUtility.h>
+#include <PenangSettings.h>
 
 static const DWORD LANGBARITEMSINK_COOKIE = 0x42424242;
 
@@ -15,7 +16,7 @@ static void HMENU2ITfMenu(HMENU hMenu, ITfMenu* pTfMenu) {
   for (int i = 0; i < N; i++) {
     MENUITEMINFO mii;
     mii.cbSize = sizeof(MENUITEMINFO);
-    mii.fMask = MIIM_FTYPE | MIIM_ID | MIIM_STRING;
+    mii.fMask = MIIM_FTYPE | MIIM_ID | MIIM_STRING | MIIM_STATE;
     mii.dwTypeData = NULL;
     if (GetMenuItemInfo(hMenu, i, TRUE, &mii)) {
       UINT id = mii.wID;
@@ -26,8 +27,9 @@ static void HMENU2ITfMenu(HMENU hMenu, ITfMenu* pTfMenu) {
         mii.dwTypeData = (LPWSTR)malloc(sizeof(WCHAR) * (mii.cch + 1));
         mii.cch++;
         if (GetMenuItemInfo(hMenu, i, TRUE, &mii))
-          pTfMenu->AddMenuItem(id, 0, NULL, NULL, mii.dwTypeData, mii.cch,
-                               NULL);
+          pTfMenu->AddMenuItem(
+              id, (mii.fState & MFS_CHECKED) ? TF_LBMENUF_CHECKED : 0, NULL,
+              NULL, mii.dwTypeData, mii.cch, NULL);
         free(mii.dwTypeData);
       }
     }
@@ -162,20 +164,11 @@ STDMETHODIMP CLangBarItemButton::OnClick(TfLBIClick click,
     /* Open menu */
     HWND hwnd = _pTextService->_GetFocusedContextWindow();
     if (hwnd != NULL) {
-      LANGID langid = get_language_id();
-      HMENU menu;
-      if (langid == TEXTSERVICE_LANGID_HANS) {
-        menu = LoadMenuW(g_hInst, MAKEINTRESOURCE(IDR_MENU_POPUP_HANS));
-      } else if (langid == TEXTSERVICE_LANGID_HANT) {
-        menu = LoadMenuW(g_hInst, MAKEINTRESOURCE(IDR_MENU_POPUP_HANT));
-      } else {
-        menu = LoadMenuW(g_hInst, MAKEINTRESOURCE(IDR_MENU_POPUP));
-      }
-      HMENU popupMenu = GetSubMenu(menu, 0);
+      HMENU popupMenu = penang::BuildMenu();
       UINT wID = TrackPopupMenuEx(
           popupMenu, TPM_NONOTIFY | TPM_RETURNCMD | TPM_HORPOSANIMATION, pt.x,
           pt.y, hwnd, NULL);
-      DestroyMenu(menu);
+      DestroyMenu(popupMenu);
       _pTextService->_HandleLangBarMenuSelect(wID);
     }
   }
@@ -183,10 +176,9 @@ STDMETHODIMP CLangBarItemButton::OnClick(TfLBIClick click,
 }
 
 STDMETHODIMP CLangBarItemButton::InitMenu(ITfMenu* pMenu) {
-  HMENU menu = LoadMenuW(g_hInst, MAKEINTRESOURCE(IDR_MENU_POPUP));
-  HMENU popupMenu = GetSubMenu(menu, 0);
+  HMENU popupMenu = penang::BuildMenu();
   HMENU2ITfMenu(popupMenu, pMenu);
-  DestroyMenu(menu);
+  DestroyMenu(popupMenu);
   return S_OK;
 }
 
