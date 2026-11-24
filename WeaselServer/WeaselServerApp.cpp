@@ -22,7 +22,7 @@ int WeaselServerApp::Run() {
   LOG(INFO) << "IPC server window started";
 
   // win_sparkle_set_appcast_url("http://localhost:8000/weasel/update/appcast.xml");
-  win_sparkle_set_registry_path("Software\\Rime\\Weasel\\Updates");
+  win_sparkle_set_registry_path("Software\\Rime\\PenangHokkien\\Updates");
   if (GetThreadUILanguage() ==
       MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL))
     win_sparkle_set_lang("zh-TW");

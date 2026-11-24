@@ -173,7 +173,7 @@ ExitError:
 
 STDMETHODIMP WeaselTSF::OnSetThreadFocus() {
   std::wstring _ToggleImeOnOpenClose{};
-  RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\weasel",
+  RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien",
                     L"ToggleImeOnOpenClose", _ToggleImeOnOpenClose);
   _isToOpenClose = (_ToggleImeOnOpenClose == L"yes");
   if (m_client.Echo()) {
@@ -242,7 +242,7 @@ bool WeaselTSF::_EnsureServerConnected() {
     _Reconnect();
     retry++;
     if (retry >= 6) {
-      HANDLE hMutex = CreateMutex(NULL, TRUE, L"WeaselDeployerExclusiveMutex");
+      HANDLE hMutex = CreateMutex(NULL, TRUE, L"PenangHokkienDeployerExclusiveMutex");
       const auto count_server_process = []() -> int {
         int count = 0;
         HANDLE snap = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);

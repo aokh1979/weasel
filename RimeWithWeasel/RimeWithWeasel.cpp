@@ -96,7 +96,7 @@ void RimeWithWeaselHandler::_Setup() {
   weasel_traits.distribution_name = distribution_name.c_str();
   weasel_traits.distribution_code_name = WEASEL_CODE_NAME;
   weasel_traits.distribution_version = WEASEL_PRODUCT_VERSION;
-  weasel_traits.app_name = "rime.weasel";
+  weasel_traits.app_name = "rime.penang";
   std::string log_dir = WeaselLogPath().u8string();
   weasel_traits.log_dir = log_dir.c_str();
   rime_api->setup(&weasel_traits);
@@ -548,7 +548,7 @@ void RimeWithWeaselHandler::OnUpdateUI(std::function<void()> const& cb) {
 }
 
 bool RimeWithWeaselHandler::_IsDeployerRunning() {
-  HANDLE hMutex = CreateMutex(NULL, TRUE, L"WeaselDeployerMutex");
+  HANDLE hMutex = CreateMutex(NULL, TRUE, L"PenangHokkienDeployerMutex");
   bool deployer_detected = hMutex && GetLastError() == ERROR_ALREADY_EXISTS;
   if (hMutex) {
     CloseHandle(hMutex);
@@ -730,14 +730,14 @@ bool RimeWithWeaselHandler::_ShowMessage(Context& ctx, Status& status) {
     else if (m_message_value == "failure") {
       if (GetThreadUILanguage() ==
           MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL))
-        tips = L"有錯誤，請查看日誌 %TEMP%\\rime.weasel\\rime.weasel.*.INFO";
+        tips = L"有錯誤，請查看日誌 %TEMP%\\rime.penang\\rime.penang.*.INFO";
       else if (GetThreadUILanguage() ==
                MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED))
-        tips = L"有错误，请查看日志 %TEMP%\\rime.weasel\\rime.weasel.*.INFO";
+        tips = L"有错误，请查看日志 %TEMP%\\rime.penang\\rime.penang.*.INFO";
       else
         tips =
             L"There is an error, please check the logs "
-            L"%TEMP%\\rime.weasel\\rime.weasel.*.INFO";
+            L"%TEMP%\\rime.penang\\rime.penang.*.INFO";
     }
   } else if (m_message_type == "schema") {
     tips = /*L"【" + */ status.schema_name /* + L"】"*/;

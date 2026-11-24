@@ -38,7 +38,7 @@ std::filesystem::path WeaselUserDataPath();
 inline fs::path WeaselLogPath() {
   WCHAR _path[MAX_PATH] = {0};
   // default location
-  ExpandEnvironmentStringsW(L"%TEMP%\\rime.weasel", _path, _countof(_path));
+  ExpandEnvironmentStringsW(L"%TEMP%\\rime.penang", _path, _countof(_path));
   fs::path path = fs::path(_path);
   if (!fs::exists(path)) {
     fs::create_directories(path);
@@ -218,7 +218,7 @@ inline LONG RegGetStringValue(HKEY key,
 
 inline LANGID get_language_id() {
   std::wstring lang{};
-  if (RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\Weasel",
+  if (RegGetStringValue(HKEY_CURRENT_USER, L"Software\\Rime\\PenangHokkien",
                         L"Language", lang) == ERROR_SUCCESS) {
     if (lang == L"chs")
       return MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED);
@@ -262,7 +262,7 @@ inline void SetWeaselLogLevel(int level) {
 }
 
 inline void LoadWeaselLogLevelFromRegistry() {
-  constexpr const LPCWSTR key = L"Software\\Rime\\Weasel";
+  constexpr const LPCWSTR key = L"Software\\Rime\\PenangHokkien";
   constexpr const LPCWSTR value = L"LogLevel";
   DWORD type = 0;
   DWORD data = 0;

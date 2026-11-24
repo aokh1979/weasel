@@ -7,19 +7,19 @@
 #include <WeaselUtility.h>
 #include "InstallOptionsDlg.h"
 
-// {A3F4CDED-B1E9-41EE-9CA6-7B4D0DE6CB0A}
+// {7BFA99DF-95DE-43ED-A661-65B2E9A50DBA}
 static const GUID c_clsidTextService = {
-    0xa3f4cded,
-    0xb1e9,
-    0x41ee,
-    {0x9c, 0xa6, 0x7b, 0x4d, 0xd, 0xe6, 0xcb, 0xa}};
+    0x7bfa99df,
+    0x95de,
+    0x43ed,
+    {0xa6, 0x61, 0x65, 0xb2, 0xe9, 0xa5, 0x0d, 0xba}};
 
-// {3D02CAB6-2B8E-4781-BA20-1C9267529467}
+// {9A016E90-CED6-49FC-85DA-1D2AFC015EB3}
 static const GUID c_guidProfile = {
-    0x3d02cab6,
-    0x2b8e,
-    0x4781,
-    {0xba, 0x20, 0x1c, 0x92, 0x67, 0x52, 0x94, 0x67}};
+    0x9a016e90,
+    0xced6,
+    0x49fc,
+    {0x85, 0xda, 0x1d, 0x2a, 0xfc, 0x01, 0x5e, 0xb3}};
 
 #define WEASEL_WER_KEY                            \
   L"SOFTWARE\\Microsoft\\Windows\\Windows Error " \
@@ -481,7 +481,7 @@ int install(const std::wstring& profile, bool silent) {
   }
 
   // persist the installing profile so that uninstall removes the right one
-  const WCHAR PROFILE_KEY[] = L"Software\\Rime\\Weasel";
+  const WCHAR PROFILE_KEY[] = L"Software\\Rime\\PenangHokkien";
   ret = SetRegKeyValue(HKEY_CURRENT_USER, PROFILE_KEY, L"Profile",
                        profile.c_str(), REG_SZ);
   if (FAILED(HRESULT_FROM_WIN32(ret))) {
@@ -538,7 +538,7 @@ int uninstall(bool silent) {
   // 注销输入法
   int retval = 0;
 
-  const WCHAR KEY[] = L"Software\\Rime\\Weasel";
+  const WCHAR KEY[] = L"Software\\Rime\\PenangHokkien";
   HKEY hKey;
   std::wstring profile = L"hans";
   LSTATUS ret = RegOpenKey(HKEY_CURRENT_USER, KEY, &hKey);

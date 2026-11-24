@@ -18,14 +18,14 @@ Unicode true
 !define WEASEL_BUILD 0
 !endif
 
-!define WEASEL_ROOT $INSTDIR\weasel-${WEASEL_VERSION}
-!define REG_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\Weasel"
+!define WEASEL_ROOT $INSTDIR\penang-hokkien-${WEASEL_VERSION}
+!define REG_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien"
 
 ; The name of the installer
 Name "Penang Hokkien Keyboard ${WEASEL_VERSION}"
 
 ; The file to write
-OutFile "archives\weasel-${PRODUCT_VERSION}-installer.exe"
+OutFile "archives\penang-hokkien-keyboard-${PRODUCT_VERSION}-installer.exe"
 
 VIProductVersion "${WEASEL_VERSION}.${WEASEL_BUILD}"
 VIAddVersionKey /LANG=2052 "ProductName" "庇能福建拍字盤"
@@ -129,29 +129,29 @@ toquit:
     Quit
   ${EndIf}
 
-  ReadRegStr $R0 HKLM "Software\Rime\Weasel" "InstallDir"
+  ReadRegStr $R0 HKLM "Software\Rime\PenangHokkien" "InstallDir"
   StrCmp $R0 "" 0 skip
   ; The default installation directory
   ; install x64 build for NativeARM64_WINDOWS11 and NativeAMD64_WINDOWS11
   ${If} ${AtLeastWin11} ; Windows 11 and above
     ${If} ${IsNativeARM64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\Rime"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
     ${ElseIf} ${IsNativeAMD64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\Rime"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
     ${Else}
-      StrCpy $INSTDIR "$PROGRAMFILES\Rime"
+      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkien"
     ${Endif}
   ; install x64 build for NativeAMD64_BELLOW_WINDOWS11
   ${Else} ; Windows 10 or bellow
     ${If} ${IsNativeAMD64}
-      StrCpy $INSTDIR "$PROGRAMFILES64\Rime"
+      StrCpy $INSTDIR "$PROGRAMFILES64\PenangHokkien"
     ${Else}
-      StrCpy $INSTDIR "$PROGRAMFILES\Rime"
+      StrCpy $INSTDIR "$PROGRAMFILES\PenangHokkien"
     ${Endif}
   ${Endif}
 skip:
   ReadRegStr $R0 HKLM \
-  "Software\Microsoft\Windows\CurrentVersion\Uninstall\Weasel" \
+  "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien" \
   "UninstallString"
   StrCmp $R0 "" done
 
@@ -162,7 +162,7 @@ skip:
 
 uninst:
   ; Backup data directory from previous installation, user files may exist
-  ReadRegStr $R1 HKLM SOFTWARE\Rime\Weasel "WeaselRoot"
+  ReadRegStr $R1 HKLM SOFTWARE\Rime\PenangHokkien "WeaselRoot"
   StrCmp $R1 "" call_uninstaller
   IfFileExists $R1\data\*.* 0 call_uninstaller
   CreateDirectory $TEMP\weasel-backup
@@ -173,14 +173,14 @@ call_uninstaller:
   ; Keep TSF profiles during upgrades so Windows does not add a default IME.
   ; Remove registry keys
   DeleteRegKey HKLM SOFTWARE\Rime
-  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Weasel"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien"
   ; don't redirect on 64 bit system for auto run setting
   ${If} ${IsNativeARM64}
     SetRegView 64
   ${ElseIf} ${IsNativeAMD64}
     SetRegView 64
   ${Endif}
-  DeleteRegValue HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "WeaselServer"
+  DeleteRegValue HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "PenangHokkienServer"
   ; recover back to 32bit view
   SetRegView 32
   ; Remove files and uninstaller
@@ -202,7 +202,7 @@ FunctionEnd
 
 ; Registry key to check for directory (so if you install again, it will
 ; overwrite the old one automatically)
-InstallDirRegKey HKLM "Software\Rime\Weasel" "InstallDir"
+InstallDirRegKey HKLM "Software\Rime\PenangHokkien" "InstallDir"
 
 ; The stuff to install
 Section "Weasel"
@@ -211,8 +211,8 @@ Section "Weasel"
 
   ; Write the new installation path into the registry
   ; redirect on 64 bit system
-  ; HKLM SOFTWARE\WOW6432Node\Rime\Weasel "InstallDir" "$INSTDIR"
-  WriteRegStr HKLM SOFTWARE\Rime\Weasel "InstallDir" "$INSTDIR"
+  ; HKLM SOFTWARE\WOW6432Node\Rime\PenangHokkien "InstallDir" "$INSTDIR"
+  WriteRegStr HKLM SOFTWARE\Rime\PenangHokkien "InstallDir" "$INSTDIR"
 
   ; Reset INSTDIR for the new version
   StrCpy $INSTDIR "${WEASEL_ROOT}"
@@ -343,16 +343,16 @@ program_files:
     SetRegView 64
   ${Endif}
   ; Write autorun key
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "WeaselServer" "$INSTDIR\WeaselServer.exe"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "PenangHokkienServer" "$INSTDIR\WeaselServer.exe"
   ; Start WeaselServer
   Exec "$INSTDIR\WeaselServer.exe"
 
   ; option CheckForUpdates
   DisableAutoCheckUpdate:
-  WriteRegStr HKCU "Software\Rime\Weasel\Updates" "CheckForUpdates" "0"
+  WriteRegStr HKCU "Software\Rime\PenangHokkien\Updates" "CheckForUpdates" "0"
   GoTo end
   EnableAutoCheckUpdate:
-  WriteRegStr HKCU "Software\Rime\Weasel\Updates" "CheckForUpdates" "1"
+  WriteRegStr HKCU "Software\Rime\PenangHokkien\Updates" "CheckForUpdates" "1"
   end:
 
   ; Prompt reboot
@@ -389,14 +389,14 @@ Section "Uninstall"
 
   ; Remove registry keys
   DeleteRegKey HKLM SOFTWARE\Rime
-  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Weasel"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\PenangHokkien"
   ; don't redirect on 64 bit system for auto run setting
   ${If} ${IsNativeARM64}
     SetRegView 64
   ${ElseIf} ${IsNativeAMD64}
     SetRegView 64
   ${Endif}
-  DeleteRegValue HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "WeaselServer"
+  DeleteRegValue HKLM "Software\Microsoft\Windows\CurrentVersion\Run" "PenangHokkienServer"
 
   ; Remove files and uninstaller
   SetOutPath $TEMP

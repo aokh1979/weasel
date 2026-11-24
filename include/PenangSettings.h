@@ -5,7 +5,7 @@
 
 namespace penang {
 
-constexpr const wchar_t* kRegKey = L"Software\\Rime\\Weasel\\Penang";
+constexpr const wchar_t* kRegKey = L"Software\\Rime\\PenangHokkien\\Penang";
 
 enum : UINT {
   ID_POJ = 40101,

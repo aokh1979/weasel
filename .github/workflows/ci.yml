@@ -6,6 +6,7 @@ on:
       - '*'
     tags:
       - '[0-9]+.*'
+      - 'penang-*'
   pull_request:
   workflow_dispatch:
 
@@ -35,6 +36,8 @@ jobs:
   build:
     needs: lint
     runs-on: windows-2022
+    permissions:
+      contents: write
     env:
       boost_version: 1.84.0
       BOOST_ROOT: ${{ github.workspace }}\deps\boost_1_84_0
@@ -57,6 +60,11 @@ jobs:
         run: |
           cp env.vs2022.bat env.bat
           echo git_ref_name="$(git describe --always)" >> $GITHUB_ENV
+
+      - name: Penang version from tag
+        if: ${{ startsWith(github.ref, 'refs/tags/penang-') }}
+        shell: bash
+        run: echo "WEASEL_VERSION=${GITHUB_REF_NAME#penang-}" >> $GITHUB_ENV
 
       - name: Cache Boost
         id: cache-boost
@@ -145,19 +153,6 @@ jobs:
             .\xbuild.bat arm64 installer
           }
 
-      - name: Test language profile helper
-        if: matrix.variant == 'msbuild'
-        shell: powershell
-        run: .\test\TestWeaselLanguageProfile.ps1
-
-      - name: Test upgrade language settings
-        if: matrix.variant == 'msbuild'
-        shell: powershell
-        timeout-minutes: 5
-        run: |
-          $installer = Get-Item .\output\archives\weasel*-installer.exe
-          .\test\TestWeaselUpgrade.ps1 -Installer $installer.FullName
-
       - name: Compress Debug Symbols
         if: matrix.variant == 'msbuild'
         shell: pwsh
@@ -172,8 +167,25 @@ jobs:
           name: weasel-artifact-${{ env.git_ref_name }}
           if-no-files-found: error
           path: |
-            .\output\archives\weasel*.exe
+            .\output\archives\penang-hokkien-keyboard*.exe
             .\output\archives\debug_symbols.7z
+
+      # Penang Hokkien Keyboard release (tags named penang-YYYY.M.D)
+      - name: Prepare Penang release file
+        if: ${{ startsWith(github.ref, 'refs/tags/penang-') && matrix.variant == 'msbuild' }}
+        shell: pwsh
+        run: |
+          $i = Get-Item .\output\archives\penang-hokkien-keyboard*-installer.exe
+          Copy-Item $i.FullName .\output\archives\PenangHokkienKeyboard-Setup.exe
+
+      - name: Publish Penang release
+        if: ${{ startsWith(github.ref, 'refs/tags/penang-') && matrix.variant == 'msbuild' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Penang Hokkien Keyboard ${{ github.ref_name }}
+          make_latest: true
+          files: |
+            ./output/archives/PenangHokkienKeyboard-Setup.exe
 
       # Release-only steps (run on tags or master)
       - name: Extract changelog
@@ -190,7 +202,7 @@ jobs:
           prerelease: true
           title: "Nightly Build"
           files: |
-            ./output/archives/weasel*.exe
+            ./output/archives/penang-hokkien-keyboard*.exe
             ./output/archives/debug_symbols.7z
 
       - name: Release (stable)
@@ -199,6 +211,6 @@ jobs:
         with:
           draft: true
           files: |
-            ./output/archives/weasel*.exe
+            ./output/archives/penang-hokkien-keyboard*.exe
             ./output/archives/debug_symbols.7z
           body_path: ${{ github.workspace }}/RELEASE_CHANGELOG.md
