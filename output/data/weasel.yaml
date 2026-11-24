@@ -50,8 +50,8 @@ style:
     margin_x: 12
     margin_y: 12
     spacing: 10
-    candidate_spacing: 5
-    hilite_spacing: 4
+    candidate_spacing: 18
+    hilite_spacing: 6
     hilite_padding: 2
     round_corner: 4   #别名 hilited_corner_radius
     corner_radius: 4
