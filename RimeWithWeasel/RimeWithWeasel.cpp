@@ -285,6 +285,7 @@ BOOL RimeWithWeaselHandler::ProcessKeyEvent(KeyEvent keyEvent,
   }
   const bool penang_was_empty = _PenangInput(session_id).empty();
   m_penang_committed = false;
+  m_penang_last_commit.clear();
   Bool handled = rime_api->process_key(session_id, keyEvent.keycode,
                                        expand_ibus_modifier(keyEvent.mask));
   // vim_mode when keydown only
@@ -803,6 +804,7 @@ bool RimeWithWeaselHandler::_Respond(WeaselSessionId ipc_id, EatLine eat) {
   }
   if (!rime_commit_w.empty()) {
     m_penang_committed = true;
+    m_penang_last_commit = rime_commit_w;
     if (!m_penang_ov.kind)
       _PenangOfferContinuations(session_id, rime_commit_w);
   }
@@ -1586,6 +1588,23 @@ void RimeWithWeaselHandler::_PenangApplyStyle(UIStyle& style) {
   style.font_point = m_penang.text_size == 2   ? base * 3 / 2
                      : m_penang.text_size == 1 ? base * 5 / 4
                                                : base;
+  // Colour theme: the chosen one, or Weasel's light/dark default.
+  RimeConfig config = {NULL};
+  if (rime_api->config_open("weasel", &config)) {
+    std::string name = wtou8(m_penang.theme);
+    if (name.empty()) {
+      char buffer[256] = {0};
+      if ((m_current_dark_mode &&
+           rime_api->config_get_string(&config, "style/color_scheme_dark",
+                                       buffer, 255)) ||
+          rime_api->config_get_string(&config, "style/color_scheme", buffer,
+                                      255))
+        name = buffer;
+    }
+    if (!name.empty())
+      _UpdateUIStyleColor(&config, style, name);
+    rime_api->config_close(&config);
+  }
 }
 
 void RimeWithWeaselHandler::_PenangInitStyle() {
@@ -1982,13 +2001,16 @@ void RimeWithWeaselHandler::_PenangAfterKey(const KeyEvent& ke,
     return;  // modifier keys alone change nothing
   const bool plain =
       !(ke.mask & (ibus::SHIFT_MASK | ibus::CONTROL_MASK | ibus::MOD1_MASK));
-  if (code == ibus::space && plain && !handled && was_empty &&
+  // A space typed with nothing being composed: passed to the app, or
+  // committed by Rime as a plain space.
+  const bool space_only = !handled || m_penang_last_commit == L" ";
+  if (code == ibus::space && plain && was_empty && space_only &&
       _PenangChineseMode(session_id)) {
     m_penang_space_time = m_penang_text_before ? GetTickCount64() : 0;
     m_penang_text_before = false;
     return;
   }
   m_penang_space_time = 0;
-  m_penang_text_before =
-      m_penang_committed || (!handled && code > 0x20 && code < 0x7F);
+  m_penang_text_before = (m_penang_committed && m_penang_last_commit != L" ") ||
+                         (!handled && code > 0x20 && code < 0x7F);
 }

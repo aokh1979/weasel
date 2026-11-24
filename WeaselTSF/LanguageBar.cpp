@@ -16,7 +16,7 @@ static void HMENU2ITfMenu(HMENU hMenu, ITfMenu* pTfMenu) {
   for (int i = 0; i < N; i++) {
     MENUITEMINFO mii;
     mii.cbSize = sizeof(MENUITEMINFO);
-    mii.fMask = MIIM_FTYPE | MIIM_ID | MIIM_STRING | MIIM_STATE;
+    mii.fMask = MIIM_FTYPE | MIIM_ID | MIIM_STRING | MIIM_STATE | MIIM_SUBMENU;
     mii.dwTypeData = NULL;
     if (GetMenuItemInfo(hMenu, i, TRUE, &mii)) {
       UINT id = mii.wID;
@@ -26,10 +26,18 @@ static void HMENU2ITfMenu(HMENU hMenu, ITfMenu* pTfMenu) {
       else if (mii.fType == MFT_STRING) {
         mii.dwTypeData = (LPWSTR)malloc(sizeof(WCHAR) * (mii.cch + 1));
         mii.cch++;
-        if (GetMenuItemInfo(hMenu, i, TRUE, &mii))
-          pTfMenu->AddMenuItem(
-              id, (mii.fState & MFS_CHECKED) ? TF_LBMENUF_CHECKED : 0, NULL,
-              NULL, mii.dwTypeData, mii.cch, NULL);
+        if (GetMenuItemInfo(hMenu, i, TRUE, &mii)) {
+          DWORD flags = (mii.fState & MFS_CHECKED) ? TF_LBMENUF_CHECKED : 0;
+          ITfMenu* pSubMenu = NULL;
+          if (mii.hSubMenu)
+            flags |= TF_LBMENUF_SUBMENU;
+          pTfMenu->AddMenuItem(id, flags, NULL, NULL, mii.dwTypeData, mii.cch,
+                               mii.hSubMenu ? &pSubMenu : NULL);
+          if (pSubMenu) {
+            HMENU2ITfMenu(mii.hSubMenu, pSubMenu);
+            pSubMenu->Release();
+          }
+        }
         free(mii.dwTypeData);
       }
     }

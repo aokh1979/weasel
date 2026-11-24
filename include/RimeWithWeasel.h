@@ -147,6 +147,7 @@ class RimeWithWeaselHandler : public weasel::RequestHandler {
   void _PenangRecord(const std::wstring& prefix, const std::wstring& suffix);
   PenangOverlay m_penang_ov;
   std::wstring m_penang_commit;
+  std::wstring m_penang_last_commit;
   UINT m_penang_down = 0;
   ULONGLONG m_penang_space_time = 0;
   bool m_penang_text_before = false;

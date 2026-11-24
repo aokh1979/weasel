@@ -19,9 +19,12 @@ style:
   antialias_mode: default
   ascii_tip_follow_cursor: false
   color_scheme: aqua
-  font_face: Microsoft YaHei
-  label_font_face: Microsoft YaHei
-  comment_font_face: Microsoft YaHei
+  color_scheme_dark: lost_temple
+  # Penang: Segoe UI for letters and tone marks, Microsoft JhengHei UI for
+  # Chinese, PMingLiU-ExtB for rare characters, Segoe UI Emoji for emoji.
+  font_face: "Segoe UI Emoji:2600:27BF, Segoe UI Emoji:1F000:1FAFF, Segoe UI:0:24FF, Microsoft JhengHei UI:2E80:FFFF, PMingLiU-ExtB:20000:3FFFF, Microsoft JhengHei UI"
+  label_font_face: "Segoe UI"
+  comment_font_face: "Segoe UI:0:24FF, Microsoft JhengHei UI"
   font_point: 14
   label_font_point: 14
   comment_font_point: 14
